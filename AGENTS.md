@@ -32,7 +32,7 @@ apply there:
 | R2 loading, HTTP integration or local Wasm checks | [Worker AGENTS.md](examples/cloudflare-worker/AGENTS.md) | [Worker runbook](docs/worker-runbook.md) |
 
 The brand site and learning courses are maintained separately in the private
-`jacksteamdev/astrology-engine-website` repository. Their writing guides,
+`AstrologyEngine/web-legacy` repository. Their writing guides,
 application checks and browser adapter belong there; this repository owns
 the reusable runtime, native tools and public integration examples.
 
