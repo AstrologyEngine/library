@@ -35,7 +35,7 @@ pub struct ChartValues {
     pub configuration: ZodiacConfiguration,
     pub convention_revision: &'static str,
     pub reference_offset_degrees: f64,
-    /// True Sky retains tropical speeds; Fagan–Bradley corrects them.
+    /// True Sky retains tropical speeds; Fagan–Bradley and Lahiri correct them.
     /// Angle speeds remain zero (not calculated) for every reference.
     pub speed_reference: SpeedReference,
     pub bodies: Vec<ChartEntry>,
@@ -57,6 +57,10 @@ pub fn calculate_chart(
     let (offset, rate, speed_reference) = match configuration.reference {
         ZodiacReference::Tropical => (0.0, 0.0, SpeedReference::Tropical),
         ZodiacReference::TrueSky => (true_sky_offset(input.epoch)?, 0.0, SpeedReference::Tropical),
+        ZodiacReference::Lahiri => {
+            let (offset, rate) = crate::sidereal::lahiri_offset_and_rate(input.epoch)?;
+            (offset, rate, SpeedReference::SelectedReference)
+        }
         ZodiacReference::FaganBradley => (
             fagan_bradley_ayanamsa(input.epoch)?,
             crate::sidereal::ayanamsa_daily_rate(input.epoch),
@@ -106,8 +110,10 @@ pub fn calculate_chart(
         .enumerate()
         .map(|(index, body)| ChartBody {
             longitude: project_longitude(body.longitude),
-            speed: if configuration.reference == ZodiacReference::FaganBradley
-                && index < physical_body_count
+            speed: if matches!(
+                configuration.reference,
+                ZodiacReference::FaganBradley | ZodiacReference::Lahiri
+            ) && index < physical_body_count
             {
                 body.speed - rate
             } else {
