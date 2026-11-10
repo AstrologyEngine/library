@@ -48,6 +48,17 @@ independent astronomical accuracy. Regression fixtures record outputs from a
 previous version of the astrology engine. Preserve their inputs and hashes;
 never regenerate expected values from changed code just to make tests pass.
 
+## Issue routing
+
+Use `AstrologyEngine/library-issues` for internal issues, specifications and
+planning. Pass `--repo AstrologyEngine/library-issues` explicitly when creating
+or triaging internal issues. Keep source code and pull requests in
+`AstrologyEngine/library`.
+
+Public contributor bug reports and feature requests remain welcome in
+`AstrologyEngine/library`; keep its issues enabled. Use the public repository
+explicitly when responding to those reports.
+
 ## Swiss Ephemeris prohibition
 
 Never install, import, link, invoke, vendor, or otherwise use Swiss Ephemeris,
