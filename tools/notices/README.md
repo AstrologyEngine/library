@@ -30,8 +30,8 @@ configuration require regeneration and review.
 
 Review every changed component and its complete packaged license and NOTICE
 files. MIT is preferred when offered as an alternative. Other permissive terms
-are retained, including Unicode and BSD requirements. MPL is explicitly allowed
-for first-party packages, hifitime and ANISE. Unknown expressions and unreviewed synthesized license
+are retained, including Unicode and BSD requirements. First-party packages use MIT; MPL is explicitly allowed
+for hifitime and ANISE. Unknown expressions and unreviewed synthesized license
 texts fail rather than being treated as MIT. Build-only Rust dependencies are
 included conservatively; dev-only Rust dependencies are excluded.
 
@@ -74,7 +74,7 @@ The archive captures the editable first-party Rust and browser source, shared
 verification modules, manifests, lockfiles and build configuration from the
 current checkout. It excludes datasets and build caches. Dependency source uses
 the pinned upstream links above. The notice page links to the local archive;
-serve it alongside browser Wasm and rebuild after changing covered code.
+serve it alongside browser Wasm and rebuild after changing project code.
 Archive creation requires `tar`. Preserve the LICENSE
 and all notice files and the source archive when redistributing an artifact directory. A Worker runs
 server-side; its HTTP API does not need a new license endpoint.

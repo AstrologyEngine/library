@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 pub fn crc(bytes: &[u8]) -> u32 {
     let mut value = u32::MAX;

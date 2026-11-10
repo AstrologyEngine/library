@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 use super::frames::{gast_degrees, true_obliquity};
 use super::time::AstroTime;

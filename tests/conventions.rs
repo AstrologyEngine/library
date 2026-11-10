@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 use astrology_engine::{
     assign_sign, calculate_chart, effective_configuration, true_sky_offset, whole_sign_cusps,

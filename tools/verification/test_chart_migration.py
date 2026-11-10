@@ -1,5 +1,5 @@
 # Copyright (c) Jack Asher
-# SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: MIT
 
 """Negative controls for the narrow frozen-chart migration policy."""
 import copy

@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 #![allow(clippy::inconsistent_digit_grouping)]
 #![allow(clippy::excessive_precision)]

@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 import { afterEach, test } from 'bun:test';
 import assert from 'node:assert/strict';
@@ -82,10 +82,10 @@ test('upstream supplemental license bytes survive rendering without trimming', (
   }
 });
 
-test('first-party paths require MPL metadata', () => {
-  const p = { name: 'astrology-engine', version: '0.1.0', license: 'MPL-2.0', manifest_path: '/project/Cargo.toml', source: null };
-  const data = { crates: [{ package: p, license: 'MPL-2.0' }], licenses: [] };
+test('first-party paths require MIT metadata', () => {
+  const p = { name: 'astrology-engine', version: '0.1.0', license: 'MIT', manifest_path: '/project/Cargo.toml', source: null };
+  const data = { crates: [{ package: p, license: 'MIT' }], licenses: [] };
   validateCollection(data, new Set(), new Set([p.manifest_path]));
-  p.license = 'MIT';
+  p.license = 'MPL-2.0';
   assert.throws(() => validateCollection(data, new Set(), new Set([p.manifest_path])), /Unreviewed path dependency/);
 });

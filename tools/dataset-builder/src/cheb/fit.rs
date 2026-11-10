@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 use astrology_engine::tooling::clenshaw;
 pub fn to_unit(t: f64, lo: f64, hi: f64) -> f64 {

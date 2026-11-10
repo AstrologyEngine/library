@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 const SECONDS_PER_DAY: f64 = 86_400.0;
 #[derive(Clone, Copy, Debug, PartialEq)]

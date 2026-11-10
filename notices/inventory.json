@@ -2,32 +2,32 @@
   "generator": "cargo-about 0.9.2",
   "inputs": {
     "Cargo.lock": "493978f3355313c5b462abf2e1d5ce44f35a16099c37d7866c2c5271b59c4f81",
-    "Cargo.toml": "34d120288f6e38c748b09e195f2bc74b6307b938b4a59e5874fba6b54f7d995d",
-    "LICENSE": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
-    "NOTICE": "8ece9078e054810889cb0a89a0acf8b1f5b533ef9e9d92f9a118ef4bbdc74739",
-    "THIRD_PARTY_NOTICES.md": "442c92c818a23bf75e7a16481a24e9f29d78d09a7731e01cbce4721ccd1368d0",
+    "Cargo.toml": "f9a014eef496859892953165f2c92e1c56387e31247b37a544c821e3c235d866",
+    "LICENSE": "cc2189d2828bb8090f61e0f7aa18080a40fe42efe1dac6972460c2fb6d964aa9",
+    "NOTICE": "26b873c6b4ceb7e1e948dd840573ac525e5cd30a40ec944db248a2811b7d4180",
+    "THIRD_PARTY_NOTICES.md": "c2b8ecef5caf0c364884f110421d2e8b60be684e37deeca79829c50f0032846a",
     "examples/cloudflare-worker/Cargo.lock": "9be76353c6a605becf7200bf6463c96eff76989840753185c020738b4b250194",
-    "examples/cloudflare-worker/Cargo.toml": "df9e572de743d2e8be0ce593e62d5fb3dd54594fab58b01cae01f4d051d28168",
-    "examples/cloudflare-worker/build.ts": "005c296c1ea0578c66e6eb3486e7e8748002c4747b01a8f6a9c2d0a1209373f4",
+    "examples/cloudflare-worker/Cargo.toml": "09c2045535deb8afc1b0dd2623d52a46c20cc55f0267c49d1f932a71c2df0242",
+    "examples/cloudflare-worker/build.ts": "f58dc9d6906fa7801f0dc76e8bfc25de36186405b9452e70e52f0c9b269c388f",
     "examples/cloudflare-worker/bun.lock": "c8fd7386f88d4162451103ddb437a510144c72fd9baba7255c373b27c2dafa69",
-    "examples/cloudflare-worker/package.json": "ed9fe757eb6e0cf65351b797063a2405866dc4ca993892be7b73c9be5c254320",
+    "examples/cloudflare-worker/package.json": "fbf37c57711c263a9f883eb3ab06f45b35645e3015a3930333907b2cb88cf149",
     "examples/cloudflare-worker/wrangler.jsonc": "9c9dd96ce6e77cb5a385141b3e37084779f0ce6354c2ff6e69b5dddf003bae9f",
-    "examples/configurable-chart/build-wasm.ts": "8f5c678ced9571e6a13aa24de2fba97756c6d123498da7a5166eb3daf2ea8721",
+    "examples/configurable-chart/build-wasm.ts": "20568a25fb9f57d98773486254b0395d664f845c3978ea6239bcde5ac9210c88",
     "examples/configurable-chart/bun.lock": "ecbff363cd50d08e60a0b6a9080b4d616ee816a89743c7c8e4e05bc571cde514",
-    "examples/configurable-chart/package.json": "0ee9981cd2e4d4530a7b58518fbecffd52284ef89d2b176a35330af51bb05d46",
-    "examples/configurable-chart/vite.config.ts": "cf361ed4bb792e9fcb8206c95f8c826f0cefc3928249ed6ff8f68b9a52899cb6",
+    "examples/configurable-chart/package.json": "e6a550670acc58409a03cee5f934c777bb07bc9af801e6d6dd94decd2f0754df",
+    "examples/configurable-chart/vite.config.ts": "5fd5c60c2d2e61083e5dd91e382632bc068a942dea73ce1757acb6c18e71d87b",
     "examples/configurable-chart/wasm/Cargo.lock": "ed5c93ef2796121c4a906e7bbe77d0189d5a1c38a75356a9c649827c0310c9c5",
-    "examples/configurable-chart/wasm/Cargo.toml": "6ab9b88fe1063dc7bef0e05466f8b8aa01dde644629c1b6bf15392f2c073342c",
+    "examples/configurable-chart/wasm/Cargo.toml": "11b036519a587b4d6d162a93e9b2db91e7a4de5d55dc7de6230bf119cdffd8f5",
     "notices/RUST_LIBRARY_NOTICES.html": "78c163fcec50e64bfd85fedb850c273595602fafa2b41f30f75d4e410b80ee83",
     "rust-toolchain.toml": "41308dbe82a83679b7b2081be4d5ae7f9aa52f642bcc3eab104ac77501560e79",
-    "tools/dataset-builder/Cargo.toml": "fb3ee41b5db46b13f4b1bf6931eb4d30581658a5b6b61ab8164529b8798cd471",
+    "tools/dataset-builder/Cargo.toml": "16cf7a1c0f2902fad5d12f5d4cc8a4d7a77a02a59b894251ea6017faae4be65a",
     "tools/jpl/requirements.lock": "c0ac24455f646794d26e301c76837ce671225e570cced8571deacad1f9f241b2",
-    "tools/notices/README.md": "56c6d04dfc6f378dbc7e032bd33654e072f5693ea4fddcb37c87053601d4709d",
-    "tools/notices/about.toml": "424c60a618fa5f2eb0ab9a3288e82fffaaf8a37cc6f90227e9a70250742da0f8",
-    "tools/notices/collect.ts": "4725fdaab09a4e11272f14e47560c53553ea6150aa7294b7cf4f43d3c3790215",
-    "tools/notices/core.ts": "46b7c282ca4ba03183d1752f2c85b44d3a90873229d94e1e25a999b89572b31d",
-    "tools/notices/notices.test.ts": "bc56e16b71704904bb446d29e6449b9445430fa042816f900e509780bafe1dea",
-    "tools/notices/notices.ts": "d5781c76453ef680b378b965247be1885d880204e7f5967f674deff46a503cb4",
+    "tools/notices/README.md": "f21fe4725ab2e7c1cf1f57546f1742812deab2c9eee30facc978d8b02159e98c",
+    "tools/notices/about.toml": "bc47d092619eee2ab59e92e863b9130d2ccf04a18ffec0e22bcbf0e225006ce6",
+    "tools/notices/collect.ts": "1ed3fa3e9909d66772dfb018600cdb24732d3df5147b968ab311074f351c05a8",
+    "tools/notices/core.ts": "8124513baff3a52a1952c84ace0c6143399973c14fec64064e1be5ca537c37e0",
+    "tools/notices/notices.test.ts": "e3fd0b52a9c18fcb6f5beedbc4c56b98353a4cf6f341e80d5dda145fb413deb2",
+    "tools/notices/notices.ts": "3795bd8caea35284bd79d68ba35368f1b1056b73b522a0f5b1dc25505e3cd9eb",
     "tools/notices/reviewed-files.json": "42f7dfa5c05bed9ed6f878c9f4daefe1a98d38b311178128baf462d637d9a631",
     "tools/notices/supplements.json": "197fddf2f43ff00a17ca0117e9a579e86169a8516cbd11afe63794e6523cd5e4",
     "tools/notices/supplements/anise-AUTHORS.txt": "3041b5b9f60bbdf14ad44fc473112a155c544068ff7bb003d9ccd440b5f20624",
@@ -246,7 +246,7 @@
           "source": "https://static.crates.io/crates/web-time/web-time-1.1.0.crate"
         }
       ],
-      "sha256": "da9601faa2e5d39218b0698f502ffc255ef46953c3bb76edc3ac1d53de352ee5"
+      "sha256": "85af344818ca78716b554c10a8117c6721998c4f2f516cee376b8a263a30e2fb"
     },
     "builder": {
       "packages": [
@@ -773,7 +773,7 @@
           "source": "https://static.crates.io/crates/zmij/zmij-1.0.21.crate"
         }
       ],
-      "sha256": "0486c7e4310651507e0b57a410f5a5aabd5cce364f1e5b72b7683febbd6f0492"
+      "sha256": "6825e90fb0857b4af4a263fbc010670b734f0df4998308cbbd92ecb1b5c976fa"
     },
     "worker": {
       "packages": [
@@ -1354,7 +1354,7 @@
           "source": "https://static.crates.io/crates/zmij/zmij-1.0.21.crate"
         }
       ],
-      "sha256": "2843e8d1c28ce60a0c9142cfce61439b519590bab4f8b2f5082c126f735587d5"
+      "sha256": "ff1a340ab2c50925cd1cad799d308cc021860fe39a6e91ac5448ef28c0fe89c5"
     },
     "browser": {
       "packages": [
@@ -1587,7 +1587,7 @@
           "source": "https://static.crates.io/crates/zmij/zmij-1.0.21.crate"
         }
       ],
-      "sha256": "048e77c61ae40478833276b61bfbaab8b197b03156b504bbd7647bcda16df203"
+      "sha256": "3f9f40b9e24e6b2ccc090c81009ef909b99902c86bff8263bb15d65193b44bcf"
     }
   }
 }

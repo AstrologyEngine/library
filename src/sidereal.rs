@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 //! Fagan–Bradley zodiac, using the existing IAU 2006 precession rotation.
 //!

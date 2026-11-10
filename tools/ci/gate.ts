@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 import { jobs, type Selection } from './changes.ts';
 export type Result = 'success' | 'failure' | 'cancelled' | 'skipped';
