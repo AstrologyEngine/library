@@ -55,7 +55,7 @@ The complete source is [`examples/natal_chart.rs`](examples/natal_chart.rs):
 
 ```rust
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 use astrology_engine::{
     calculate_chart, ChartInput, Ephemeris, Epoch, HouseSystem, Location, SignDivisions,
@@ -134,9 +134,9 @@ these checks do not establish independent astronomical accuracy.
 
 ## License and distribution
 
-Astrology Engine is licensed under MPL-2.0; see [LICENSE](LICENSE) and
-[NOTICE](NOTICE). Distributed changes to covered source files remain under MPL.
-Separate applications can use their own licenses. Built distributions include
+Astrology Engine is licensed under MIT; see [LICENSE](LICENSE) and
+[NOTICE](NOTICE). Third-party components retain their own licenses.
+MPL dependencies do not change the MIT license of separately written project files. Built distributions include
 the first-party source archive and a notices page linking to it. Dependencies
 retain their own terms; see
 [third-party notices](THIRD_PARTY_NOTICES.md) and the

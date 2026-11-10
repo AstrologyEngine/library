@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 import { createHash } from 'node:crypto';
 export type Download = { url: string; sha256: string; version: string; binary: string; versionOutput: string };

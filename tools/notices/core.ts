@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
@@ -120,7 +120,7 @@ export const copy = (root: string, profile: Profile, destination: string): void 
   });
   write(out, 'THIRD_PARTY_NOTICES.txt', text);
   write(out, 'THIRD_PARTY_NOTICES.html', html(text)
-    .replace('<pre>', `<p><a href="${sourceArchive}">Download Astrology Engine source (MPL-2.0)</a></p><pre>`)
+    .replace('<pre>', `<p><a href="${sourceArchive}">Download Astrology Engine source (MIT)</a></p><pre>`)
     .replace('</pre>', '</pre><p><a href="RUST_LIBRARY_NOTICES.html">Rust standard library notices</a></p>'));
   write(out, 'RUST_LIBRARY_NOTICES.html', read(root, 'notices/RUST_LIBRARY_NOTICES.html'));
 };

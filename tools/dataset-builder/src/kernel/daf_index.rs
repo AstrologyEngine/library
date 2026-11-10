@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 pub use crate::coverage_window::{intersect_windows, CoverageWindow};
 use anise::naif::daf::DAF;

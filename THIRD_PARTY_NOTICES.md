@@ -1,6 +1,6 @@
 # Third-party notices
 
-Astrology Engine's own source and local example adapters are MPL-2.0 licensed; see
+Astrology Engine's own source and local example adapters are MIT licensed; see
 [LICENSE](LICENSE). Dependencies and copied code retain their respective licenses.
 The project license does not relicense those components.
 

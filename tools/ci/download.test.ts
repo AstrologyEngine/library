@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 import { test, expect } from 'bun:test';
 import { downloadVerified, hash, reuseOrInstall, validateVersion, type Download } from './download.ts';

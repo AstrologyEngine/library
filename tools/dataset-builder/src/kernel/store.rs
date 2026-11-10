@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 use crate::coverage_window::CoverageWindow;
 use crate::types::{Body, Frame as FrameTag, StateVector};

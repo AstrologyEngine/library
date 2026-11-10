@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 use dataset_builder::astro::node::ascending_node_longitude;
 use dataset_builder::astro::{apparent_lon_dec, KmStateProvider};

@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 //! Explicit chart conventions preserved by regression fixtures.
 use crate::{CalculationError, Epoch};

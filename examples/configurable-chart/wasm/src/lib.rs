@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 use astrology_engine::{
     calculate_chart, ChartInput, Ephemeris, Epoch, HouseSystem, Location, ZodiacConfiguration,

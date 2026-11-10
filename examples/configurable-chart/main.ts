@@ -1,5 +1,5 @@
 // Copyright (c) Jack Asher
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MIT
 
 import init, { calculate } from './engine/chart.js';
 import { loadDataset } from './dataset.ts';
