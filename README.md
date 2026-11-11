@@ -132,13 +132,15 @@ structural checks, local Wasm execution, frozen regression parity, and dataset
 regeneration. Recorded regression outputs preserve previous engine behavior;
 these checks do not establish independent astronomical accuracy.
 
-## License and distribution
+## License
 
-Astrology Engine is licensed under MIT; see [LICENSE](LICENSE) and
-[NOTICE](NOTICE). Third-party components retain their own licenses.
-MPL dependencies do not change the MIT license of separately written project files. Built distributions include
-the first-party source archive and a notices page linking to it. Dependencies
-retain their own terms; see
-[third-party notices](THIRD_PARTY_NOTICES.md) and the
-[notice preparation guide](tools/notices/README.md). Native and Wasm distributions
-must carry the applicable notices and source-access information.
+This project is licensed under the [MIT License](LICENSE).
+
+### Third-Party Dependencies
+
+This project relies on the following build-time crates licensed under the Mozilla Public License 2.0 (MPL-2.0):
+
+* **[hifitime](https://crates.io/crates/hifitime)** — High-precision duration and timekeeping ([MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/))
+* **[ANISE](https://crates.io/crates/anise)** — Precise orbit and navigation library ([MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/))
+
+Your use and modification of this repository's source code are governed by the MIT License. If you distribute compiled binaries or packaged builds that include these statically linked crates, the redistribution must satisfy the notice and source-availability requirements of the MPL-2.0 for those components.
