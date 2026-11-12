@@ -2,7 +2,7 @@ name: Prepare pinned CI tools
 description: Restore or install verified tool binaries independently of application builds
 inputs:
   group:
-    description: worker, browser, or notices
+    description: worker or browser
     required: true
 runs:
   using: composite
