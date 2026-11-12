@@ -54,4 +54,4 @@ const localEphemeris = (): Plugin => {
   };
 };
 
-export default defineConfig({ plugins: [localEphemeris()] });
+export default defineConfig(({ mode }) => ({ plugins: [localEphemeris()], publicDir: mode === 'distribution' ? false : 'public', build: { license: mode === 'distribution' ? { fileName: 'licenses/javascript.md' } : false } }));
