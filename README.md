@@ -144,3 +144,6 @@ This project relies on the following build-time crates licensed under the Mozill
 * **[ANISE](https://crates.io/crates/anise)** — Precise orbit and navigation library ([MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/))
 
 Your use and modification of this repository's source code are governed by the MIT License. If you distribute compiled binaries or packaged builds that include these statically linked crates, the redistribution must satisfy the notice and source-availability requirements of the MPL-2.0 for those components.
+
+Build-time attribution requires `cargo-about` 0.9.2. Generated bundles are ignored
+and copied into browser/Worker outputs; see [attribution setup](tools/notices/README.md).

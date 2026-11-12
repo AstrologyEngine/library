@@ -77,8 +77,8 @@ serialization and all house methods also receive Wasm smoke checks.
 
 ## Distribution
 
-Builds produce local development artifacts. Before redistributing them, include
-the applicable dependency licenses and source-access notices described in
+Builds generate attribution alongside compiled outputs. Keep those files with
+redistributed artifacts; see
 [third-party attribution](../../THIRD_PARTY_NOTICES.md).
 
 ## Optional two-year browser downloads
@@ -114,3 +114,6 @@ This is same-engine Wasm parity, not independent astronomical validation.
 Coefficient bytes are unchanged; arbitrary fractional block origins may still
 introduce evaluation rounding when rebased. Real-data parity is checked at
 1e-12 degrees, with exact design crossing ET equality.
+
+Build-time attribution requires `cargo-about` 0.9.2. Generated bundles are ignored
+and copied into browser/Worker outputs; see [attribution setup](../../tools/notices/README.md).

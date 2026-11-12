@@ -17,6 +17,7 @@
   },
   "include": [
     "*.ts",
-    "../../examples/cloudflare-worker/build.ts"
+    "../../examples/cloudflare-worker/build.ts",
+    "../notices/*.ts"
   ]
 }

@@ -546,6 +546,9 @@ reuse them. Removing this demo does not cancel an account's R2 subscription.
 
 ## Distribution
 
-Builds produce local development artifacts. Before redistributing compiled
-artifacts, include applicable dependency licenses and source-access notices;
+Builds generate attribution alongside compiled outputs. Preserve these files
+when redistributing artifacts;
 see [third-party attribution](../THIRD_PARTY_NOTICES.md).
+
+Build-time attribution requires `cargo-about` 0.9.2. Generated bundles are ignored
+and copied into browser/Worker outputs; see [attribution setup](../tools/notices/README.md).
