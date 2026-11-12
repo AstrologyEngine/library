@@ -1,0 +1,6 @@
+{{#each licenses}}
+{{name}}
+{{#each used_by}}{{crate.name}} {{crate.version}} — https://static.crates.io/crates/{{crate.name}}/{{crate.name}}-{{crate.version}}.crate
+{{/each}}
+{{{text}}}
+{{/each}}

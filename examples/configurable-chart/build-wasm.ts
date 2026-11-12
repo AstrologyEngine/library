@@ -1,8 +1,6 @@
 // Copyright (c) Jack Asher
 // SPDX-License-Identifier: MIT
 
-import { generate } from '../../tools/notices/generate.ts';
-import { resolve } from 'node:path';
 import { wasmBindgenVersion } from '../../tools/ci/versions.ts';
 
 const run = (cmd: string[]) => {
@@ -14,5 +12,3 @@ const version = Bun.spawnSync([bindgen, '--version']);
 if (version.exitCode !== 0 || version.stdout.toString().trim() !== `wasm-bindgen ${wasmBindgenVersion}`) throw new Error(`Expected wasm-bindgen ${wasmBindgenVersion}`);
 run(['cargo', 'build', '--locked', '--release', '--target', 'wasm32-unknown-unknown', '--manifest-path', 'wasm/Cargo.toml']);
 run([bindgen, 'wasm/target/wasm32-unknown-unknown/release/configurable_chart_example.wasm', '--target', 'web', '--out-dir', 'engine', '--out-name', 'chart']);
-
-await generate(resolve(import.meta.dir, '../..'), 'browser', ['examples/configurable-chart/engine/', 'examples/configurable-chart/public/']);

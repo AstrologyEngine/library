@@ -7,8 +7,7 @@ Other project source uses the root MIT LICENSE.
 Dependencies are downloaded separately and retain their own licenses. Before
 redistributing compiled binaries, browser Wasm, generated JavaScript or bundled
 dependencies, include the licenses/attributions required by the components
-actually shipped. Browser and Worker build wrappers generate distribution attribution from locked
-dependencies; native distributors can use `tools/notices/generate.ts`.
+actually shipped. Local builds do not assemble a distribution license bundle.
 MPL-covered hifitime 4.3.0 and native-builder dependency ANISE 0.10.1 additionally
 require informing recipients where to obtain corresponding MPL source:
 

@@ -24,7 +24,7 @@ jobs:
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: '1.3.14'
-      - run: bun test tools/ci tools/notices
+      - run: bun test tools/ci
       - run: bun install --frozen-lockfile
         working-directory: examples/configurable-chart
       - run: bun examples/configurable-chart/node_modules/typescript/bin/tsc --project tools/ci/tsconfig.json
@@ -56,7 +56,6 @@ jobs:
       - uses: ./.github/actions/ci-tools
         with:
           group: browser
-      - run: cargo install cargo-about --version 0.9.2 --features cli --locked
       - uses: ./.github/actions/bun-cache
       - run: cargo fmt --manifest-path examples/configurable-chart/wasm/Cargo.toml -- --check
       - run: cargo clippy --locked --manifest-path examples/configurable-chart/wasm/Cargo.toml --target wasm32-unknown-unknown -- -D warnings
@@ -64,7 +63,6 @@ jobs:
         working-directory: examples/configurable-chart
       - run: bun run build && bun run check
         working-directory: examples/configurable-chart
-      - run: test -s examples/configurable-chart/build/THIRD_PARTY_NOTICES.html && test -s examples/configurable-chart/build/RUST_LIBRARY_NOTICES.html && test -z "$(git ls-files notices)"
   native:
     needs: changes
     if: needs.changes.outputs.native == 'true'
@@ -121,7 +119,6 @@ jobs:
       - uses: ./.github/actions/ci-tools
         with:
           group: worker
-      - run: cargo install cargo-about --version 0.9.2 --features cli --locked
       - uses: ./.github/actions/bun-cache
       - run: cargo fmt --manifest-path examples/cloudflare-worker/Cargo.toml -- --check
       - run: cargo clippy --locked --manifest-path examples/cloudflare-worker/Cargo.toml --target wasm32-unknown-unknown --features verification -- -D warnings
@@ -129,7 +126,6 @@ jobs:
         working-directory: examples/cloudflare-worker
       - run: bun run build:verification
         working-directory: examples/cloudflare-worker
-      - run: test -s examples/cloudflare-worker/build/worker/THIRD_PARTY_NOTICES.txt && test -s examples/cloudflare-worker/build/worker/RUST_LIBRARY_NOTICES.html && test -z "$(git ls-files notices)"
       - run: node examples/cloudflare-worker/verify.mjs
   verify:
     if: always()

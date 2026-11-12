@@ -220,6 +220,3 @@ adapter continue to accept the full original binary unchanged.
 
 Annual overlapping files are a host delivery policy, demonstrated by the
 [configurable-chart recipe](../examples/configurable-chart/README.md#optional-two-year-browser-downloads).
-
-Build-time attribution requires `cargo-about` 0.9.2. Generated bundles are ignored
-and copied into browser/Worker outputs; see [attribution setup](notices/README.md).

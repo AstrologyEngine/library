@@ -1,2 +1,0 @@
-# Preserve reviewed upstream license bytes.
-tools/notices/supplements/*.txt -whitespace

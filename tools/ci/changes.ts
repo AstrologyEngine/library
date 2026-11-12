@@ -13,7 +13,7 @@ export const selectJobs = (paths: string[]): Selection => {
   for (const path of paths) {
     // Legal/build inputs take precedence over documentation exemptions.
     if (/^(LICENSE|THIRD_PARTY_NOTICES)(\.|$)/.test(path) ||
-        /^(src\/|\.github\/|\.cargo\/|tools\/(ci|notices|verification)\/)/.test(path)) return allJobs();
+        /^(src\/|\.github\/|\.cargo\/|tools\/(ci|verification)\/)/.test(path)) return allJobs();
     const prose = /^(docs\/.*\.(md|rst|txt)|[^/]+\.md)$/i.test(path) || /(^|\/)(README|AGENTS)\.md$/.test(path);
     if (prose) continue;
     const affected: Job[] | undefined = path.startsWith('examples/cloudflare-worker/') ? ['worker']
