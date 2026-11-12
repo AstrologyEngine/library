@@ -192,11 +192,9 @@ integration tests.
 
 ## Distributing the native builder
 
-Run `bun tools/notices/notices.ts package-builder` from the repository root to
-create `target/distribution/dataset-builder/` with the executable and its license
-notices. Distribute that directory together. A plain `cargo build` compiles the
-program but does not assemble a redistributable notice bundle. See the
-[notice guide](notices/README.md) for dependency updates and MPL source access.
+Build with `cargo build --release --locked -p dataset-builder`. Before
+redistributing the executable, include the applicable dependency licenses and
+source-access notices described in [third-party attribution](../THIRD_PARTY_NOTICES.md).
 
 ## Extract a smaller existing dataset
 

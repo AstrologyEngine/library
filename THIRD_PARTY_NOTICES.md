@@ -1,87 +1,21 @@
-# Third-party notices
+# Third-party attribution
 
-Astrology Engine's own source and local example adapters are MIT licensed; see
-[LICENSE](LICENSE). Dependencies and copied code retain their respective licenses.
-The project license does not relicense those components.
+The Astronomy Engine code adapted in `src/astro/time.rs`, `src/astro/frames.rs`
+and `tools/dataset-builder/src/astro/apparent.rs` retains the MIT license below.
+Other project source uses the root MIT LICENSE.
 
-Built artifacts include `ASTROLOGY_ENGINE_SOURCE.tar.gz`, a snapshot of the
-first-party source used by the build, and `NOTICE` with the project copyright.
-The HTML notices page links to that archive. Preserve these files when
-redistributing; publish the archive alongside browser Wasm. If modifying the
-engine, rebuild both the artifact and source snapshot. External dependency
-source remains available through the pinned links below.
-
-## Copied and adapted code
-
-Astronomy Engine's MIT attribution applies to `src/astro/time.rs`,
-`src/astro/frames.rs`, and the corresponding native apparent-position transforms.
-Its original copyright and complete permission notice appear below and in every
-distribution bundle.
-
-## Dependency distributions
-
-The checked-in bundles include license texts, copyright notices, source URLs,
-and required upstream notices for the locked dependency graphs:
-
-- [Runtime](notices/runtime.txt): native/Rust consumers of Astrology Engine.
-- [Native builder](notices/builder.txt): dataset preparation with ANISE.
-- [Worker](notices/worker.txt): the Cloudflare example and its emitted JavaScript.
-- [Browser](notices/browser.txt): the configurable-chart Wasm example and JavaScript helpers.
-
-These inventories conservatively include Rust build dependencies; a listing does
-not claim that every package's code is present in a particular binary. Browser
-and Worker bundles also preserve notices for code emitted by their generators.
-
-`hifitime` 4.3.0 is an MPL-2.0 runtime dependency. `anise` 0.10.1 is an MPL-2.0
-native-builder dependency; it is not part of the default runtime. Their source
-is unmodified in this project. Their exact published source distributions are:
+Dependencies are downloaded separately and retain their own licenses. Before
+redistributing compiled binaries, browser Wasm, generated JavaScript or bundled
+dependencies, include the licenses/attributions required by the components
+actually shipped. Local builds do not assemble a distribution license bundle.
+MPL-covered hifitime 4.3.0 and native-builder dependency ANISE 0.10.1 additionally
+require informing recipients where to obtain corresponding MPL source:
 
 - https://static.crates.io/crates/hifitime/hifitime-4.3.0.crate
 - https://static.crates.io/crates/anise/anise-0.10.1.crate
 
-When distributing executables or browser Wasm containing MPL code, preserve the
-notices and tell recipients where to obtain its corresponding source under MPL.
-Keep that source accessible while distributing the artifact; if upstream access
-fails, provide an accessible copy. If you modify covered dependency source,
-provide the actual modified source under MPL rather than linking only to the
-unmodified upstream package. These requirements concern the covered files; they
-do not change the license of separately written project files. See the
-[MPL text](https://www.mozilla.org/en-US/MPL/2.0/) and
-[distribution FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/).
-
-The native builder uses the unchanged `sofars` Rust port through ANISE. It uses
-routines and computations derived from software provided by the IAU SOFA Board
-under license. This project and that port are not software provided by or
-endorsed by SOFA. We do not modify the port's routines. The builder bundle
-preserves both the port's MIT notice and its additional SOFA terms. Similarly,
-`libm`'s complete license and per-routine math-library notices are retained.
-
-The [Rust standard-library notices](notices/RUST_LIBRARY_NOTICES.html) from
-Rust 1.96.0 accompany each compiled distribution. This covers the standard-library
-components conservatively across targets, not redistribution of the whole Rust
-compiler or toolchain.
-
-## Development and test tools
-
-Python acquisition and verification dependencies are pinned separately in
-`tools/jpl/requirements.lock`; they are not bundled into runtime Wasm or native
-Rust executables. In particular, `certifi` 2026.5.20 includes MPL-2.0 certificate
-material. Its exact source distribution is available through
-https://pypi.org/project/certifi/2026.5.20/#files . Preserve its license/source
-notices if distributing that Python environment.
-
-Bun, Cargo, Rust, cargo-about, TypeScript, Wrangler, Miniflare, and other build or
-test tools keep their upstream licenses. Installing a development tool is not
-itself redistribution of its entire implementation. Notices for emitted code
-from wasm-bindgen, worker-build, and Vite are included where applicable. The
-bundles do not cover redistribution of complete SDKs or development environments.
-
-## Data
-
-JPL inputs and the recorded regression fixtures are separate from dependency
-software licensing. Preserve their existing source records, hashes and dataset
-manifests. The software license does not purport to relicense third-party
-datasets. No dataset is regenerated by notice preparation.
+Modified covered dependencies require their actual corresponding modified source.
+Dataset provenance and source records are separate and remain with the data.
 
 ## Astronomy Engine — MIT License
 

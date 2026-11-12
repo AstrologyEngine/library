@@ -8,10 +8,10 @@ import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { allJobs, changedPaths, determineSelection, jobs, selectJobs } from './changes.ts';
 import { parseSelection, verifyResults, type Result } from './gate.ts';
-const chosen = (paths: string[], inputs: string[] = []) => jobs.filter(job => selectJobs(paths, inputs)[job]);
+const chosen = (paths: string[]) => jobs.filter(job => selectJobs(paths)[job]);
 test('prose skips expensive checks; executable docs and unknown files run all', () => {
   expect(chosen(['README.md', 'docs/architecture.md'])).toEqual([]);
-  for (const path of ['docs/demo.ts', 'unknown.config', 'tests/fixtures/regression.txt', 'src/new.rs', '.github/workflows/verify.yml', 'LICENSE', 'NOTICE']) {
+  for (const path of ['docs/demo.ts', 'unknown.config', 'tests/fixtures/regression.txt', 'src/new.rs', '.github/workflows/verify.yml', 'LICENSE', 'THIRD_PARTY_NOTICES.md']) {
     expect(chosen([path])).toEqual([...jobs]);
   }
 });
@@ -22,14 +22,9 @@ test('gate rejects absent or malformed selection outputs', () => {
   expect(() => parseSelection({ ...outputs, worker: 'tru' })).toThrow('worker');
 });
 test('adapter and preparation changes select their consumers', () => {
-  expect(chosen(['examples/cloudflare-worker/src/lib.rs'])).toEqual(['worker', 'notices']);
-  expect(chosen(['examples/configurable-chart/main.ts'])).toEqual(['configurable-chart', 'notices']);
-  expect(chosen(['tools/jpl/horizons.py', 'tools/dataset-builder/src/main.rs'])).toEqual(['native', 'tooling', 'notices']);
-});
-test('notice inputs override prose and narrow adapter selection', () => {
-  expect(chosen(['tools/notices/README.md'])).toEqual([...jobs]);
-  expect(chosen(['THIRD_PARTY_NOTICES.md'], ['THIRD_PARTY_NOTICES.md'])).toEqual([...jobs]);
-  expect(chosen(['examples/cloudflare-worker/Cargo.toml'], ['examples/cloudflare-worker/Cargo.toml'])).toEqual([...jobs]);
+  expect(chosen(['examples/cloudflare-worker/src/lib.rs'])).toEqual(['worker']);
+  expect(chosen(['examples/configurable-chart/main.ts'])).toEqual(['configurable-chart']);
+  expect(chosen(['tools/jpl/horizons.py', 'tools/dataset-builder/src/main.rs'])).toEqual(['native', 'tooling']);
 });
 test('main/manual and unreliable PR comparisons run everything', () => {
   const fail = () => { throw new Error('unavailable base'); };
@@ -51,7 +46,7 @@ test('renames and deletions include former paths and use the merge base', () => 
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 test('gate accepts intentional skips, rejects selected skips and every failure/cancellation', () => {
-  const selection = selectJobs(['README.md'], []);
+  const selection = selectJobs(['README.md']);
   const results: Record<string, Result> = { changes: 'success', 'usage-policy': 'success', ...Object.fromEntries(jobs.map(job => [job, 'skipped' as const])) };
   verifyResults(selection, results);
   expect(() => verifyResults(allJobs(), results)).toThrow();

@@ -11,13 +11,12 @@ runs the CI helper tests and records its selections in the run summary:
 | Changes | Checks |
 | --- | --- |
 | Prose documentation | Usage policy, helper tests, final gate |
-| Worker example source | Worker, notices |
-| Browser example source | Browser, notices |
-| Native builder or Python preparation source | Native, preparation tooling, notices |
-| Runtime, shared verification, CI, licensing, notice inputs, unknown files | Everything |
+| Worker example source | Worker |
+| Browser example source | Browser |
+| Native builder or Python preparation source | Native, preparation tooling |
+| Runtime, shared verification, CI, licensing, unknown files | Everything |
 
-Notice input fingerprints from both base and head take precedence over prose
-and adapter-specific rules. Executable documentation is code. Native tests,
+Executable documentation is code. Native tests,
 preparation tooling, and Worker integration run independently. The final
 `verify` job accepts intentionally skipped jobs and rejects selected jobs that
 fail, are cancelled, or unexpectedly skip. No deployment or full-data generation
@@ -35,13 +34,13 @@ Its key includes platform, tool versions, download checksums, setup code and the
 Rust toolchain. Successful setup saves its cache immediately so later failures
 do not discard it. Every restored executable must report the expected version.
 
-`worker-build` and `cargo-about` are installed with exact versions and `--locked`
-on a cold cache. Their versions come from the existing notice tool constants.
+`worker-build` is installed with an exact version and `--locked`
+on a cold cache. Build-tool versions live in `tools/ci/versions.ts`.
 `downloads.json` records the official Linux x64 helper archives and SHA-256
 hashes: wasm-bindgen 0.2.122, Binaryen 129, and esbuild 0.28.0. These match the
 Worker build tool's resolver. Archives are verified before extraction; cached
 binaries are version checked. Update URLs, checksums, expected version output,
-and corresponding notice material together when intentionally upgrading tools.
+and corresponding version constants together when intentionally upgrading tools.
 
 Transport errors, HTTP 408/429 and 5xx responses get at most three attempts,
 with 2/5-second backoff and a 60-second timeout per attempt. Other HTTP errors,
@@ -52,8 +51,8 @@ Tool setup exports the supported Worker binary overrides and the browser's
 stays enabled. Local developer build setup is unchanged.
 
 To invalidate a broken tool cache, delete its entry in GitHub Actions caches;
-never bypass version or checksum checks. No final Wasm/site/native distribution,
-notice bundle, source archive, or dataset is restored as a CI artifact cache.
+never bypass version or checksum checks. No final Wasm/site/native distribution or
+dataset is restored as a CI artifact cache.
 
 ## Local checks
 
@@ -66,6 +65,5 @@ actionlint
 ```
 
 TypeScript checking uses the browser example's locked development dependencies.
-The notices job installs them and checks both notice and CI tooling, independent
-of whether browser integration was selected. The full-data workflow retains its
+The changes job installs them and checks CI tooling on every run. The full-data workflow retains its
 explicit invocation and existing setup.
