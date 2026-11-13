@@ -18,6 +18,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         utc: String,
         zodiac: String,
         chart: bool,
+        latitude: f64,
+        longitude: f64,
+        #[serde(rename = "houseSystem")]
+        house_system: HouseSystem,
     }
     let data = std::env::args().nth(1).map(std::fs::read).transpose()?;
     let ephemeris = data
@@ -46,10 +50,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     ChartInput {
                         epoch,
                         location: Location {
-                            latitude: 0.0,
-                            longitude: 0.0,
+                            latitude: case.latitude,
+                            longitude: case.longitude,
                         },
-                        house_system: HouseSystem::WholeSign,
+                        house_system: case.house_system,
                         zodiac: configuration,
                     },
                 ) {

@@ -48,7 +48,13 @@ The benchmark projects its full-nutation tropical positions with a matching
 full-nutation offset. The library retains its five-term projection while reporting
 the original 77-term offset. Neither is substituted for the other during QC.
 
-Reports explicitly set `fullChartCoverage: false`: houses, nodes, Ceres, Chiron
-and True Sky are still outside this client. Whole Sign is used to obtain real
-chart outputs, but its cusps are not yet validated. Unsupported coverage and
+The chart sweep rotates Whole Sign, Equal and Placidus across latitudes
+-65, -45, 0, 45 and 65 degrees, with varying east-positive longitude. It checks
+all twelve cusps and four angle longitudes at captured effective TT and UT1,
+plus requested/actual house-system identity. These are matched-time diagnostics;
+they do not establish the library's UTC-to-UT1 model accuracy. Angle speeds
+and declinations are not benchmarked.
+
+Reports explicitly set `fullChartCoverage: false`: polar library house QC,
+nodes, Ceres, Chiron and True Sky are still outside this client. Unsupported coverage and
 calculation errors are failures, never silently skipped successful evidence.
