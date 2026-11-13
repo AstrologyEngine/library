@@ -32,6 +32,9 @@ const checked=async(path,input)=>{const result=await get(path,input);assert(JSON
     assert(Array.isArray(result.geometry.cusps)&&result.geometry.cusps.length===12&&result.geometry.cusps.every(Number.isFinite),'Reference cusp coverage mismatch');
     assert(result.geometry.angles&&Object.keys(result.geometry.angles).sort().join(',')==='ascendant,descendant,imumCoeli,midheaven'&&Object.values(result.geometry.angles).every(Number.isFinite),'Reference angle coverage mismatch');
   }
+  if(input.nodeMode){
+    assert(result.nodeConvention?.mode===input.nodeMode&&result.nodeConvention.southDeclination===input.southNode&&result.nodeConvention.model==='DE440s-geocentric-inertial-orbital-plane'&&result.nodeConvention.corrections==='geometric; no light-time, aberration or deflection','Reference node convention mismatch');
+  }
   return result;};
 const cases=[];
 const add=(utc,zodiac='lahiri',chart=false,geometry={})=>cases.push({id:`case-${cases.length}`,utc,zodiac,chart,latitude:0,longitude:0,houseSystem:'whole-sign',...geometry});
@@ -43,6 +46,7 @@ for(let index=0;index<128;index++){
   add(new Date(Date.UTC(1801,0,1)+(seed/2**32)*(Date.UTC(2199,0,1)-Date.UTC(1801,0,1))).toISOString());
 }
 if(dataset)for(let index=0;index<125;index++)for(const zodiac of ['tropical','lahiri','fagan-bradley'])add(new Date(Date.UTC(1851+index*2,index%12,15,12)).toISOString(),zodiac,true,{latitude:[-65,-45,0,45,65][index%5],longitude:-175+(index%24)*15,houseSystem:['whole-sign','equal','placidus'][index%3]});
+if(dataset)for(const latitude of [-85,-70,70,85])for(const hour of [0,6,12,18])for(const zodiac of ['tropical','lahiri','fagan-bradley'])add(new Date(Date.UTC(2026,2,20,hour)).toISOString(),zodiac,true,{latitude,longitude:0,houseSystem:'placidus'});
 const datasetBytes=dataset?readFileSync(resolve(dataset)):null;
 const captured=spawnSync('cargo',['run','--quiet','--locked','--target-dir',resolve(root,'target/novas-qc'),'--features','generation','--example','novas_qc_capture','--',...(dataset?[resolve(dataset)]:[])],{cwd:root,input:JSON.stringify(cases),encoding:'utf8',maxBuffer:32*1024*1024});
 assert(captured.status===0,captured.stderr||'Native capture failed');
@@ -61,13 +65,13 @@ if(useWasm){
   const module=await import(pathToFileURL(resolve(root,'examples/configurable-chart/engine/chart.js')));
   await module.default({module_or_path:readFileSync(resolve(root,'examples/configurable-chart/engine/chart_bg.wasm'))});wasmCalculate=module.calculate;
 }
-const rows=[];const errors=[];
+const rows=[];const errors=[];const chartOutcomes=[];const referenceGeometry=[];
 const row=(id,path,actual,expected,tolerance,angular=false)=>{
   assert(Number.isFinite(actual)&&Number.isFinite(expected),`Nonfinite/missing ${id} ${path}`);
   const delta=angular?((actual-expected+540)%360+360)%360-180:actual-expected;
   rows.push({id,path,actual,expected,delta,tolerance,pass:Math.abs(delta)<=tolerance});
 };
-const supported=['SUN','MOON','MERCURY','VENUS','MARS','JUPITER','SATURN','URANUS','NEPTUNE','PLUTO','EARTH'];
+const supported=['SUN','MOON','MERCURY','VENUS','MARS','JUPITER','SATURN','URANUS','NEPTUNE','PLUTO','EARTH','NORTH_NODE','SOUTH_NODE'];
 for(let index=0;index<cases.length;index++){
   const input=cases[index],value=values[index];
   assert(value.id===input.id&&value.utc===input.utc&&value.zodiac===input.zodiac,'Capture input/order mismatch');
@@ -77,17 +81,16 @@ for(let index=0;index<cases.length;index++){
   row(input.id,'nutation.longitude.arcseconds',value.nutationArcseconds.longitude,reference.offsets.nutation.dpsi2000b*3600,1e-6);
   row(input.id,'nutation.obliquity.arcseconds',value.nutationArcseconds.obliquity,reference.offsets.nutation.deps2000b*3600,1e-6);
   if(!input.chart)continue;
-  if(value.chart?.error){errors.push({id:input.id,target:'native',error:value.chart.error});continue;}
-  const chart=value.chart?.value;assert(chart,'Missing chart');
+const geometry=await checked('/v1/calculate',{jdTT:value.effectiveJdTT,jdUT1:value.effectiveJdUT1,zodiac:input.zodiac,bodies:['SUN'],location:{latitude:input.latitude,longitude:input.longitude},houseSystem:input.houseSystem,polarHouses:'porphyry'});
+  referenceGeometry.push({id:input.id,jdTT:geometry.jdTT,jdUT1:geometry.jdUT1,location:geometry.location,geometry:geometry.geometry});
   const compareChart=async(chart,target)=>{
     assert(chart.configuration.reference===input.zodiac,'Chart zodiac mismatch');
     assert(new Set(chart.bodies.map(body=>body.name)).size===chart.bodies.length,'Duplicate chart body');
-    const physical=await checked('/v1/calculate',{jdTT:value.physicalJdTT,zodiac:input.zodiac,bodies:supported});
+    const physical=await checked('/v1/calculate',{jdTT:value.physicalJdTT,zodiac:input.zodiac,bodies:supported,nodeMode:'osculating',southNode:'symbolic'});
     for(const name of supported){
       const body=chart.bodies.find(body=>body.name===name);assert(body,`Missing ${name}`);
       for(const field of ['longitude','declination','speed'])row(input.id,`${target}.endToEnd.${name}.${field}`,body[field],physical.bodies[name][field],1/3600,field==='longitude');
     }
-    const geometry=await checked('/v1/calculate',{jdTT:value.effectiveJdTT,jdUT1:value.effectiveJdUT1,zodiac:input.zodiac,bodies:['SUN'],location:{latitude:input.latitude,longitude:input.longitude},houseSystem:input.houseSystem,polarHouses:'porphyry'});
     assert(chart.requested_house_system===input.houseSystem,'Requested house system mismatch');
     if(chart.house_system!==geometry.geometry.actualSystem)errors.push({id:input.id,target,error:'Actual house system mismatch',actual:chart.house_system,expected:geometry.geometry.actualSystem});
     assert(Array.isArray(chart.cusps)&&chart.cusps.length===12,'House cusp coverage mismatch');
@@ -99,17 +102,27 @@ for(let index=0;index<cases.length;index++){
     const offset=await checked('/v1/offsets',{jdTT:value.effectiveJdTT,zodiac:input.zodiac});
     row(input.id,`${target}.matchedModel.reportedOffset`,chart.reference_offset_degrees,offset.offsets.reported,input.zodiac==='lahiri'?1e-6/3600:1/3600);
   };
-  await compareChart(chart,'native');
+  if(value.chart?.error){
+    errors.push({id:input.id,target:'native',error:value.chart.error});
+    chartOutcomes.push({id:input.id,target:'native',status:'calculation-error'});
+  }else{
+    const chart=value.chart?.value;assert(chart,'Missing chart');
+    await compareChart(chart,'native');
+    chartOutcomes.push({id:input.id,target:'native',status:'compared',actualHouseSystem:chart.house_system});
+  }
   if(wasmCalculate){
     let wasm;
     try{wasm=JSON.parse(wasmCalculate(data,JSON.stringify({instant:{scale:'utc',value:input.utc},latitude:input.latitude,longitude:input.longitude,house_system:input.houseSystem,configuration:{reference:input.zodiac,divisions:'equal',ophiuchus:null}})));}
-    catch(error){errors.push({id:input.id,target:'wasm',error:String(error)});continue;}
+    catch(error){errors.push({id:input.id,target:'wasm',error:String(error)});chartOutcomes.push({id:input.id,target:'wasm',status:'calculation-error'});continue;}
     await compareChart(wasm,'wasm');
+    chartOutcomes.push({id:input.id,target:'wasm',status:'compared',actualHouseSystem:wasm.house_system});
   }
 }
+for(const target of useWasm?['native','wasm']:['native'])assert(chartOutcomes.filter(value=>value.target===target).length===cases.filter(value=>value.chart).length,`Incomplete ${target} chart attempts`);
 assert(sourceHash()===snapshotHash,'Source changed during QC');
-const report={execution:{platform:process.platform,arch:process.arch,node:process.version,rust:execFileSync('rustc',['--version'],{cwd:root,encoding:'utf8'}).trim()},sourceHash:snapshotHash,nativeBinaryHash,wasmArtifacts,scope:dataset?'major-planets-houses-and-reported-offsets':'reported-lahiri-and-original-nutation',fullChartCoverage:false,
-  omitted:['polar-library-house-QC','nodes','Ceres','Chiron','True Sky'],cases:cases.length,chartCases:cases.filter(c=>c.chart).length,targets:useWasm?['native','wasm']:['native'],
+const report={execution:{platform:process.platform,arch:process.arch,node:process.version,rust:execFileSync('rustc',['--version'],{cwd:root,encoding:'utf8'}).trim()},sourceHash:snapshotHash,nativeBinaryHash,wasmArtifacts,scope:dataset?'major-planets-nodes-houses-and-reported-offsets':'reported-lahiri-and-original-nutation',fullChartCoverage:false,
+  omitted:['mean-node-library-QC','geometric-south-node-library-QC','Ceres','Chiron','True Sky'],cases:cases.length,chartCases:cases.filter(c=>c.chart).length,targets:useWasm?['native','wasm']:['native'],
+  inputs:cases,chartOutcomes,referenceGeometry,nodeReference:{mode:'osculating',southDeclination:'symbolic'},
   pass:errors.length===0&&rows.every(row=>row.pass),rows,errors,benchmark:health.provenance,
   sourceRevision:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),
   workingTreeDirty:execFileSync('git',['status','--porcelain'],{cwd:root,encoding:'utf8'}).trim().length>0,

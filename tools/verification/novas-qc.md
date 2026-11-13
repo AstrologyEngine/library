@@ -21,7 +21,7 @@ if installed there, or WASM_BINDGEN/an executable on PATH. It rebuilds both the
 native capture and Wasm adapter, records executable/glue hashes and a source
 snapshot hash, and rejects source/dataset changes during the run.
 
-Exit 0 means all requested checks passed; 1 means completed numerical failures;
+Exit 0 means all requested checks passed; 1 means numerical or chart-calculation failures;
 2 means setup, transport, identity or contract failure. Reports retain failure
 rows. Do not change formulas, thresholds or frozen fixtures merely to make QC
 pass. The manually dispatched `Explicit independent benchmark QC` workflow can
@@ -38,7 +38,7 @@ ERFA routine share the same standard; this checks implementation and integration
 not independent evidence that the standard itself is correct.
 
 With a dataset, 375 additional chart cases cover 125 dates in 1851–2099 across
-tropical, Lahiri and Fagan-Bradley. Eleven major/derived bodies supply longitude,
+tropical, Lahiri and Fagan-Bradley. Thirteen major/derived bodies supply longitude,
 speed and declination; limits are one arcsecond and one arcsecond/day. The runner
 uses captured effective library TT for matched offset checks, and the physical
 TT corresponding to each UTC input for end-to-end body checks. The latter retain
@@ -55,6 +55,22 @@ plus requested/actual house-system identity. These are matched-time diagnostics;
 they do not establish the library's UTC-to-UT1 model accuracy. Angle speeds
 and declinations are not benchmarked.
 
-Reports explicitly set `fullChartCoverage: false`: polar library house QC,
-nodes, Ceres, Chiron and True Sky are still outside this client. Unsupported coverage and
-calculation errors are failures, never silently skipped successful evidence.
+The North and South Node checks explicitly target the benchmark's osculating
+geometric orbital-plane model, with symbolic South declination (same as North).
+This client does not claim that the library supports switching to mean nodes
+or geometric South declination. The benchmark's effective node model is
+validated before any numerical comparison.
+
+An additional 48 polar chart cases use March 20, 2026 at 00:00, 06:00, 12:00
+and 18:00 UTC, latitudes -85, -70, 70 and 85 degrees, longitude zero, all three
+zodiacs and Placidus with explicit reference Porphyry fallback. Total coverage
+with a dataset is 831 cases, including 423 chart inputs. Native and Wasm are
+attempted independently even if one rejects a chart. Reports preserve every
+input, target outcome and independent reference geometry, including rejected
+charts. Missing outcomes cannot count as passing evidence.
+
+Reports explicitly set `fullChartCoverage: false`: mean-node and geometric
+South-node library QC, Ceres, Chiron and True Sky remain outside this client.
+Unsupported coverage and calculation errors fail the gate. See the
+[current findings](novas-qc-findings.md) for the polar limitation retained by
+this sweep.
