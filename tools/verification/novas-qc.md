@@ -38,7 +38,7 @@ ERFA routine share the same standard; this checks implementation and integration
 not independent evidence that the standard itself is correct.
 
 With a dataset, 375 additional chart cases cover 125 dates in 1851–2099 across
-tropical, Lahiri and Fagan-Bradley. Thirteen major/derived bodies supply longitude,
+tropical, Lahiri and Fagan-Bradley. Fifteen major/derived bodies supply longitude,
 speed and declination; limits are one arcsecond and one arcsecond/day. The runner
 uses captured effective library TT for matched offset checks, and the physical
 TT corresponding to each UTC input for end-to-end body checks. The latter retain
@@ -70,7 +70,11 @@ input, target outcome and independent reference geometry, including rejected
 charts. Missing outcomes cannot count as passing evidence.
 
 Reports explicitly set `fullChartCoverage: false`: mean-node and geometric
-South-node library QC, Ceres, Chiron and True Sky remain outside this client.
+South-node library QC and True Sky remain outside this client.
 Unsupported coverage and calculation errors fail the gate. See the
 [current findings](novas-qc-findings.md) for the polar limitation retained by
 this sweep.
+
+Ceres and Chiron use the pinned Horizons kernels identified by separate hashes
+in the lock and service provenance. Their longitude, declination and rates
+are included in both native and Wasm end-to-end checks.

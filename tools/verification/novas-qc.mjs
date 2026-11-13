@@ -71,7 +71,7 @@ const row=(id,path,actual,expected,tolerance,angular=false)=>{
   const delta=angular?((actual-expected+540)%360+360)%360-180:actual-expected;
   rows.push({id,path,actual,expected,delta,tolerance,pass:Math.abs(delta)<=tolerance});
 };
-const supported=['SUN','MOON','MERCURY','VENUS','MARS','JUPITER','SATURN','URANUS','NEPTUNE','PLUTO','EARTH','NORTH_NODE','SOUTH_NODE'];
+const supported=['SUN','MOON','MERCURY','VENUS','MARS','JUPITER','SATURN','URANUS','NEPTUNE','PLUTO','EARTH','NORTH_NODE','SOUTH_NODE','CERES','CHIRON'];
 for(let index=0;index<cases.length;index++){
   const input=cases[index],value=values[index];
   assert(value.id===input.id&&value.utc===input.utc&&value.zodiac===input.zodiac,'Capture input/order mismatch');
@@ -121,7 +121,7 @@ const geometry=await checked('/v1/calculate',{jdTT:value.effectiveJdTT,jdUT1:val
 for(const target of useWasm?['native','wasm']:['native'])assert(chartOutcomes.filter(value=>value.target===target).length===cases.filter(value=>value.chart).length,`Incomplete ${target} chart attempts`);
 assert(sourceHash()===snapshotHash,'Source changed during QC');
 const report={execution:{platform:process.platform,arch:process.arch,node:process.version,rust:execFileSync('rustc',['--version'],{cwd:root,encoding:'utf8'}).trim()},sourceHash:snapshotHash,nativeBinaryHash,wasmArtifacts,scope:dataset?'major-planets-nodes-houses-and-reported-offsets':'reported-lahiri-and-original-nutation',fullChartCoverage:false,
-  omitted:['mean-node-library-QC','geometric-south-node-library-QC','Ceres','Chiron','True Sky'],cases:cases.length,chartCases:cases.filter(c=>c.chart).length,targets:useWasm?['native','wasm']:['native'],
+  omitted:['mean-node-library-QC','geometric-south-node-library-QC','True Sky'],cases:cases.length,chartCases:cases.filter(c=>c.chart).length,targets:useWasm?['native','wasm']:['native'],
   inputs:cases,chartOutcomes,referenceGeometry,nodeReference:{mode:'osculating',southDeclination:'symbolic'},
   pass:errors.length===0&&rows.every(row=>row.pass),rows,errors,benchmark:health.provenance,
   sourceRevision:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),

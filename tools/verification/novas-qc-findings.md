@@ -9,7 +9,7 @@ Reference: independent SuperNOVAS service revision in `novas-lock.json`.
 Reproduce with the native/Wasm command in [the QC guide](novas-qc.md).
 
 The expanded sweep includes 831 cases, of which 423 request charts. It
-completes 48,525 numerical checks without numerical failures. This includes
+completes 53,457 numerical checks without numerical failures. This includes
 4,932 node checks, whose maximum absolute residual is 0.391780 arcseconds
 (or arcseconds/day for rates), within the unchanged one-arcsecond limits.
 
@@ -35,3 +35,8 @@ The library already documents rejection of overlapping polar house sets.
 These results expose that coverage limitation; they do not by themselves
 justify changing its convention. Any library house change requires a separate
 implementation and review. The benchmark gate remains strict in the meantime.
+
+The expanded body list also includes Ceres and Chiron. All 4,932 completed
+minor-body checks pass at the original angular/rate thresholds. Polar chart
+rejections still prevent complete chart coverage; no values are fabricated
+for rejected charts.
