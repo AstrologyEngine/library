@@ -33,7 +33,7 @@ pub const DEG2RAD: f64 = 0.017453292519943296;
 #[cfg(feature = "generation")]
 pub const RAD2DEG: f64 = 57.295779513082321;
 pub const ASEC2RAD: f64 = 4.848136811095359935899141e-6;
-const ASEC360: f64 = 1_296_000.0;
+pub(crate) const ASEC360: f64 = 1_296_000.0;
 #[cfg(feature = "generation")]
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum PrecessDir {
@@ -61,6 +61,10 @@ struct NutationAngles {
     dpsi: f64,
     deps: f64,
 }
+/// Truncated IAU 2000B nutation: the five largest luni-solar terms only,
+/// as adapted from Astronomy Engine. The complete 77-term series is
+/// [`super::nutation::iau2000b_full`]; this function is kept because the bundled
+/// dataset's apparent positions were generated with it.
 fn iau2000b(time: AstroTime) -> NutationAngles {
     let mod_arg = |x: f64| (x % ASEC360) * ASEC2RAD;
     let t = time.tt / DAYS_PER_CENTURY;
@@ -269,4 +273,44 @@ pub fn eqj_to_ect_state(pos: Vec3, vel: Vec3, time: AstroTime) -> (Vec3, Vec3) {
         }
     };
     (to_ecl(pos), to_ecl(vel))
+}
+
+#[cfg(test)]
+mod truncation_tests {
+    use super::*;
+    use crate::astro::nutation;
+
+    /// The five terms kept here are the first five rows of the full IAU 2000B
+    /// table, so evaluating that prefix must reproduce this function.
+    #[test]
+    fn five_terms_match_the_full_table_prefix() {
+        for tt in [-73_048.0, -36_524.0, 0.0, 9_131.0, 36_524.0, 73_048.0] {
+            let time = AstroTime { ut: tt, tt };
+            let truncated = iau2000b(time);
+            let (dpsi, deps) = nutation::accumulate(&nutation::TERMS[..5], tt / DAYS_PER_CENTURY);
+            assert!(
+                (truncated.dpsi - (nutation::DPPLAN + dpsi * 1.0e-7)).abs() < 1.0e-9,
+                "dpsi mismatch at tt={tt}"
+            );
+            assert!(
+                (truncated.deps - (nutation::DEPLAN + deps * 1.0e-7)).abs() < 1.0e-9,
+                "deps mismatch at tt={tt}"
+            );
+        }
+    }
+
+    /// The dropped terms are small but not negligible for sidereal work.
+    #[test]
+    fn full_series_differs_from_the_truncation_by_under_an_arcsecond() {
+        let mut worst: f64 = 0.0;
+        for day in (-73_048..=73_048).step_by(37) {
+            let tt = f64::from(day);
+            let time = AstroTime { ut: tt, tt };
+            worst = worst.max((iau2000b(time).dpsi - nutation::iau2000b_full(time).dpsi).abs());
+        }
+        assert!(
+            (0.2..1.0).contains(&worst),
+            "unexpected truncation size: {worst}"
+        );
+    }
 }

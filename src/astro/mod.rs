@@ -4,6 +4,7 @@
 pub mod find_moment;
 pub mod frames;
 pub mod houses;
+pub mod nutation;
 pub mod time;
 #[cfg(feature = "generation")]
 pub mod vec;
