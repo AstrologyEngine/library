@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/AstrologyEngine/novas-benchmark",
+  "provenance": {
+    "engine": "SuperNOVAS",
+    "version": "1.8.0",
+    "calceph": "5.0.1",
+    "erfa": "2.0.1",
+    "serviceHash": "358a650b2db4b814ed1304f2f52ccb25476dd82b173572a0501d08a8036a5476",
+    "dependencyHash": "63fba9330cee63c15b5d7adf1870d2c4a1e948cd509bf93507f24cfc9c2faff0",
+    "dataHash": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+    "ceresDataHash": "7af67832bbd60a3a0b6f3643a7eb7de25964cd6f4b4f1005ea637da1564993fc",
+    "chironDataHash": "71145196b709f04f8461c386dbac472ec581e7a237a0744ff26a7fe48f2c1666"
+  },
+  "revision": "5beb4cb3734cb13fad2eceaa1065de32798dfed5"
+}

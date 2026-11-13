@@ -1,0 +1,77 @@
+name: Explicit independent benchmark QC
+on:
+  workflow_dispatch:
+    inputs:
+      dataset_url:
+        description: Authorized HTTPS chart dataset URL (blank runs offset-only QC)
+        required: false
+        type: string
+      dataset_sha256:
+        description: Required SHA-256 when supplying a dataset URL
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  independent-qc:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: library
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: library
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.3.14'
+      - run: rustup toolchain install 1.96.0 --profile minimal --target wasm32-unknown-unknown
+      - name: Fetch the pinned benchmark source
+        run: |
+          revision=$(node -p 'JSON.parse(require("fs").readFileSync("tools/verification/novas-lock.json")).revision')
+          git init ../novas-reference
+          git -C ../novas-reference remote add origin https://github.com/AstrologyEngine/novas-benchmark.git
+          git -C ../novas-reference fetch --depth=1 origin "$revision"
+          git -C ../novas-reference checkout --detach FETCH_HEAD
+      - run: npm run setup
+        working-directory: novas-reference
+      - name: Prepare optional dataset and Wasm tool
+        env:
+          DATASET_URL: ${{ inputs.dataset_url }}
+          DATASET_SHA256: ${{ inputs.dataset_sha256 }}
+        run: |
+          mkdir -p target
+          if [ -n "$DATASET_URL" ]; then
+            node -e 'if (!/^[a-f0-9]{64}$/.test(process.env.DATASET_SHA256)) throw new Error("Dataset SHA-256 required")'
+            curl --fail --location --proto '=https' --proto-redir '=https' "$DATASET_URL" --output target/qc-dataset.bin
+            node -e 'const fs=require("fs"),crypto=require("crypto");if(crypto.createHash("sha256").update(fs.readFileSync("target/qc-dataset.bin")).digest("hex")!==process.env.DATASET_SHA256)throw new Error("Dataset checksum mismatch")'
+            cargo install wasm-bindgen-cli --version 0.2.122 --locked --root target/qc-tools
+          fi
+      - name: Run QC (numerical failures fail this job)
+        env:
+          DATASET_URL: ${{ inputs.dataset_url }}
+        run: |
+          JPL_KERNEL=../novas-reference/data/de440s.bsp node ../novas-reference/src/server.mjs > target/benchmark.log 2>&1 &
+          service_pid=$!
+          trap 'kill "$service_pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:8788/health > /dev/null; then break; fi
+            sleep 1
+          done
+          if [ -n "$DATASET_URL" ]; then
+            node tools/verification/novas-qc.mjs http://127.0.0.1:8788 target/novas-qc-report.json target/qc-dataset.bin --wasm
+          else
+            node tools/verification/novas-qc.mjs http://127.0.0.1:8788 target/novas-qc-report.json
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: independent-qc-evidence
+          path: |
+            library/target/novas-qc-report.json
+            library/target/benchmark.log
+          if-no-files-found: warn
