@@ -127,3 +127,56 @@ Chart comparisons use a 1e-12 absolute tolerance for native/Wasm floating-point
 roundoff in degrees or degrees/day. The recorded Wasm run's largest residual was
 1.14e-13 degrees; speeds matched exactly. This release also retains the existing
 frozen source-Wasm parity checks for tropical charts and Sun searches.
+
+## Lahiri
+
+Select `reference: "lahiri"` with equal sign divisions in Rust or the Wasm
+adapter. The example selector exposes the same option. Existing defaults and
+Fagan–Bradley calculations are unchanged.
+
+The mean offset follows the PAC Indian Astronomical Ephemeris 2027, printed
+page 382, formula introduced in 2021: at J2000 it is 23°51′25.53″, with
+precession in arcseconds
+5028.796195T + 1.1054348T² + 0.00007964T³ − 0.00023857T⁴ − 0.0000000383T⁵,
+where T is TT centuries since J2000. The reported true ayanamsa adds the complete
+77-term IAU 2000B nutation in longitude (the publication describes true ayanamsa
+on page 423). The chart projection retains the engine's five-term nutation,
+matching existing datasets. Thus `tropical - sidereal` differs from the reported
+`reference_offset_degrees` by up to 0.27 arcseconds. The public
+`lahiri_ayanamsa(epoch)` returns the reported value without requiring a dataset.
+Source:
+https://mausam.imd.gov.in/responsive/indianAstronomicalEphemeris.php
+
+Evaluation supports 1800-01-01 through 2200-01-01 TT inclusive, additionally
+limited by dataset coverage. This range is not a claim of independently
+verified astronomical accuracy. Planetary speeds subtract the centered daily
+offset change; angle speeds remain zero. Whole Sign houses use the projected
+Ascendant, while Equal and Placidus follow the existing projection and fallback.
+
+The [imported implementation record](plans/2026-11-12-lahiri-full-nutation.md)
+describes the subsequent NOVAS comparison. The library-generated
+[Lahiri fixture](../tests/fixtures/lahiri-regression.json) pins reported offsets;
+it does not establish independent astronomical accuracy. Its source values and
+provenance are preserved from the returned project.
+
+### Initial benchmark evidence (before the full-nutation change)
+
+The approved external benchmark was tested at UTC dates in 1900, 1956, 2000,
+2026, and 2100 using independently computed Rust values and the existing local
+dataset. All five true ayanamsas passed the one-arcsecond threshold (maximum
+0.110 arcseconds). Sun/Moon longitudes passed in 1956, 2000, and 2026, but
+failed in 1900 and 2100. Tropical control calculations reproduced those
+failures, with maximum Moon error 20.622 arcseconds. The underlying time and
+dataset conventions require investigation before claiming chart alignment.
+
+At that stage, no benchmark-derived reference data was committed and no new
+Rust-generated regression fixtures had been frozen: their prerequisite was benchmark agreement.
+Broader body, speed, house, and date sweeps remain outstanding.
+
+An expanded Whole Sign batch compared all 19 body/angle longitudes, 15 body
+speeds and declinations, 12 cusps, and true ayanamsa at each of those five dates.
+One complete case (1956) passed. All speeds and Whole Sign cusps passed;
+maximum speed residual was 0.393 arcseconds/day. Additional failures included
+angles (up to 11.799 arcseconds at J2000) and Moon declination (up to 6.543
+arcseconds in 2100). These remain unresolved; Equal/Placidus and polar sweeps
+are not yet validated.

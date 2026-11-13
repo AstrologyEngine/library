@@ -8,7 +8,7 @@ runtimes.
 
 - Planetary and derived body positions, longitudinal speeds, and declinations,
   plus the Ascendant, Midheaven, Descendant, and Imum Coeli.
-- Tropical, Fagan–Bradley sidereal, and Chimenti True Sky references, with sign
+- Tropical, Fagan–Bradley and Lahiri sidereal, and Chimenti True Sky references, with sign
   assignments and equal or True Sky constellation divisions.
 - Equal, Whole Sign, and Placidus houses, with twelve cusps and explicit reporting
   when Placidus falls back to Porphyry.
@@ -19,6 +19,11 @@ returns positions, signs, cusps, and calculation metadata. See the
 [chart conventions](docs/chart-conventions.md) for reference models, supported
 combinations, speed conventions, and polar-house safeguards. Fagan–Bradley's
 model covers 1800–2200 TT; every chart also requires coverage in its dataset.
+
+Lahiri reports the IAE 2027 mean formula plus complete IAU 2000B nutation through
+`lahiri_ayanamsa` and `reference_offset_degrees`. Its chart projection retains
+the five-term nutation used by existing datasets; see the
+[Lahiri convention](docs/chart-conventions.md#lahiri) for the distinction.
 
 ## Use it in your runtime
 

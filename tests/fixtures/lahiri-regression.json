@@ -1,0 +1,8000 @@
+{
+  "cases": [
+    {
+      "error": "InvalidInput",
+      "kind": "outside",
+      "message": "Lahiri is supported from 1800-01-01 through 2200-01-01 TT",
+      "utc": "1799-12-31T23:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.062231953665012,
+      "kind": "edge",
+      "utc": "1800-01-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.06225485439437,
+      "kind": "grid-97d",
+      "utc": "1800-01-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.065933353608305,
+      "kind": "grid-97d",
+      "utc": "1800-04-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.070431890432467,
+      "kind": "grid-97d",
+      "utc": "1800-07-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.073916425690665,
+      "kind": "grid-97d",
+      "utc": "1800-10-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.07877827185858,
+      "kind": "grid-97d",
+      "utc": "1801-01-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.082230650919165,
+      "kind": "grid-97d",
+      "utc": "1801-05-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.087058627072025,
+      "kind": "grid-97d",
+      "utc": "1801-08-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.090489405689002,
+      "kind": "grid-97d",
+      "utc": "1801-11-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.095362587332637,
+      "kind": "grid-97d",
+      "utc": "1802-02-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.098836877232543,
+      "kind": "grid-97d",
+      "utc": "1802-05-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.103390155128018,
+      "kind": "grid-97d",
+      "utc": "1802-08-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.106986022074448,
+      "kind": "grid-97d",
+      "utc": "1802-12-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.11142947456871,
+      "kind": "grid-97d",
+      "utc": "1803-03-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.11529321485931,
+      "kind": "grid-97d",
+      "utc": "1803-06-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.119369383712502,
+      "kind": "grid-97d",
+      "utc": "1803-09-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.12357614444958,
+      "kind": "grid-97d",
+      "utc": "1803-12-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.127377450813857,
+      "kind": "grid-97d",
+      "utc": "1804-04-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.13174147221968,
+      "kind": "grid-97d",
+      "utc": "1804-07-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.135168132687387,
+      "kind": "grid-97d",
+      "utc": "1804-10-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.139695276326286,
+      "kind": "grid-97d",
+      "utc": "1805-01-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.142885065455378,
+      "kind": "grid-97d",
+      "utc": "1805-04-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.14734377045911,
+      "kind": "grid-97d",
+      "utc": "1805-08-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.150370015267733,
+      "kind": "grid-97d",
+      "utc": "1805-11-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.15498999469446,
+      "kind": "grid-97d",
+      "utc": "1806-02-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.15800814876038,
+      "kind": "grid-97d",
+      "utc": "1806-05-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.162374135728747,
+      "kind": "grid-97d",
+      "utc": "1806-08-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.16545672645676,
+      "kind": "grid-97d",
+      "utc": "1806-11-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.16964565857663,
+      "kind": "grid-97d",
+      "utc": "1807-03-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.172854647800534,
+      "kind": "grid-97d",
+      "utc": "1807-06-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.17655700144547,
+      "kind": "grid-97d",
+      "utc": "1807-09-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.17995114085109,
+      "kind": "grid-97d",
+      "utc": "1807-12-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.183373382944218,
+      "kind": "grid-97d",
+      "utc": "1808-03-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.186960463940494,
+      "kind": "grid-97d",
+      "utc": "1808-07-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.19002889459673,
+      "kind": "grid-97d",
+      "utc": "1808-10-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.193932382083883,
+      "kind": "grid-97d",
+      "utc": "1809-01-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.196762160888156,
+      "kind": "grid-97d",
+      "utc": "1809-04-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.200739183045982,
+      "kind": "grid-97d",
+      "utc": "1809-07-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.203331670595208,
+      "kind": "grid-97d",
+      "utc": "1809-10-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.207458406777487,
+      "kind": "grid-97d",
+      "utc": "1810-02-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.209973952073064,
+      "kind": "grid-97d",
+      "utc": "1810-05-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.213878713561563,
+      "kind": "grid-97d",
+      "utc": "1810-08-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.21643941456168,
+      "kind": "grid-97d",
+      "utc": "1810-11-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.220357795051335,
+      "kind": "grid-97d",
+      "utc": "1811-02-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.223119617614177,
+      "kind": "grid-97d",
+      "utc": "1811-06-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.22676749043898,
+      "kind": "grid-97d",
+      "utc": "1811-09-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.22980825893536,
+      "kind": "grid-97d",
+      "utc": "1811-12-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.23330580541458,
+      "kind": "grid-97d",
+      "utc": "1812-03-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.236646766786624,
+      "kind": "grid-97d",
+      "utc": "1812-06-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.2397789246612,
+      "kind": "grid-97d",
+      "utc": "1812-10-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.243476697642194,
+      "kind": "grid-97d",
+      "utc": "1813-01-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.246396411995658,
+      "kind": "grid-97d",
+      "utc": "1813-04-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.25027607390203,
+      "kind": "grid-97d",
+      "utc": "1813-07-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.25305344524614,
+      "kind": "grid-97d",
+      "utc": "1813-10-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.257261570328573,
+      "kind": "grid-97d",
+      "utc": "1814-01-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.26009045308891,
+      "kind": "grid-97d",
+      "utc": "1814-05-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.264311653051934,
+      "kind": "grid-97d",
+      "utc": "1814-08-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.267225376399548,
+      "kind": "grid-97d",
+      "utc": "1814-11-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.27159902889314,
+      "kind": "grid-97d",
+      "utc": "1815-02-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.274684687172776,
+      "kind": "grid-97d",
+      "utc": "1815-05-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.27879329002855,
+      "kind": "grid-97d",
+      "utc": "1815-09-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.282118770919475,
+      "kind": "grid-97d",
+      "utc": "1815-12-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.28613359149408,
+      "kind": "grid-97d",
+      "utc": "1816-03-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.289809068213398,
+      "kind": "grid-97d",
+      "utc": "1816-06-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.293595568927767,
+      "kind": "grid-97d",
+      "utc": "1816-09-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.29767448544161,
+      "kind": "grid-97d",
+      "utc": "1817-01-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.301385823676227,
+      "kind": "grid-97d",
+      "utc": "1817-04-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.305713255038324,
+      "kind": "grid-97d",
+      "utc": "1817-07-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.30920590196397,
+      "kind": "grid-97d",
+      "utc": "1817-10-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.313851728074663,
+      "kind": "grid-97d",
+      "utc": "1818-01-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.31719862090112,
+      "kind": "grid-97d",
+      "utc": "1818-05-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.321838384089375,
+      "kind": "grid-97d",
+      "utc": "1818-08-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.325148753526232,
+      "kind": "grid-97d",
+      "utc": "1818-11-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.3299492825487,
+      "kind": "grid-97d",
+      "utc": "1819-02-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.333446055915545,
+      "kind": "grid-97d",
+      "utc": "1819-05-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.338042779425184,
+      "kind": "grid-97d",
+      "utc": "1819-08-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.341771514870604,
+      "kind": "grid-97d",
+      "utc": "1819-12-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.346312916425266,
+      "kind": "grid-97d",
+      "utc": "1820-03-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.35024774859666,
+      "kind": "grid-97d",
+      "utc": "1820-06-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.354419778156217,
+      "kind": "grid-97d",
+      "utc": "1820-09-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.358563928313714,
+      "kind": "grid-97d",
+      "utc": "1820-12-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.362473787922735,
+      "kind": "grid-97d",
+      "utc": "1821-04-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.366819249708087,
+      "kind": "grid-97d",
+      "utc": "1821-07-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.370434229391083,
+      "kind": "grid-97d",
+      "utc": "1821-10-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.37510262866273,
+      "kind": "grid-97d",
+      "utc": "1822-01-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.378597938716393,
+      "kind": "grid-97d",
+      "utc": "1822-04-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.383257913650553,
+      "kind": "grid-97d",
+      "utc": "1822-07-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.386615944435015,
+      "kind": "grid-97d",
+      "utc": "1822-11-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.391357408003515,
+      "kind": "grid-97d",
+      "utc": "1823-02-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.394620547833927,
+      "kind": "grid-97d",
+      "utc": "1823-05-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.399072400717916,
+      "kind": "grid-97d",
+      "utc": "1823-08-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.40233390884622,
+      "kind": "grid-97d",
+      "utc": "1823-11-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.406687353243534,
+      "kind": "grid-97d",
+      "utc": "1824-03-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.4101364597213,
+      "kind": "grid-97d",
+      "utc": "1824-06-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.41409005309667,
+      "kind": "grid-97d",
+      "utc": "1824-09-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.417810961000868,
+      "kind": "grid-97d",
+      "utc": "1824-12-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.42149625764103,
+      "kind": "grid-97d",
+      "utc": "1825-03-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.425387493555764,
+      "kind": "grid-97d",
+      "utc": "1825-07-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.42865839820305,
+      "kind": "grid-97d",
+      "utc": "1825-10-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.432722767999717,
+      "kind": "grid-97d",
+      "utc": "1826-01-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.435702745818784,
+      "kind": "grid-97d",
+      "utc": "1826-04-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.439757137530396,
+      "kind": "grid-97d",
+      "utc": "1826-07-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.442494232038964,
+      "kind": "grid-97d",
+      "utc": "1826-10-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.446746688931437,
+      "kind": "grid-97d",
+      "utc": "1827-02-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.44942583766069,
+      "kind": "grid-97d",
+      "utc": "1827-05-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.453506620051392,
+      "kind": "grid-97d",
+      "utc": "1827-08-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.456222494958684,
+      "kind": "grid-97d",
+      "utc": "1827-11-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.46023797537778,
+      "kind": "grid-97d",
+      "utc": "1828-02-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.4630775917081,
+      "kind": "grid-97d",
+      "utc": "1828-06-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.466686103580823,
+      "kind": "grid-97d",
+      "utc": "1828-09-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.46969960878618,
+      "kind": "grid-97d",
+      "utc": "1828-12-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.473099023686103,
+      "kind": "grid-97d",
+      "utc": "1829-03-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.476360067656856,
+      "kind": "grid-97d",
+      "utc": "1829-06-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.47940966472375,
+      "kind": "grid-97d",
+      "utc": "1829-10-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.483044614223818,
+      "kind": "grid-97d",
+      "utc": "1830-01-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.485894846607916,
+      "kind": "grid-97d",
+      "utc": "1830-04-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.48974491942618,
+      "kind": "grid-97d",
+      "utc": "1830-07-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.492383565738557,
+      "kind": "grid-97d",
+      "utc": "1830-10-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.49650829072292,
+      "kind": "grid-97d",
+      "utc": "1831-01-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.499086432930078,
+      "kind": "grid-97d",
+      "utc": "1831-05-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.50310961946341,
+      "kind": "grid-97d",
+      "utc": "1831-08-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.505716427340168,
+      "kind": "grid-97d",
+      "utc": "1831-11-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.509851246436494,
+      "kind": "grid-97d",
+      "utc": "1832-02-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.5126579156214,
+      "kind": "grid-97d",
+      "utc": "1832-05-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.5166134970454,
+      "kind": "grid-97d",
+      "utc": "1832-09-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.519715506863804,
+      "kind": "grid-97d",
+      "utc": "1832-12-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.52363642191514,
+      "kind": "grid-97d",
+      "utc": "1833-03-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.5271015412472,
+      "kind": "grid-97d",
+      "utc": "1833-06-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.53068537550201,
+      "kind": "grid-97d",
+      "utc": "1833-09-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.53452326200769,
+      "kind": "grid-97d",
+      "utc": "1833-12-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.537905793763862,
+      "kind": "grid-97d",
+      "utc": "1834-04-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.541983696063227,
+      "kind": "grid-97d",
+      "utc": "1834-07-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.545173169820693,
+      "kind": "grid-97d",
+      "utc": "1834-10-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.549632455335562,
+      "kind": "grid-97d",
+      "utc": "1835-01-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.552809393811973,
+      "kind": "grid-97d",
+      "utc": "1835-04-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.557385196896917,
+      "kind": "grid-97d",
+      "utc": "1835-08-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.560572952491412,
+      "kind": "grid-97d",
+      "utc": "1835-11-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.565371216625174,
+      "kind": "grid-97d",
+      "utc": "1836-02-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.568664847936205,
+      "kind": "grid-97d",
+      "utc": "1836-05-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.573219265250117,
+      "kind": "grid-97d",
+      "utc": "1836-08-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.576674940960075,
+      "kind": "grid-97d",
+      "utc": "1836-12-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.58114215344204,
+      "kind": "grid-97d",
+      "utc": "1837-03-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.584883032513915,
+      "kind": "grid-97d",
+      "utc": "1837-06-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.589081769345317,
+      "kind": "grid-97d",
+      "utc": "1837-09-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.59316418740188,
+      "kind": "grid-97d",
+      "utc": "1837-12-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.597260519729467,
+      "kind": "grid-97d",
+      "utc": "1838-04-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.601611413913005,
+      "kind": "grid-97d",
+      "utc": "1838-07-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.605397674536135,
+      "kind": "grid-97d",
+      "utc": "1838-10-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.610061215872307,
+      "kind": "grid-97d",
+      "utc": "1839-01-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.613588893628293,
+      "kind": "grid-97d",
+      "utc": "1839-04-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.618264883439007,
+      "kind": "grid-97d",
+      "utc": "1839-07-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.62162317815778,
+      "kind": "grid-97d",
+      "utc": "1839-11-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.626465745876214,
+      "kind": "grid-97d",
+      "utc": "1840-02-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.62986741464059,
+      "kind": "grid-97d",
+      "utc": "1840-05-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.63453351091527,
+      "kind": "grid-97d",
+      "utc": "1840-08-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.63803419183446,
+      "kind": "grid-97d",
+      "utc": "1840-11-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.642675120813674,
+      "kind": "grid-97d",
+      "utc": "1841-03-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.646304781011644,
+      "kind": "grid-97d",
+      "utc": "1841-06-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.650535878769205,
+      "kind": "grid-97d",
+      "utc": "1841-09-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.654312087234782,
+      "kind": "grid-97d",
+      "utc": "1841-12-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.65824091140476,
+      "kind": "grid-97d",
+      "utc": "1842-03-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.662194977227127,
+      "kind": "grid-97d",
+      "utc": "1842-07-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.66574043623287,
+      "kind": "grid-97d",
+      "utc": "1842-10-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.66997266909627,
+      "kind": "grid-97d",
+      "utc": "1843-01-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.673328025224695,
+      "kind": "grid-97d",
+      "utc": "1843-04-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.677599991140912,
+      "kind": "grid-97d",
+      "utc": "1843-07-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.680724973901274,
+      "kind": "grid-97d",
+      "utc": "1843-10-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.685136420761793,
+      "kind": "grid-97d",
+      "utc": "1844-02-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.688073752990302,
+      "kind": "grid-97d",
+      "utc": "1844-05-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.692263571074264,
+      "kind": "grid-97d",
+      "utc": "1844-08-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.695106920501587,
+      "kind": "grid-97d",
+      "utc": "1844-11-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.699252401895812,
+      "kind": "grid-97d",
+      "utc": "1845-02-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.702217865871223,
+      "kind": "grid-97d",
+      "utc": "1845-06-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.7059942471892,
+      "kind": "grid-97d",
+      "utc": "1845-09-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.70918228374117,
+      "kind": "grid-97d",
+      "utc": "1845-12-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.712757699658365,
+      "kind": "grid-97d",
+      "utc": "1846-03-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.71615975923932,
+      "kind": "grid-97d",
+      "utc": "1846-06-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.719335595856254,
+      "kind": "grid-97d",
+      "utc": "1846-09-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.722968498341174,
+      "kind": "grid-97d",
+      "utc": "1847-01-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.725865223820865,
+      "kind": "grid-97d",
+      "utc": "1847-04-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.72959258510982,
+      "kind": "grid-97d",
+      "utc": "1847-07-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.73221643933825,
+      "kind": "grid-97d",
+      "utc": "1847-10-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.73621040641249,
+      "kind": "grid-97d",
+      "utc": "1848-01-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.738765043549805,
+      "kind": "grid-97d",
+      "utc": "1848-05-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.74271101430838,
+      "kind": "grid-97d",
+      "utc": "1848-08-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.745312568919196,
+      "kind": "grid-97d",
+      "utc": "1848-11-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.749341707891276,
+      "kind": "grid-97d",
+      "utc": "1849-02-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.75209444726175,
+      "kind": "grid-97d",
+      "utc": "1849-05-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.755838468831087,
+      "kind": "grid-97d",
+      "utc": "1849-09-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.758764309320625,
+      "kind": "grid-97d",
+      "utc": "1849-12-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.76240736279479,
+      "kind": "grid-97d",
+      "utc": "1850-03-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.76561369373161,
+      "kind": "grid-97d",
+      "utc": "1850-06-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.768944062730174,
+      "kind": "grid-97d",
+      "utc": "1850-09-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.772559707594652,
+      "kind": "grid-97d",
+      "utc": "1850-12-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.77574734682096,
+      "kind": "grid-97d",
+      "utc": "1851-04-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.77969373309962,
+      "kind": "grid-97d",
+      "utc": "1851-07-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.782687898715167,
+      "kind": "grid-97d",
+      "utc": "1851-10-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.786993672473233,
+      "kind": "grid-97d",
+      "utc": "1852-01-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.789926038375953,
+      "kind": "grid-97d",
+      "utc": "1852-04-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.794232391154623,
+      "kind": "grid-97d",
+      "utc": "1852-08-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.797141819876952,
+      "kind": "grid-97d",
+      "utc": "1852-11-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.801625226533996,
+      "kind": "grid-97d",
+      "utc": "1853-02-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.80467994070964,
+      "kind": "grid-97d",
+      "utc": "1853-05-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.809042417832945,
+      "kind": "grid-97d",
+      "utc": "1853-08-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.812357576888427,
+      "kind": "grid-97d",
+      "utc": "1853-12-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.816749809718235,
+      "kind": "grid-97d",
+      "utc": "1854-03-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.820427302816675,
+      "kind": "grid-97d",
+      "utc": "1854-06-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.82448553742567,
+      "kind": "grid-97d",
+      "utc": "1854-09-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.82848543841857,
+      "kind": "grid-97d",
+      "utc": "1854-12-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.8323381663247,
+      "kind": "grid-97d",
+      "utc": "1855-03-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.83656798044255,
+      "kind": "grid-97d",
+      "utc": "1855-07-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.84015074543501,
+      "kind": "grid-97d",
+      "utc": "1855-10-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.844751163436186,
+      "kind": "grid-97d",
+      "utc": "1856-01-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.84822433223627,
+      "kind": "grid-97d",
+      "utc": "1856-04-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.852992336938634,
+      "kind": "grid-97d",
+      "utc": "1856-07-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.856369278746183,
+      "kind": "grid-97d",
+      "utc": "1856-11-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.861380302167248,
+      "kind": "grid-97d",
+      "utc": "1857-02-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.864767790251673,
+      "kind": "grid-97d",
+      "utc": "1857-05-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.869541973714888,
+      "kind": "grid-97d",
+      "utc": "1857-08-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.87298798220487,
+      "kind": "grid-97d",
+      "utc": "1857-11-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.877673548050502,
+      "kind": "grid-97d",
+      "utc": "1858-03-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.881303566381554,
+      "kind": "grid-97d",
+      "utc": "1858-06-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.88566439915546,
+      "kind": "grid-97d",
+      "utc": "1858-09-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.889551995895353,
+      "kind": "grid-97d",
+      "utc": "1858-12-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.89377524054593,
+      "kind": "grid-97d",
+      "utc": "1859-03-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.89792614740009,
+      "kind": "grid-97d",
+      "utc": "1859-06-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.90175749585194,
+      "kind": "grid-97d",
+      "utc": "1859-10-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.906192631285318,
+      "kind": "grid-97d",
+      "utc": "1860-01-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.909688400452367,
+      "kind": "grid-97d",
+      "utc": "1860-04-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.914142245838267,
+      "kind": "grid-97d",
+      "utc": "1860-07-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.917355707443104,
+      "kind": "grid-97d",
+      "utc": "1860-10-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.921976244909875,
+      "kind": "grid-97d",
+      "utc": "1861-02-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.925102446280786,
+      "kind": "grid-97d",
+      "utc": "1861-05-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.92958887664172,
+      "kind": "grid-97d",
+      "utc": "1861-08-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.932693084272273,
+      "kind": "grid-97d",
+      "utc": "1861-11-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.937196720702346,
+      "kind": "grid-97d",
+      "utc": "1862-02-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.940364991211556,
+      "kind": "grid-97d",
+      "utc": "1862-06-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.94445954006377,
+      "kind": "grid-97d",
+      "utc": "1862-09-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.947737471414808,
+      "kind": "grid-97d",
+      "utc": "1862-12-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.9515423161484,
+      "kind": "grid-97d",
+      "utc": "1863-03-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.95499559026453,
+      "kind": "grid-97d",
+      "utc": "1863-06-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.95837016291056,
+      "kind": "grid-97d",
+      "utc": "1863-09-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.96208678150681,
+      "kind": "grid-97d",
+      "utc": "1864-01-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.965238555599726,
+      "kind": "grid-97d",
+      "utc": "1864-04-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.969078672294618,
+      "kind": "grid-97d",
+      "utc": "1864-07-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.97196307937586,
+      "kind": "grid-97d",
+      "utc": "1864-10-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.976030485298196,
+      "kind": "grid-97d",
+      "utc": "1865-01-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.97870898122327,
+      "kind": "grid-97d",
+      "utc": "1865-05-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.982670117032864,
+      "kind": "grid-97d",
+      "utc": "1865-08-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.98521815839025,
+      "kind": "grid-97d",
+      "utc": "1865-11-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.989230201007793,
+      "kind": "grid-97d",
+      "utc": "1866-02-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.991868756726387,
+      "kind": "grid-97d",
+      "utc": "1866-05-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.995598461031744,
+      "kind": "grid-97d",
+      "utc": "1866-08-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 21.998444345562675,
+      "kind": "grid-97d",
+      "utc": "1866-12-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.002093191959037,
+      "kind": "grid-97d",
+      "utc": "1867-03-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.00521687436326,
+      "kind": "grid-97d",
+      "utc": "1867-06-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.00853439004541,
+      "kind": "grid-97d",
+      "utc": "1867-09-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.011959300620166,
+      "kind": "grid-97d",
+      "utc": "1867-12-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.01505995449134,
+      "kind": "grid-97d",
+      "utc": "1868-04-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.018699404678436,
+      "kind": "grid-97d",
+      "utc": "1868-07-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.021517591981407,
+      "kind": "grid-97d",
+      "utc": "1868-10-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.025495565516767,
+      "kind": "grid-97d",
+      "utc": "1869-01-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.028242346956187,
+      "kind": "grid-97d",
+      "utc": "1869-04-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.032298207177355,
+      "kind": "grid-97d",
+      "utc": "1869-08-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.035093384190464,
+      "kind": "grid-97d",
+      "utc": "1869-11-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.039361182717457,
+      "kind": "grid-97d",
+      "utc": "1870-02-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.04232031898495,
+      "kind": "grid-97d",
+      "utc": "1870-05-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.046420923391608,
+      "kind": "grid-97d",
+      "utc": "1870-08-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.049519245504115,
+      "kind": "grid-97d",
+      "utc": "1870-11-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.053613065229975,
+      "kind": "grid-97d",
+      "utc": "1871-03-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.05696951119609,
+      "kind": "grid-97d",
+      "utc": "1871-06-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.06077165077751,
+      "kind": "grid-97d",
+      "utc": "1871-09-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.064514831839,
+      "kind": "grid-97d",
+      "utc": "1871-12-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.06821138806645,
+      "kind": "grid-97d",
+      "utc": "1872-03-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.07232888507405,
+      "kind": "grid-97d",
+      "utc": "1872-07-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.075818335728002,
+      "kind": "grid-97d",
+      "utc": "1872-10-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.080310475085426,
+      "kind": "grid-97d",
+      "utc": "1873-01-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.083695365896446,
+      "kind": "grid-97d",
+      "utc": "1873-04-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.08825001406307,
+      "kind": "grid-97d",
+      "utc": "1873-07-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.091510291640336,
+      "kind": "grid-97d",
+      "utc": "1873-11-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.096272489264507,
+      "kind": "grid-97d",
+      "utc": "1874-02-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.09957026471523,
+      "kind": "grid-97d",
+      "utc": "1874-05-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.104228372015527,
+      "kind": "grid-97d",
+      "utc": "1874-08-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.107702157278286,
+      "kind": "grid-97d",
+      "utc": "1874-11-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.112410920076634,
+      "kind": "grid-97d",
+      "utc": "1875-03-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.11618383355102,
+      "kind": "grid-97d",
+      "utc": "1875-06-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.120549652831947,
+      "kind": "grid-97d",
+      "utc": "1875-09-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.124557768160095,
+      "kind": "grid-97d",
+      "utc": "1875-12-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.12871367062386,
+      "kind": "grid-97d",
+      "utc": "1876-03-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.13289780220958,
+      "kind": "grid-97d",
+      "utc": "1876-06-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.136698703227683,
+      "kind": "grid-97d",
+      "utc": "1876-10-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.141196925400227,
+      "kind": "grid-97d",
+      "utc": "1877-01-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.144794751044138,
+      "kind": "grid-97d",
+      "utc": "1877-04-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.14947281652675,
+      "kind": "grid-97d",
+      "utc": "1877-07-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.152871406711636,
+      "kind": "grid-97d",
+      "utc": "1877-10-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.157786736877608,
+      "kind": "grid-97d",
+      "utc": "1878-01-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.161095074195426,
+      "kind": "grid-97d",
+      "utc": "1878-05-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.165794860353095,
+      "kind": "grid-97d",
+      "utc": "1878-08-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.169047701592632,
+      "kind": "grid-97d",
+      "utc": "1878-11-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.17367520553829,
+      "kind": "grid-97d",
+      "utc": "1879-02-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.177001414671,
+      "kind": "grid-97d",
+      "utc": "1879-05-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.1812726900861,
+      "kind": "grid-97d",
+      "utc": "1879-09-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.184771960079487,
+      "kind": "grid-97d",
+      "utc": "1879-12-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.1888830918477,
+      "kind": "grid-97d",
+      "utc": "1880-03-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.192631892758452,
+      "kind": "grid-97d",
+      "utc": "1880-06-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.196305543166,
+      "kind": "grid-97d",
+      "utc": "1880-09-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.20031219582525,
+      "kind": "grid-97d",
+      "utc": "1881-01-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.203630694211597,
+      "kind": "grid-97d",
+      "utc": "1881-04-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.207687293390258,
+      "kind": "grid-97d",
+      "utc": "1881-07-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.210655452015132,
+      "kind": "grid-97d",
+      "utc": "1881-10-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.214893731166114,
+      "kind": "grid-97d",
+      "utc": "1882-01-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.21768921168733,
+      "kind": "grid-97d",
+      "utc": "1882-05-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.221864030913622,
+      "kind": "grid-97d",
+      "utc": "1882-08-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.224563499693808,
+      "kind": "grid-97d",
+      "utc": "1882-11-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.22883061629612,
+      "kind": "grid-97d",
+      "utc": "1883-02-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.231569821770545,
+      "kind": "grid-97d",
+      "utc": "1883-05-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.235497103515808,
+      "kind": "grid-97d",
+      "utc": "1883-08-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.23834245464174,
+      "kind": "grid-97d",
+      "utc": "1883-12-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.24206347345319,
+      "kind": "grid-97d",
+      "utc": "1884-03-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.24511339177215,
+      "kind": "grid-97d",
+      "utc": "1884-06-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.24841435603143,
+      "kind": "grid-97d",
+      "utc": "1884-09-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.2517481731294,
+      "kind": "grid-97d",
+      "utc": "1884-12-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.254850630687752,
+      "kind": "grid-97d",
+      "utc": "1885-04-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.258419286248362,
+      "kind": "grid-97d",
+      "utc": "1885-07-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.26126473069443,
+      "kind": "grid-97d",
+      "utc": "1885-10-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.26517069124035,
+      "kind": "grid-97d",
+      "utc": "1886-01-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.267851524048748,
+      "kind": "grid-97d",
+      "utc": "1886-04-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.27179863495509,
+      "kind": "grid-97d",
+      "utc": "1886-08-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.27434635895558,
+      "kind": "grid-97d",
+      "utc": "1886-11-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.278451505589064,
+      "kind": "grid-97d",
+      "utc": "1887-02-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.281075063329915,
+      "kind": "grid-97d",
+      "utc": "1887-05-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.285000282863574,
+      "kind": "grid-97d",
+      "utc": "1887-08-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.28781640685646,
+      "kind": "grid-97d",
+      "utc": "1887-11-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.291794891192065,
+      "kind": "grid-97d",
+      "utc": "1888-03-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.29492383172938,
+      "kind": "grid-97d",
+      "utc": "1888-06-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.298652710394236,
+      "kind": "grid-97d",
+      "utc": "1888-09-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.302119045599287,
+      "kind": "grid-97d",
+      "utc": "1888-12-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.305690797388472,
+      "kind": "grid-97d",
+      "utc": "1889-03-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.309454320039183,
+      "kind": "grid-97d",
+      "utc": "1889-07-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.31271644436586,
+      "kind": "grid-97d",
+      "utc": "1889-10-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.316854929609246,
+      "kind": "grid-97d",
+      "utc": "1890-01-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.32001273201813,
+      "kind": "grid-97d",
+      "utc": "1890-04-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.324313904747402,
+      "kind": "grid-97d",
+      "utc": "1890-07-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.327470022439954,
+      "kind": "grid-97d",
+      "utc": "1890-10-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.332063815567423,
+      "kind": "grid-97d",
+      "utc": "1891-02-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.33533237071685,
+      "kind": "grid-97d",
+      "utc": "1891-05-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.339846527998876,
+      "kind": "grid-97d",
+      "utc": "1891-08-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.343176986512443,
+      "kind": "grid-97d",
+      "utc": "1891-11-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.34773477936546,
+      "kind": "grid-97d",
+      "utc": "1892-02-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.351245251410887,
+      "kind": "grid-97d",
+      "utc": "1892-06-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.355497285279228,
+      "kind": "grid-97d",
+      "utc": "1892-09-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.359316311573995,
+      "kind": "grid-97d",
+      "utc": "1892-12-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.363472109554618,
+      "kind": "grid-97d",
+      "utc": "1893-03-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.367636515828373,
+      "kind": "grid-97d",
+      "utc": "1893-06-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.37154540454541,
+      "kind": "grid-97d",
+      "utc": "1893-10-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.37604720889207,
+      "kind": "grid-97d",
+      "utc": "1894-01-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.37977937002699,
+      "kind": "grid-97d",
+      "utc": "1894-04-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.384381241427757,
+      "kind": "grid-97d",
+      "utc": "1894-07-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.387857111220807,
+      "kind": "grid-97d",
+      "utc": "1894-10-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.392674299043144,
+      "kind": "grid-97d",
+      "utc": "1895-01-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.396055697407323,
+      "kind": "grid-97d",
+      "utc": "1895-05-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.40077488952851,
+      "kind": "grid-97d",
+      "utc": "1895-08-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.404211108108704,
+      "kind": "grid-97d",
+      "utc": "1895-11-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.408987797573406,
+      "kind": "grid-97d",
+      "utc": "1896-02-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.412622054781878,
+      "kind": "grid-97d",
+      "utc": "1896-05-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.417061175126058,
+      "kind": "grid-97d",
+      "utc": "1896-09-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.420832477921273,
+      "kind": "grid-97d",
+      "utc": "1896-12-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.4250705822656,
+      "kind": "grid-97d",
+      "utc": "1897-03-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.428959502353187,
+      "kind": "grid-97d",
+      "utc": "1897-06-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.43277055766621,
+      "kind": "grid-97d",
+      "utc": "1897-09-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.43690088122089,
+      "kind": "grid-97d",
+      "utc": "1898-01-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.44044321304747,
+      "kind": "grid-97d",
+      "utc": "1898-04-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.44475577393334,
+      "kind": "grid-97d",
+      "utc": "1898-07-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.448017675558745,
+      "kind": "grid-97d",
+      "utc": "1898-10-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.452563378470657,
+      "kind": "grid-97d",
+      "utc": "1899-01-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.455654473511494,
+      "kind": "grid-97d",
+      "utc": "1899-05-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.460044457508822,
+      "kind": "grid-97d",
+      "utc": "1899-08-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.462978929896778,
+      "kind": "grid-97d",
+      "utc": "1899-11-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.467357632520436,
+      "kind": "grid-97d",
+      "utc": "1900-02-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.470273752913133,
+      "kind": "grid-97d",
+      "utc": "1900-05-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.47431869859275,
+      "kind": "grid-97d",
+      "utc": "1900-08-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.47734236539435,
+      "kind": "grid-97d",
+      "utc": "1900-12-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.481252624766697,
+      "kind": "grid-97d",
+      "utc": "1901-03-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.484520252735557,
+      "kind": "grid-97d",
+      "utc": "1901-06-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.488001945891092,
+      "kind": "grid-97d",
+      "utc": "1901-09-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.491536838091562,
+      "kind": "grid-97d",
+      "utc": "1901-12-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.494713588900034,
+      "kind": "grid-97d",
+      "utc": "1902-04-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.498379047426013,
+      "kind": "grid-97d",
+      "utc": "1902-07-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.501193089242317,
+      "kind": "grid-97d",
+      "utc": "1902-10-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.5050876515914,
+      "kind": "grid-97d",
+      "utc": "1903-01-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.50770785448457,
+      "kind": "grid-97d",
+      "utc": "1903-04-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.511638801417245,
+      "kind": "grid-97d",
+      "utc": "1903-08-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.51414082397323,
+      "kind": "grid-97d",
+      "utc": "1903-11-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.518278075188228,
+      "kind": "grid-97d",
+      "utc": "1904-02-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.520833010419913,
+      "kind": "grid-97d",
+      "utc": "1904-05-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.52476140664832,
+      "kind": "grid-97d",
+      "utc": "1904-08-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.52744256977854,
+      "kind": "grid-97d",
+      "utc": "1904-11-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.531292086071165,
+      "kind": "grid-97d",
+      "utc": "1905-03-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.534212234448077,
+      "kind": "grid-97d",
+      "utc": "1905-06-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.537697978322704,
+      "kind": "grid-97d",
+      "utc": "1905-09-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.54092127644382,
+      "kind": "grid-97d",
+      "utc": "1905-12-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.54426677148117,
+      "kind": "grid-97d",
+      "utc": "1906-03-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.54782288932277,
+      "kind": "grid-97d",
+      "utc": "1906-07-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.550930752622342,
+      "kind": "grid-97d",
+      "utc": "1906-10-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.55491820962771,
+      "kind": "grid-97d",
+      "utc": "1907-01-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.55789729603036,
+      "kind": "grid-97d",
+      "utc": "1907-04-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.562062984829055,
+      "kind": "grid-97d",
+      "utc": "1907-07-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.564897710877666,
+      "kind": "grid-97d",
+      "utc": "1907-10-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.569294420250866,
+      "kind": "grid-97d",
+      "utc": "1908-02-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.57216658453555,
+      "kind": "grid-97d",
+      "utc": "1908-05-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.5764595763402,
+      "kind": "grid-97d",
+      "utc": "1908-08-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.579470086597773,
+      "kind": "grid-97d",
+      "utc": "1908-11-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.583910629485647,
+      "kind": "grid-97d",
+      "utc": "1909-02-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.587204917942685,
+      "kind": "grid-97d",
+      "utc": "1909-06-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.591448770394493,
+      "kind": "grid-97d",
+      "utc": "1909-09-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.595059873466035,
+      "kind": "grid-97d",
+      "utc": "1909-12-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.5991717994974,
+      "kind": "grid-97d",
+      "utc": "1910-03-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.60309892054492,
+      "kind": "grid-97d",
+      "utc": "1910-06-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.606843132107684,
+      "kind": "grid-97d",
+      "utc": "1910-10-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.611124867222152,
+      "kind": "grid-97d",
+      "utc": "1911-01-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.614700572690154,
+      "kind": "grid-97d",
+      "utc": "1911-04-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.619182391808362,
+      "kind": "grid-97d",
+      "utc": "1911-07-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.622648028963006,
+      "kind": "grid-97d",
+      "utc": "1911-10-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.62745858157882,
+      "kind": "grid-97d",
+      "utc": "1912-01-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.630930261430702,
+      "kind": "grid-97d",
+      "utc": "1912-05-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.635718361558165,
+      "kind": "grid-97d",
+      "utc": "1912-08-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.639145232193123,
+      "kind": "grid-97d",
+      "utc": "1912-11-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.6439938321617,
+      "kind": "grid-97d",
+      "utc": "1913-02-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.647499503776263,
+      "kind": "grid-97d",
+      "utc": "1913-05-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.652010996599902,
+      "kind": "grid-97d",
+      "utc": "1913-09-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.65571407225718,
+      "kind": "grid-97d",
+      "utc": "1913-12-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.66012462411159,
+      "kind": "grid-97d",
+      "utc": "1914-03-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.66410397323047,
+      "kind": "grid-97d",
+      "utc": "1914-06-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.668215970945585,
+      "kind": "grid-97d",
+      "utc": "1914-09-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.67247680685432,
+      "kind": "grid-97d",
+      "utc": "1915-01-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.676344607576393,
+      "kind": "grid-97d",
+      "utc": "1915-04-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.680733475298315,
+      "kind": "grid-97d",
+      "utc": "1915-07-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.684219529982915,
+      "kind": "grid-97d",
+      "utc": "1915-10-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.68882346997555,
+      "kind": "grid-97d",
+      "utc": "1916-01-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.692089136526445,
+      "kind": "grid-97d",
+      "utc": "1916-04-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.696616286862795,
+      "kind": "grid-97d",
+      "utc": "1916-08-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.699805602867677,
+      "kind": "grid-97d",
+      "utc": "1916-11-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.70441540266382,
+      "kind": "grid-97d",
+      "utc": "1917-02-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.707686145505683,
+      "kind": "grid-97d",
+      "utc": "1917-05-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.7119945401618,
+      "kind": "grid-97d",
+      "utc": "1917-08-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.7153216365678,
+      "kind": "grid-97d",
+      "utc": "1917-12-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.7194662547541,
+      "kind": "grid-97d",
+      "utc": "1918-03-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.722877285816736,
+      "kind": "grid-97d",
+      "utc": "1918-06-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.726562149509814,
+      "kind": "grid-97d",
+      "utc": "1918-09-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.730166071139628,
+      "kind": "grid-97d",
+      "utc": "1918-12-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.73356356860358,
+      "kind": "grid-97d",
+      "utc": "1919-04-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.737366190738975,
+      "kind": "grid-97d",
+      "utc": "1919-07-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.740439957245673,
+      "kind": "grid-97d",
+      "utc": "1919-10-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.74450205448675,
+      "kind": "grid-97d",
+      "utc": "1920-01-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.74737410785381,
+      "kind": "grid-97d",
+      "utc": "1920-04-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.751395597571506,
+      "kind": "grid-97d",
+      "utc": "1920-07-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.754058848937646,
+      "kind": "grid-97d",
+      "utc": "1920-11-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.75817751200311,
+      "kind": "grid-97d",
+      "utc": "1921-02-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.76077595463575,
+      "kind": "grid-97d",
+      "utc": "1921-05-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.764650283068477,
+      "kind": "grid-97d",
+      "utc": "1921-08-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.767317957997232,
+      "kind": "grid-97d",
+      "utc": "1921-11-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.77114444577371,
+      "kind": "grid-97d",
+      "utc": "1922-03-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.774068721234098,
+      "kind": "grid-97d",
+      "utc": "1922-06-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.777537245780877,
+      "kind": "grid-97d",
+      "utc": "1922-09-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.780768173264647,
+      "kind": "grid-97d",
+      "utc": "1922-12-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.78403441374841,
+      "kind": "grid-97d",
+      "utc": "1923-03-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.787510394546892,
+      "kind": "grid-97d",
+      "utc": "1923-07-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.790445637488258,
+      "kind": "grid-97d",
+      "utc": "1923-10-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.794208416639982,
+      "kind": "grid-97d",
+      "utc": "1924-01-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.79696905165705,
+      "kind": "grid-97d",
+      "utc": "1924-04-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.80087697365618,
+      "kind": "grid-97d",
+      "utc": "1924-07-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.80351275356127,
+      "kind": "grid-97d",
+      "utc": "1924-10-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.807737481888946,
+      "kind": "grid-97d",
+      "utc": "1925-02-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.810444453194897,
+      "kind": "grid-97d",
+      "utc": "1925-05-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.814600813529967,
+      "kind": "grid-97d",
+      "utc": "1925-08-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.817440186735542,
+      "kind": "grid-97d",
+      "utc": "1925-11-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.821637861785902,
+      "kind": "grid-97d",
+      "utc": "1926-02-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.82470593736876,
+      "kind": "grid-97d",
+      "utc": "1926-06-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.828603205197833,
+      "kind": "grid-97d",
+      "utc": "1926-09-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.831944667009253,
+      "kind": "grid-97d",
+      "utc": "1926-12-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.835755017768513,
+      "kind": "grid-97d",
+      "utc": "1927-03-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.839468273018884,
+      "kind": "grid-97d",
+      "utc": "1927-06-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.843026096297024,
+      "kind": "grid-97d",
+      "utc": "1927-10-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.84720674675178,
+      "kind": "grid-97d",
+      "utc": "1928-01-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.85063381909583,
+      "kind": "grid-97d",
+      "utc": "1928-04-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.8550721024676,
+      "kind": "grid-97d",
+      "utc": "1928-07-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.858308003618635,
+      "kind": "grid-97d",
+      "utc": "1928-10-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.863002490101092,
+      "kind": "grid-97d",
+      "utc": "1929-01-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.866199036125355,
+      "kind": "grid-97d",
+      "utc": "1929-05-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.870824345992943,
+      "kind": "grid-97d",
+      "utc": "1929-08-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.874055252834562,
+      "kind": "grid-97d",
+      "utc": "1929-11-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.878866059464677,
+      "kind": "grid-97d",
+      "utc": "1930-02-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.88229708694339,
+      "kind": "grid-97d",
+      "utc": "1930-05-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.88692401879366,
+      "kind": "grid-97d",
+      "utc": "1930-09-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.89060901952457,
+      "kind": "grid-97d",
+      "utc": "1930-12-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.895107442307268,
+      "kind": "grid-97d",
+      "utc": "1931-03-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.899066719312774,
+      "kind": "grid-97d",
+      "utc": "1931-06-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.903135748302386,
+      "kind": "grid-97d",
+      "utc": "1931-09-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.90737893961465,
+      "kind": "grid-97d",
+      "utc": "1931-12-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.91121259950788,
+      "kind": "grid-97d",
+      "utc": "1932-04-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.915657867986095,
+      "kind": "grid-97d",
+      "utc": "1932-07-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.919252898743764,
+      "kind": "grid-97d",
+      "utc": "1932-10-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.92403175010482,
+      "kind": "grid-97d",
+      "utc": "1933-01-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.927504940244788,
+      "kind": "grid-97d",
+      "utc": "1933-04-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.932301382761924,
+      "kind": "grid-97d",
+      "utc": "1933-08-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.93562391713872,
+      "kind": "grid-97d",
+      "utc": "1933-11-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.940486418078233,
+      "kind": "grid-97d",
+      "utc": "1934-02-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.943786241773942,
+      "kind": "grid-97d",
+      "utc": "1934-05-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.94829841573526,
+      "kind": "grid-97d",
+      "utc": "1934-08-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.951680608246757,
+      "kind": "grid-97d",
+      "utc": "1934-12-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.956088539239637,
+      "kind": "grid-97d",
+      "utc": "1935-03-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.959666695812988,
+      "kind": "grid-97d",
+      "utc": "1935-06-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.963736428299075,
+      "kind": "grid-97d",
+      "utc": "1935-09-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.96754719991463,
+      "kind": "grid-97d",
+      "utc": "1935-12-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.97134157182083,
+      "kind": "grid-97d",
+      "utc": "1936-03-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.97531257921887,
+      "kind": "grid-97d",
+      "utc": "1936-07-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.97864421253929,
+      "kind": "grid-97d",
+      "utc": "1936-10-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.98283468540796,
+      "kind": "grid-97d",
+      "utc": "1937-01-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.985864893209484,
+      "kind": "grid-97d",
+      "utc": "1937-04-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.990032022121916,
+      "kind": "grid-97d",
+      "utc": "1937-07-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.992879420265314,
+      "kind": "grid-97d",
+      "utc": "1937-11-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 22.997187575487867,
+      "kind": "grid-97d",
+      "utc": "1938-02-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.00002535335542,
+      "kind": "grid-97d",
+      "utc": "1938-05-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.004115183395005,
+      "kind": "grid-97d",
+      "utc": "1938-08-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.00696414602665,
+      "kind": "grid-97d",
+      "utc": "1938-11-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.01097693068824,
+      "kind": "grid-97d",
+      "utc": "1939-03-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.0139245676201,
+      "kind": "grid-97d",
+      "utc": "1939-06-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.017508466138224,
+      "kind": "grid-97d",
+      "utc": "1939-09-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.02064199703521,
+      "kind": "grid-97d",
+      "utc": "1939-12-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.023979938960085,
+      "kind": "grid-97d",
+      "utc": "1940-03-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.02736047908322,
+      "kind": "grid-97d",
+      "utc": "1940-06-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.03037402723172,
+      "kind": "grid-97d",
+      "utc": "1940-10-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.03407045695271,
+      "kind": "grid-97d",
+      "utc": "1941-01-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.036918821536425,
+      "kind": "grid-97d",
+      "utc": "1941-04-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.040726265716305,
+      "kind": "grid-97d",
+      "utc": "1941-07-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.043370354977004,
+      "kind": "grid-97d",
+      "utc": "1941-10-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.047405263115945,
+      "kind": "grid-97d",
+      "utc": "1942-02-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.049973210903186,
+      "kind": "grid-97d",
+      "utc": "1942-05-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.05389353788717,
+      "kind": "grid-97d",
+      "utc": "1942-08-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.05650177672498,
+      "kind": "grid-97d",
+      "utc": "1942-11-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.06049281028784,
+      "kind": "grid-97d",
+      "utc": "1943-02-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.063362788838166,
+      "kind": "grid-97d",
+      "utc": "1943-06-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.067094832117824,
+      "kind": "grid-97d",
+      "utc": "1943-09-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.07029722972762,
+      "kind": "grid-97d",
+      "utc": "1943-12-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.073945797769568,
+      "kind": "grid-97d",
+      "utc": "1944-03-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.077471598850437,
+      "kind": "grid-97d",
+      "utc": "1944-06-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.08082597230355,
+      "kind": "grid-97d",
+      "utc": "1944-09-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.084671498627262,
+      "kind": "grid-97d",
+      "utc": "1945-01-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.087860271473982,
+      "kind": "grid-97d",
+      "utc": "1945-04-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.091927415021033,
+      "kind": "grid-97d",
+      "utc": "1945-07-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.094955011712038,
+      "kind": "grid-97d",
+      "utc": "1945-10-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.09939978057663,
+      "kind": "grid-97d",
+      "utc": "1946-01-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.10248088625812,
+      "kind": "grid-97d",
+      "utc": "1946-05-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.10695312912736,
+      "kind": "grid-97d",
+      "utc": "1946-08-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.110128117634506,
+      "kind": "grid-97d",
+      "utc": "1946-11-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.11472321006279,
+      "kind": "grid-97d",
+      "utc": "1947-02-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.118048611096455,
+      "kind": "grid-97d",
+      "utc": "1947-05-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.122390394505796,
+      "kind": "grid-97d",
+      "utc": "1947-09-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.125896593779455,
+      "kind": "grid-97d",
+      "utc": "1947-12-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.130178279545273,
+      "kind": "grid-97d",
+      "utc": "1948-03-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.134020458995884,
+      "kind": "grid-97d",
+      "utc": "1948-06-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.138006278311547,
+      "kind": "grid-97d",
+      "utc": "1948-09-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.142278509550966,
+      "kind": "grid-97d",
+      "utc": "1948-12-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.146105630375764,
+      "kind": "grid-97d",
+      "utc": "1949-04-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.15065412553567,
+      "kind": "grid-97d",
+      "utc": "1949-07-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.15421988767381,
+      "kind": "grid-97d",
+      "utc": "1949-10-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.159010268857518,
+      "kind": "grid-97d",
+      "utc": "1950-01-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.162435368776578,
+      "kind": "grid-97d",
+      "utc": "1950-04-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.167173681408123,
+      "kind": "grid-97d",
+      "utc": "1950-08-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.170502200184576,
+      "kind": "grid-97d",
+      "utc": "1950-11-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.175421696869428,
+      "kind": "grid-97d",
+      "utc": "1951-02-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.178840173301424,
+      "kind": "grid-97d",
+      "utc": "1951-05-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.183573384728646,
+      "kind": "grid-97d",
+      "utc": "1951-08-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.18715879770585,
+      "kind": "grid-97d",
+      "utc": "1951-12-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.191770568740044,
+      "kind": "grid-97d",
+      "utc": "1952-03-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.195552751579303,
+      "kind": "grid-97d",
+      "utc": "1952-06-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.199702263839647,
+      "kind": "grid-97d",
+      "utc": "1952-09-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.20367030061285,
+      "kind": "grid-97d",
+      "utc": "1952-12-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.20754577723737,
+      "kind": "grid-97d",
+      "utc": "1953-03-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.211696937253286,
+      "kind": "grid-97d",
+      "utc": "1953-07-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.215223022056254,
+      "kind": "grid-97d",
+      "utc": "1953-10-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.21969220770452,
+      "kind": "grid-97d",
+      "utc": "1954-01-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.22299435574547,
+      "kind": "grid-97d",
+      "utc": "1954-04-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.227518448935,
+      "kind": "grid-97d",
+      "utc": "1954-07-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.230583832014595,
+      "kind": "grid-97d",
+      "utc": "1954-11-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.235199378416517,
+      "kind": "grid-97d",
+      "utc": "1955-02-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.23816243112755,
+      "kind": "grid-97d",
+      "utc": "1955-05-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.24245977930185,
+      "kind": "grid-97d",
+      "utc": "1955-08-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.245410941691862,
+      "kind": "grid-97d",
+      "utc": "1955-11-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.24963044745902,
+      "kind": "grid-97d",
+      "utc": "1956-03-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.25022054774494,
+      "kind": "edge",
+      "utc": "1956-03-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.25271873517607,
+      "kind": "grid-97d",
+      "utc": "1956-06-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.25659229721034,
+      "kind": "grid-97d",
+      "utc": "1956-09-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.259889925476585,
+      "kind": "grid-97d",
+      "utc": "1956-12-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.263523748252638,
+      "kind": "grid-97d",
+      "utc": "1957-03-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.26703436941255,
+      "kind": "grid-97d",
+      "utc": "1957-06-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.27019798176148,
+      "kind": "grid-97d",
+      "utc": "1957-10-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.273957771533173,
+      "kind": "grid-97d",
+      "utc": "1958-01-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.27681262006927,
+      "kind": "grid-97d",
+      "utc": "1958-04-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.280638933197046,
+      "kind": "grid-97d",
+      "utc": "1958-07-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.2832577975766,
+      "kind": "grid-97d",
+      "utc": "1958-10-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.287313229441477,
+      "kind": "grid-97d",
+      "utc": "1959-02-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.28988277368971,
+      "kind": "grid-97d",
+      "utc": "1959-05-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.293850711320438,
+      "kind": "grid-97d",
+      "utc": "1959-08-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.29642838392127,
+      "kind": "grid-97d",
+      "utc": "1959-11-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.30045363817625,
+      "kind": "grid-97d",
+      "utc": "1960-02-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.303169798175936,
+      "kind": "grid-97d",
+      "utc": "1960-05-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.30685836679534,
+      "kind": "grid-97d",
+      "utc": "1960-09-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.309780778402835,
+      "kind": "grid-97d",
+      "utc": "1960-12-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.313302946758338,
+      "kind": "grid-97d",
+      "utc": "1961-03-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.316528056697475,
+      "kind": "grid-97d",
+      "utc": "1961-06-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.319750905690576,
+      "kind": "grid-97d",
+      "utc": "1961-09-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.323346087452077,
+      "kind": "grid-97d",
+      "utc": "1962-01-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.32646852479324,
+      "kind": "grid-97d",
+      "utc": "1962-04-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.33031315613777,
+      "kind": "grid-97d",
+      "utc": "1962-07-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.33325309882194,
+      "kind": "grid-97d",
+      "utc": "1962-10-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.33743336254087,
+      "kind": "grid-97d",
+      "utc": "1963-01-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.340278119801212,
+      "kind": "grid-97d",
+      "utc": "1963-05-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.34446077930336,
+      "kind": "grid-97d",
+      "utc": "1963-08-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.34729299040957,
+      "kind": "grid-97d",
+      "utc": "1963-11-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.351639406584933,
+      "kind": "grid-97d",
+      "utc": "1964-02-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.354692550835875,
+      "kind": "grid-97d",
+      "utc": "1964-05-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.358868018547117,
+      "kind": "grid-97d",
+      "utc": "1964-08-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.36221501956259,
+      "kind": "grid-97d",
+      "utc": "1964-12-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.366402585182396,
+      "kind": "grid-97d",
+      "utc": "1965-03-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.370075538463027,
+      "kind": "grid-97d",
+      "utc": "1965-06-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.373973381589447,
+      "kind": "grid-97d",
+      "utc": "1965-09-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.377950453589342,
+      "kind": "grid-97d",
+      "utc": "1965-12-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.381658104192546,
+      "kind": "grid-97d",
+      "utc": "1966-04-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.385887152733712,
+      "kind": "grid-97d",
+      "utc": "1966-07-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.389352965067346,
+      "kind": "grid-97d",
+      "utc": "1966-10-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.39395372964115,
+      "kind": "grid-97d",
+      "utc": "1967-01-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.397408643672012,
+      "kind": "grid-97d",
+      "utc": "1967-04-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.402086474059086,
+      "kind": "grid-97d",
+      "utc": "1967-08-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.405546816262117,
+      "kind": "grid-97d",
+      "utc": "1967-11-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.410393759008418,
+      "kind": "grid-97d",
+      "utc": "1968-02-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.413886778638048,
+      "kind": "grid-97d",
+      "utc": "1968-05-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.41851206259021,
+      "kind": "grid-97d",
+      "utc": "1968-08-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.422055882796755,
+      "kind": "grid-97d",
+      "utc": "1968-11-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.42662740521473,
+      "kind": "grid-97d",
+      "utc": "1969-03-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.430416063566245,
+      "kind": "grid-97d",
+      "utc": "1969-06-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.434647369637794,
+      "kind": "grid-97d",
+      "utc": "1969-09-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.438777347466402,
+      "kind": "grid-97d",
+      "utc": "1969-12-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.44282942012796,
+      "kind": "grid-97d",
+      "utc": "1970-03-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.447210091510332,
+      "kind": "grid-97d",
+      "utc": "1970-07-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.450926479093283,
+      "kind": "grid-97d",
+      "utc": "1970-10-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.455522555551404,
+      "kind": "grid-97d",
+      "utc": "1971-01-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.45899613177013,
+      "kind": "grid-97d",
+      "utc": "1971-04-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.463564131447214,
+      "kind": "grid-97d",
+      "utc": "1971-07-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.466810636730738,
+      "kind": "grid-97d",
+      "utc": "1971-11-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.47154943169248,
+      "kind": "grid-97d",
+      "utc": "1972-02-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.474772099700967,
+      "kind": "grid-97d",
+      "utc": "1972-05-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.47932796380273,
+      "kind": "grid-97d",
+      "utc": "1972-08-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.482624648052358,
+      "kind": "grid-97d",
+      "utc": "1972-11-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.48709455686387,
+      "kind": "grid-97d",
+      "utc": "1973-02-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.490507184371427,
+      "kind": "grid-97d",
+      "utc": "1973-06-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.49452842068753,
+      "kind": "grid-97d",
+      "utc": "1973-09-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.498042280063533,
+      "kind": "grid-97d",
+      "utc": "1973-12-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.50179672840286,
+      "kind": "grid-97d",
+      "utc": "1974-03-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.505476891551393,
+      "kind": "grid-97d",
+      "utc": "1974-06-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.50881839408408,
+      "kind": "grid-97d",
+      "utc": "1974-10-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.512801555412807,
+      "kind": "grid-97d",
+      "utc": "1975-01-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.51587767752516,
+      "kind": "grid-97d",
+      "utc": "1975-04-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.51997693311662,
+      "kind": "grid-97d",
+      "utc": "1975-07-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.522774674870288,
+      "kind": "grid-97d",
+      "utc": "1975-10-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.527030489421865,
+      "kind": "grid-97d",
+      "utc": "1976-01-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.529688699952455,
+      "kind": "grid-97d",
+      "utc": "1976-05-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.533727079380167,
+      "kind": "grid-97d",
+      "utc": "1976-08-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.536322360798398,
+      "kind": "grid-97d",
+      "utc": "1976-11-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.540355252361742,
+      "kind": "grid-97d",
+      "utc": "1977-02-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.543065123139048,
+      "kind": "grid-97d",
+      "utc": "1977-05-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.546799302558735,
+      "kind": "grid-97d",
+      "utc": "1977-09-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.549725495459185,
+      "kind": "grid-97d",
+      "utc": "1977-12-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.553315735552236,
+      "kind": "grid-97d",
+      "utc": "1978-03-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.55653583425593,
+      "kind": "grid-97d",
+      "utc": "1978-06-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.559717839748632,
+      "kind": "grid-97d",
+      "utc": "1978-09-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.563242251143627,
+      "kind": "grid-97d",
+      "utc": "1979-01-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.566169876575888,
+      "kind": "grid-97d",
+      "utc": "1979-04-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.569864483752927,
+      "kind": "grid-97d",
+      "utc": "1979-07-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.572547685036568,
+      "kind": "grid-97d",
+      "utc": "1979-10-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.576556671455783,
+      "kind": "grid-97d",
+      "utc": "1980-01-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.5791847861635,
+      "kind": "grid-97d",
+      "utc": "1980-05-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.583254419429423,
+      "kind": "grid-97d",
+      "utc": "1980-08-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.585891945261583,
+      "kind": "grid-97d",
+      "utc": "1980-11-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.590160449828435,
+      "kind": "grid-97d",
+      "utc": "1981-02-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.59295730447327,
+      "kind": "grid-97d",
+      "utc": "1981-05-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.59699127252425,
+      "kind": "grid-97d",
+      "utc": "1981-08-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.599995731755275,
+      "kind": "grid-97d",
+      "utc": "1981-12-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.60394187299548,
+      "kind": "grid-97d",
+      "utc": "1982-03-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.607266455570983,
+      "kind": "grid-97d",
+      "utc": "1982-06-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.61092443382436,
+      "kind": "grid-97d",
+      "utc": "1982-09-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.614626947213306,
+      "kind": "grid-97d",
+      "utc": "1982-12-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.618224235173862,
+      "kind": "grid-97d",
+      "utc": "1983-04-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.62226375987042,
+      "kind": "grid-97d",
+      "utc": "1983-07-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.625659123489452,
+      "kind": "grid-97d",
+      "utc": "1983-10-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.630090899309636,
+      "kind": "grid-97d",
+      "utc": "1984-01-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.63334258264137,
+      "kind": "grid-97d",
+      "utc": "1984-04-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.637842055163542,
+      "kind": "grid-97d",
+      "utc": "1984-07-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.640993201356945,
+      "kind": "grid-97d",
+      "utc": "1984-11-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.645692260561535,
+      "kind": "grid-97d",
+      "utc": "1985-02-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.648968856475722,
+      "kind": "grid-97d",
+      "utc": "1985-05-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.653552204544724,
+      "kind": "grid-97d",
+      "utc": "1985-08-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.657021595692402,
+      "kind": "grid-97d",
+      "utc": "1985-11-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.661673184147684,
+      "kind": "grid-97d",
+      "utc": "1986-03-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.66540504031708,
+      "kind": "grid-97d",
+      "utc": "1986-06-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.669740260638196,
+      "kind": "grid-97d",
+      "utc": "1986-09-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.673726044488127,
+      "kind": "grid-97d",
+      "utc": "1986-12-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.677825454523223,
+      "kind": "grid-97d",
+      "utc": "1987-03-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.682053124631405,
+      "kind": "grid-97d",
+      "utc": "1987-07-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.685809021941992,
+      "kind": "grid-97d",
+      "utc": "1987-10-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.690363042830022,
+      "kind": "grid-97d",
+      "utc": "1988-01-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.694010422533907,
+      "kind": "grid-97d",
+      "utc": "1988-04-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.698666724274702,
+      "kind": "grid-97d",
+      "utc": "1988-07-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.70220739418308,
+      "kind": "grid-97d",
+      "utc": "1988-10-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.707061934843896,
+      "kind": "grid-97d",
+      "utc": "1989-02-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.710512574087705,
+      "kind": "grid-97d",
+      "utc": "1989-05-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.715173985154557,
+      "kind": "grid-97d",
+      "utc": "1989-08-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.718547851477354,
+      "kind": "grid-97d",
+      "utc": "1989-11-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.723156867948724,
+      "kind": "grid-97d",
+      "utc": "1990-02-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.726663885211433,
+      "kind": "grid-97d",
+      "utc": "1990-06-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.730907818891403,
+      "kind": "grid-97d",
+      "utc": "1990-09-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.734650405493976,
+      "kind": "grid-97d",
+      "utc": "1990-12-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.738718104253834,
+      "kind": "grid-97d",
+      "utc": "1991-03-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.74267363020678,
+      "kind": "grid-97d",
+      "utc": "1991-06-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.746346877520317,
+      "kind": "grid-97d",
+      "utc": "1991-10-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.750501043339735,
+      "kind": "grid-97d",
+      "utc": "1992-01-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.75385870832555,
+      "kind": "grid-97d",
+      "utc": "1992-04-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.75804048814154,
+      "kind": "grid-97d",
+      "utc": "1992-07-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.76106629508838,
+      "kind": "grid-97d",
+      "utc": "1992-10-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.76542971783172,
+      "kind": "grid-97d",
+      "utc": "1993-01-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.768339801081286,
+      "kind": "grid-97d",
+      "utc": "1993-05-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.77256420982604,
+      "kind": "grid-97d",
+      "utc": "1993-08-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.77546759595839,
+      "kind": "grid-97d",
+      "utc": "1993-11-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.77968229250673,
+      "kind": "grid-97d",
+      "utc": "1994-02-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.782661881570917,
+      "kind": "grid-97d",
+      "utc": "1994-05-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.786498046886745,
+      "kind": "grid-97d",
+      "utc": "1994-09-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.789544302505472,
+      "kind": "grid-97d",
+      "utc": "1994-12-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.793176852524343,
+      "kind": "grid-97d",
+      "utc": "1995-03-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.796400743540218,
+      "kind": "grid-97d",
+      "utc": "1995-06-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.799620295196746,
+      "kind": "grid-97d",
+      "utc": "1995-09-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.803150828830244,
+      "kind": "grid-97d",
+      "utc": "1996-01-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.80613516504278,
+      "kind": "grid-97d",
+      "utc": "1996-04-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.809880201327363,
+      "kind": "grid-97d",
+      "utc": "1996-07-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.81259659597628,
+      "kind": "grid-97d",
+      "utc": "1996-10-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.816601496520423,
+      "kind": "grid-97d",
+      "utc": "1997-01-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.819191008509875,
+      "kind": "grid-97d",
+      "utc": "1997-04-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.82312648784038,
+      "kind": "grid-97d",
+      "utc": "1997-08-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.8256372188283,
+      "kind": "grid-97d",
+      "utc": "1997-11-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.829677881490372,
+      "kind": "grid-97d",
+      "utc": "1998-02-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.832294235598226,
+      "kind": "grid-97d",
+      "utc": "1998-05-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.8361227079186,
+      "kind": "grid-97d",
+      "utc": "1998-08-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.838967009475272,
+      "kind": "grid-97d",
+      "utc": "1998-12-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.84277122918776,
+      "kind": "grid-97d",
+      "utc": "1999-03-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.845982153998282,
+      "kind": "grid-97d",
+      "utc": "1999-06-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.84945675407543,
+      "kind": "grid-97d",
+      "utc": "1999-09-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.853020485286713,
+      "kind": "grid-97d",
+      "utc": "1999-12-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.85322178974905,
+      "kind": "edge",
+      "utc": "2000-01-01T12:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.856313144924904,
+      "kind": "grid-97d",
+      "utc": "2000-04-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.86011824849211,
+      "kind": "grid-97d",
+      "utc": "2000-07-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.86315971803679,
+      "kind": "grid-97d",
+      "utc": "2000-10-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.86732065852089,
+      "kind": "grid-97d",
+      "utc": "2001-01-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.87028963003222,
+      "kind": "grid-97d",
+      "utc": "2001-04-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.874624349577495,
+      "kind": "grid-97d",
+      "utc": "2001-07-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.87757073653151,
+      "kind": "grid-97d",
+      "utc": "2001-11-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.88219855921395,
+      "kind": "grid-97d",
+      "utc": "2002-02-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.885273870456853,
+      "kind": "grid-97d",
+      "utc": "2002-05-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.889738013858633,
+      "kind": "grid-97d",
+      "utc": "2002-08-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.892970061351324,
+      "kind": "grid-97d",
+      "utc": "2002-11-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.89739422590551,
+      "kind": "grid-97d",
+      "utc": "2003-03-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.90089625598461,
+      "kind": "grid-97d",
+      "utc": "2003-06-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.905018975325458,
+      "kind": "grid-97d",
+      "utc": "2003-09-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.90885057839022,
+      "kind": "grid-97d",
+      "utc": "2003-12-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.91289992273718,
+      "kind": "grid-97d",
+      "utc": "2004-03-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.917097392807786,
+      "kind": "grid-97d",
+      "utc": "2004-07-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.920880595190688,
+      "kind": "grid-97d",
+      "utc": "2004-10-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.925470084113254,
+      "kind": "grid-97d",
+      "utc": "2005-01-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.929042636735282,
+      "kind": "grid-97d",
+      "utc": "2005-04-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.9337209600837,
+      "kind": "grid-97d",
+      "utc": "2005-07-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.937090436681554,
+      "kind": "grid-97d",
+      "utc": "2005-10-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.941955536079007,
+      "kind": "grid-97d",
+      "utc": "2006-02-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.945322817908416,
+      "kind": "grid-97d",
+      "utc": "2006-05-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.950098520156814,
+      "kind": "grid-97d",
+      "utc": "2006-08-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.953531189895745,
+      "kind": "grid-97d",
+      "utc": "2006-11-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.958399522282342,
+      "kind": "grid-97d",
+      "utc": "2007-02-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.962004565828813,
+      "kind": "grid-97d",
+      "utc": "2007-06-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.966525761863476,
+      "kind": "grid-97d",
+      "utc": "2007-09-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.970315077527253,
+      "kind": "grid-97d",
+      "utc": "2007-12-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.974567362318382,
+      "kind": "grid-97d",
+      "utc": "2008-03-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.978563016143585,
+      "kind": "grid-97d",
+      "utc": "2008-06-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.982378531457687,
+      "kind": "grid-97d",
+      "utc": "2008-09-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.986643130148483,
+      "kind": "grid-97d",
+      "utc": "2009-01-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.99025565950877,
+      "kind": "grid-97d",
+      "utc": "2009-04-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.99464888393328,
+      "kind": "grid-97d",
+      "utc": "2009-07-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 23.998035737686298,
+      "kind": "grid-97d",
+      "utc": "2009-10-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.00265438583489,
+      "kind": "grid-97d",
+      "utc": "2010-01-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.005856335826312,
+      "kind": "grid-97d",
+      "utc": "2010-05-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.01032509942593,
+      "kind": "grid-97d",
+      "utc": "2010-08-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.013354604964782,
+      "kind": "grid-97d",
+      "utc": "2010-11-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.01779185034265,
+      "kind": "grid-97d",
+      "utc": "2011-02-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.020861807983213,
+      "kind": "grid-97d",
+      "utc": "2011-05-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.02494332257123,
+      "kind": "grid-97d",
+      "utc": "2011-09-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.028157785771597,
+      "kind": "grid-97d",
+      "utc": "2011-12-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.032102158456247,
+      "kind": "grid-97d",
+      "utc": "2012-03-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.035514392256562,
+      "kind": "grid-97d",
+      "utc": "2012-06-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.039048770731085,
+      "kind": "grid-97d",
+      "utc": "2012-09-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.042677070986894,
+      "kind": "grid-97d",
+      "utc": "2012-12-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.04588715577977,
+      "kind": "grid-97d",
+      "utc": "2013-04-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.04963552208251,
+      "kind": "grid-97d",
+      "utc": "2013-07-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.05246397403291,
+      "kind": "grid-97d",
+      "utc": "2013-10-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.0564456852649,
+      "kind": "grid-97d",
+      "utc": "2014-01-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.059109211024495,
+      "kind": "grid-97d",
+      "utc": "2014-04-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.06305162950227,
+      "kind": "grid-97d",
+      "utc": "2014-08-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.06566368489419,
+      "kind": "grid-97d",
+      "utc": "2014-11-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.069716216258215,
+      "kind": "grid-97d",
+      "utc": "2015-02-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.072411115618312,
+      "kind": "grid-97d",
+      "utc": "2015-05-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.076207933747117,
+      "kind": "grid-97d",
+      "utc": "2015-08-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.07898841797818,
+      "kind": "grid-97d",
+      "utc": "2015-12-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.082693498030178,
+      "kind": "grid-97d",
+      "utc": "2016-03-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.08568171725915,
+      "kind": "grid-97d",
+      "utc": "2016-06-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.089020440993934,
+      "kind": "grid-97d",
+      "utc": "2016-09-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.092331046676286,
+      "kind": "grid-97d",
+      "utc": "2016-12-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.095506352522673,
+      "kind": "grid-97d",
+      "utc": "2017-03-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.099133749700258,
+      "kind": "grid-97d",
+      "utc": "2017-07-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.102083399976117,
+      "kind": "grid-97d",
+      "utc": "2017-10-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.106066302549998,
+      "kind": "grid-97d",
+      "utc": "2018-01-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.10892163675245,
+      "kind": "grid-97d",
+      "utc": "2018-04-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.112981648735982,
+      "kind": "grid-97d",
+      "utc": "2018-07-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.115731984334477,
+      "kind": "grid-97d",
+      "utc": "2018-11-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.120002187745193,
+      "kind": "grid-97d",
+      "utc": "2019-02-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.122819771496886,
+      "kind": "grid-97d",
+      "utc": "2019-05-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.126967527788494,
+      "kind": "grid-97d",
+      "utc": "2019-08-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.12998376175154,
+      "kind": "grid-97d",
+      "utc": "2019-11-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.134197635378005,
+      "kind": "grid-97d",
+      "utc": "2020-03-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.13759477481305,
+      "kind": "grid-97d",
+      "utc": "2020-06-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.141534693811707,
+      "kind": "grid-97d",
+      "utc": "2020-09-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.145277623823443,
+      "kind": "grid-97d",
+      "utc": "2020-12-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.149087129870832,
+      "kind": "grid-97d",
+      "utc": "2021-03-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.15308808978326,
+      "kind": "grid-97d",
+      "utc": "2021-06-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.15660903477781,
+      "kind": "grid-97d",
+      "utc": "2021-10-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.16094528097722,
+      "kind": "grid-97d",
+      "utc": "2022-01-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.164339574663785,
+      "kind": "grid-97d",
+      "utc": "2022-04-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.168903216662155,
+      "kind": "grid-97d",
+      "utc": "2022-07-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.17220372680994,
+      "kind": "grid-97d",
+      "utc": "2022-10-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.17708820778918,
+      "kind": "grid-97d",
+      "utc": "2023-02-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.180443598356174,
+      "kind": "grid-97d",
+      "utc": "2023-05-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.18520253060901,
+      "kind": "grid-97d",
+      "utc": "2023-08-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.18861113890738,
+      "kind": "grid-97d",
+      "utc": "2023-11-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.19335921240965,
+      "kind": "grid-97d",
+      "utc": "2024-02-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.196928079773624,
+      "kind": "grid-97d",
+      "utc": "2024-06-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.201353068304524,
+      "kind": "grid-97d",
+      "utc": "2024-09-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.205162333518505,
+      "kind": "grid-97d",
+      "utc": "2024-12-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.209478879523555,
+      "kind": "grid-97d",
+      "utc": "2025-03-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.21363058865072,
+      "kind": "grid-97d",
+      "utc": "2025-06-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.21759883270004,
+      "kind": "grid-97d",
+      "utc": "2025-09-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.2218091948825,
+      "kind": "dense-2026",
+      "utc": "2026-01-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.221843937742563,
+      "kind": "dense-2026",
+      "utc": "2026-01-01T08:52:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22188033197194,
+      "kind": "dense-2026",
+      "utc": "2026-01-01T17:45:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.221917825231326,
+      "kind": "dense-2026",
+      "utc": "2026-01-02T02:38:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.221955813334777,
+      "kind": "dense-2026",
+      "utc": "2026-01-02T11:31:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.221993670399666,
+      "kind": "dense-2026",
+      "utc": "2026-01-02T20:24:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222030780289742,
+      "kind": "dense-2026",
+      "utc": "2026-01-03T05:16:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222066567059112,
+      "kind": "dense-2026",
+      "utc": "2026-01-03T14:09:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222100522212827,
+      "kind": "dense-2026",
+      "utc": "2026-01-03T23:02:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222104064755463,
+      "kind": "grid-97d",
+      "utc": "2026-01-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.2221322269244,
+      "kind": "dense-2026",
+      "utc": "2026-01-04T07:55:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222161367846486,
+      "kind": "dense-2026",
+      "utc": "2026-01-04T16:48:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222187745764913,
+      "kind": "dense-2026",
+      "utc": "2026-01-05T01:40:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22221127700142,
+      "kind": "dense-2026",
+      "utc": "2026-01-05T10:33:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222231988096663,
+      "kind": "dense-2026",
+      "utc": "2026-01-05T19:26:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222250004830542,
+      "kind": "dense-2026",
+      "utc": "2026-01-06T04:19:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222265537014415,
+      "kind": "dense-2026",
+      "utc": "2026-01-06T13:12:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222278860684998,
+      "kind": "dense-2026",
+      "utc": "2026-01-06T22:04:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222290299340198,
+      "kind": "dense-2026",
+      "utc": "2026-01-07T06:57:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222300205696193,
+      "kind": "dense-2026",
+      "utc": "2026-01-07T15:50:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222308945153284,
+      "kind": "dense-2026",
+      "utc": "2026-01-08T00:43:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22231688178253,
+      "kind": "dense-2026",
+      "utc": "2026-01-08T09:36:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22232436724357,
+      "kind": "dense-2026",
+      "utc": "2026-01-08T18:28:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222331732666625,
+      "kind": "dense-2026",
+      "utc": "2026-01-09T03:21:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22233928322399,
+      "kind": "dense-2026",
+      "utc": "2026-01-09T12:14:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222347294904594,
+      "kind": "dense-2026",
+      "utc": "2026-01-09T21:07:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22235601290229,
+      "kind": "dense-2026",
+      "utc": "2026-01-10T06:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222365651027726,
+      "kind": "dense-2026",
+      "utc": "2026-01-10T14:52:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222376391636107,
+      "kind": "dense-2026",
+      "utc": "2026-01-10T23:45:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222388385699617,
+      "kind": "dense-2026",
+      "utc": "2026-01-11T08:38:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222401752812104,
+      "kind": "dense-2026",
+      "utc": "2026-01-11T17:31:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222416581062934,
+      "kind": "dense-2026",
+      "utc": "2026-01-12T02:24:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222432926834607,
+      "kind": "dense-2026",
+      "utc": "2026-01-12T11:16:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222450814649964,
+      "kind": "dense-2026",
+      "utc": "2026-01-12T20:09:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222470237216314,
+      "kind": "dense-2026",
+      "utc": "2026-01-13T05:02:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22249115579433,
+      "kind": "dense-2026",
+      "utc": "2026-01-13T13:55:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22251350097058,
+      "kind": "dense-2026",
+      "utc": "2026-01-13T22:48:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22253717385515,
+      "kind": "dense-2026",
+      "utc": "2026-01-14T07:40:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222562047674717,
+      "kind": "dense-2026",
+      "utc": "2026-01-14T16:33:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222587969703046,
+      "kind": "dense-2026",
+      "utc": "2026-01-15T01:26:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22261476346905,
+      "kind": "dense-2026",
+      "utc": "2026-01-15T10:19:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22264223120961,
+      "kind": "dense-2026",
+      "utc": "2026-01-15T19:12:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222670156579852,
+      "kind": "dense-2026",
+      "utc": "2026-01-16T04:04:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222698307687754,
+      "kind": "dense-2026",
+      "utc": "2026-01-16T12:57:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222726440563477,
+      "kind": "dense-2026",
+      "utc": "2026-01-16T21:50:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22275430319728,
+      "kind": "dense-2026",
+      "utc": "2026-01-17T06:43:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222781640268746,
+      "kind": "dense-2026",
+      "utc": "2026-01-17T15:36:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22280819864553,
+      "kind": "dense-2026",
+      "utc": "2026-01-18T00:28:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22283373365006,
+      "kind": "dense-2026",
+      "utc": "2026-01-18T09:21:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22285801599264,
+      "kind": "dense-2026",
+      "utc": "2026-01-18T18:14:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222880839160556,
+      "kind": "dense-2026",
+      "utc": "2026-01-19T03:07:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22290202695553,
+      "kind": "dense-2026",
+      "utc": "2026-01-19T12:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22292144079838,
+      "kind": "dense-2026",
+      "utc": "2026-01-19T20:52:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222938986386136,
+      "kind": "dense-2026",
+      "utc": "2026-01-20T05:45:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222954619295393,
+      "kind": "dense-2026",
+      "utc": "2026-01-20T14:38:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222968349177822,
+      "kind": "dense-2026",
+      "utc": "2026-01-20T23:31:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222980242277895,
+      "kind": "dense-2026",
+      "utc": "2026-01-21T08:24:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222990422108122,
+      "kind": "dense-2026",
+      "utc": "2026-01-21T17:16:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.222999068224944,
+      "kind": "dense-2026",
+      "utc": "2026-01-22T02:09:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223006413143732,
+      "kind": "dense-2026",
+      "utc": "2026-01-22T11:02:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223012737502398,
+      "kind": "dense-2026",
+      "utc": "2026-01-22T19:55:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223018363622128,
+      "kind": "dense-2026",
+      "utc": "2026-01-23T04:48:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22302364762397,
+      "kind": "dense-2026",
+      "utc": "2026-01-23T13:40:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22302897024756,
+      "kind": "dense-2026",
+      "utc": "2026-01-23T22:33:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223034726498593,
+      "kind": "dense-2026",
+      "utc": "2026-01-24T07:26:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223041314239897,
+      "kind": "dense-2026",
+      "utc": "2026-01-24T16:19:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223049121853894,
+      "kind": "dense-2026",
+      "utc": "2026-01-25T01:12:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223058515152015,
+      "kind": "dense-2026",
+      "utc": "2026-01-25T10:04:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223069823794862,
+      "kind": "dense-2026",
+      "utc": "2026-01-25T18:57:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223083327608954,
+      "kind": "dense-2026",
+      "utc": "2026-01-26T03:50:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22309924332894,
+      "kind": "dense-2026",
+      "utc": "2026-01-26T12:43:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.2231177124348,
+      "kind": "dense-2026",
+      "utc": "2026-01-26T21:36:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223138790867274,
+      "kind": "dense-2026",
+      "utc": "2026-01-27T06:28:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223162441460907,
+      "kind": "dense-2026",
+      "utc": "2026-01-27T15:21:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223188529913447,
+      "kind": "dense-2026",
+      "utc": "2026-01-28T00:14:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223216824994047,
+      "kind": "dense-2026",
+      "utc": "2026-01-28T09:07:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22324700348218,
+      "kind": "dense-2026",
+      "utc": "2026-01-28T18:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223278660029795,
+      "kind": "dense-2026",
+      "utc": "2026-01-29T02:52:48 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223311321779835,
+      "kind": "dense-2026",
+      "utc": "2026-01-29T11:45:36 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.22334446718454,
+      "kind": "dense-2026",
+      "utc": "2026-01-29T20:38:24 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.223377548093513,
+      "kind": "dense-2026",
+      "utc": "2026-01-30T05:31:12 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.225807167026733,
+      "kind": "grid-97d",
+      "utc": "2026-04-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.230402907255325,
+      "kind": "grid-97d",
+      "utc": "2026-07-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.2338043323487,
+      "kind": "grid-97d",
+      "utc": "2026-10-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.23719601302545,
+      "kind": "edge",
+      "utc": "2026-12-31T23:58:51 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.23855878563535,
+      "kind": "grid-97d",
+      "utc": "2027-01-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.241830781523532,
+      "kind": "grid-97d",
+      "utc": "2027-05-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.246508706839744,
+      "kind": "grid-97d",
+      "utc": "2027-08-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.249721638870167,
+      "kind": "grid-97d",
+      "utc": "2027-11-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.25450931011613,
+      "kind": "grid-97d",
+      "utc": "2028-02-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.25780546840452,
+      "kind": "grid-97d",
+      "utc": "2028-05-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.26224240857871,
+      "kind": "grid-97d",
+      "utc": "2028-08-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.26565021357055,
+      "kind": "grid-97d",
+      "utc": "2028-12-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.269826024287447,
+      "kind": "grid-97d",
+      "utc": "2029-03-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.27339569264701,
+      "kind": "grid-97d",
+      "utc": "2029-06-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.27708716040765,
+      "kind": "grid-97d",
+      "utc": "2029-09-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.280878357576114,
+      "kind": "grid-97d",
+      "utc": "2029-12-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.28431029293503,
+      "kind": "grid-97d",
+      "utc": "2030-04-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.288272773185597,
+      "kind": "grid-97d",
+      "utc": "2030-07-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.291388461600974,
+      "kind": "grid-97d",
+      "utc": "2030-10-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.295617050427985,
+      "kind": "grid-97d",
+      "utc": "2031-01-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.29850082374717,
+      "kind": "grid-97d",
+      "utc": "2031-04-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.302667312750327,
+      "kind": "grid-97d",
+      "utc": "2031-08-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.30533975286252,
+      "kind": "grid-97d",
+      "utc": "2031-11-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.309540158003646,
+      "kind": "grid-97d",
+      "utc": "2032-02-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.312203607745392,
+      "kind": "grid-97d",
+      "utc": "2032-05-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.316107969870522,
+      "kind": "grid-97d",
+      "utc": "2032-08-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.31886787038792,
+      "kind": "grid-97d",
+      "utc": "2032-11-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.32271461440062,
+      "kind": "grid-97d",
+      "utc": "2033-03-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.325693397943148,
+      "kind": "grid-97d",
+      "utc": "2033-06-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.329183522275923,
+      "kind": "grid-97d",
+      "utc": "2033-09-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.332426618091084,
+      "kind": "grid-97d",
+      "utc": "2033-12-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.33566142947077,
+      "kind": "grid-97d",
+      "utc": "2034-03-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.339138734800915,
+      "kind": "grid-97d",
+      "utc": "2034-07-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.341995220744177,
+      "kind": "grid-97d",
+      "utc": "2034-10-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.345781051860268,
+      "kind": "grid-97d",
+      "utc": "2035-01-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.348467020928368,
+      "kind": "grid-97d",
+      "utc": "2035-04-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.352345001555623,
+      "kind": "grid-97d",
+      "utc": "2035-07-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.354957505256476,
+      "kind": "grid-97d",
+      "utc": "2035-11-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.359078601552355,
+      "kind": "grid-97d",
+      "utc": "2036-02-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.361790795847487,
+      "kind": "grid-97d",
+      "utc": "2036-05-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.365804062943678,
+      "kind": "grid-97d",
+      "utc": "2036-08-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.368616427951505,
+      "kind": "grid-97d",
+      "utc": "2036-11-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.372661942559407,
+      "kind": "grid-97d",
+      "utc": "2037-03-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.375696230681143,
+      "kind": "grid-97d",
+      "utc": "2037-06-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.379423174065206,
+      "kind": "grid-97d",
+      "utc": "2037-09-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.382769353812137,
+      "kind": "grid-97d",
+      "utc": "2037-12-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.38639684149569,
+      "kind": "grid-97d",
+      "utc": "2038-03-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.390114795695986,
+      "kind": "grid-97d",
+      "utc": "2038-06-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.393542712616778,
+      "kind": "grid-97d",
+      "utc": "2038-10-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.39765647566906,
+      "kind": "grid-97d",
+      "utc": "2039-01-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.401000637801996,
+      "kind": "grid-97d",
+      "utc": "2039-04-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.405294335983093,
+      "kind": "grid-97d",
+      "utc": "2039-07-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.408463112584997,
+      "kind": "grid-97d",
+      "utc": "2039-10-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.413031200784022,
+      "kind": "grid-97d",
+      "utc": "2040-02-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.41617613542351,
+      "kind": "grid-97d",
+      "utc": "2040-05-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.42068348550265,
+      "kind": "grid-97d",
+      "utc": "2040-08-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.423938178399798,
+      "kind": "grid-97d",
+      "utc": "2040-11-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.42856152280515,
+      "kind": "grid-97d",
+      "utc": "2041-02-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.432126747632882,
+      "kind": "grid-97d",
+      "utc": "2041-05-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.436504801038044,
+      "kind": "grid-97d",
+      "utc": "2041-09-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.440348618552317,
+      "kind": "grid-97d",
+      "utc": "2041-12-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.44462207026378,
+      "kind": "grid-97d",
+      "utc": "2042-03-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.448690665746884,
+      "kind": "grid-97d",
+      "utc": "2042-06-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.452610438135647,
+      "kind": "grid-97d",
+      "utc": "2042-09-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.456956420221957,
+      "kind": "grid-97d",
+      "utc": "2043-01-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.460673276026622,
+      "kind": "grid-97d",
+      "utc": "2043-04-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.465247636978976,
+      "kind": "grid-97d",
+      "utc": "2043-07-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.46877878176608,
+      "kind": "grid-97d",
+      "utc": "2043-10-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.473658383845393,
+      "kind": "grid-97d",
+      "utc": "2044-01-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.477148493825332,
+      "kind": "grid-97d",
+      "utc": "2044-05-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.481934173880152,
+      "kind": "grid-97d",
+      "utc": "2044-08-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.485347969544854,
+      "kind": "grid-97d",
+      "utc": "2044-11-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.490153689754223,
+      "kind": "grid-97d",
+      "utc": "2045-02-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.493589570066536,
+      "kind": "grid-97d",
+      "utc": "2045-05-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.498068536848162,
+      "kind": "grid-97d",
+      "utc": "2045-08-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.501632434794523,
+      "kind": "grid-97d",
+      "utc": "2045-12-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.50598222736199,
+      "kind": "grid-97d",
+      "utc": "2046-03-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.509828434870897,
+      "kind": "grid-97d",
+      "utc": "2046-06-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.513772339794837,
+      "kind": "grid-97d",
+      "utc": "2046-09-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.51791138860023,
+      "kind": "grid-97d",
+      "utc": "2046-12-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.521565568938584,
+      "kind": "grid-97d",
+      "utc": "2047-04-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.52580907864524,
+      "kind": "grid-97d",
+      "utc": "2047-07-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.529083632500722,
+      "kind": "grid-97d",
+      "utc": "2047-10-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.533472929286287,
+      "kind": "grid-97d",
+      "utc": "2048-01-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.536519067098734,
+      "kind": "grid-97d",
+      "utc": "2048-04-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.540863648039025,
+      "kind": "grid-97d",
+      "utc": "2048-08-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.543752177938178,
+      "kind": "grid-97d",
+      "utc": "2048-11-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.548235282066408,
+      "kind": "grid-97d",
+      "utc": "2049-02-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.551142462778014,
+      "kind": "grid-97d",
+      "utc": "2049-05-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.555327847367256,
+      "kind": "grid-97d",
+      "utc": "2049-08-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.558294792894884,
+      "kind": "grid-97d",
+      "utc": "2049-11-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.562292153184067,
+      "kind": "grid-97d",
+      "utc": "2050-03-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.56539660319356,
+      "kind": "grid-97d",
+      "utc": "2050-06-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.56893196802206,
+      "kind": "grid-97d",
+      "utc": "2050-09-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.5722375038144,
+      "kind": "grid-97d",
+      "utc": "2050-12-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.575525561753558,
+      "kind": "grid-97d",
+      "utc": "2051-03-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.57906648922691,
+      "kind": "grid-97d",
+      "utc": "2051-07-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.58200528723462,
+      "kind": "grid-97d",
+      "utc": "2051-10-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.585877334857376,
+      "kind": "grid-97d",
+      "utc": "2052-01-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.588601090137495,
+      "kind": "grid-97d",
+      "utc": "2052-04-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.59254805159295,
+      "kind": "grid-97d",
+      "utc": "2052-07-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.595069096242174,
+      "kind": "grid-97d",
+      "utc": "2052-10-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.599163524229564,
+      "kind": "grid-97d",
+      "utc": "2053-02-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.60166988303514,
+      "kind": "grid-97d",
+      "utc": "2053-05-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.605567188892405,
+      "kind": "grid-97d",
+      "utc": "2053-08-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.608153545095785,
+      "kind": "grid-97d",
+      "utc": "2053-11-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.61210023221191,
+      "kind": "grid-97d",
+      "utc": "2054-02-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.614936640182606,
+      "kind": "grid-97d",
+      "utc": "2054-06-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.618623435128278,
+      "kind": "grid-97d",
+      "utc": "2054-09-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.621772135527145,
+      "kind": "grid-97d",
+      "utc": "2054-12-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.62531232890085,
+      "kind": "grid-97d",
+      "utc": "2055-03-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.628790095285137,
+      "kind": "grid-97d",
+      "utc": "2055-06-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.631972453711438,
+      "kind": "grid-97d",
+      "utc": "2055-10-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.6358071527946,
+      "kind": "grid-97d",
+      "utc": "2056-01-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.63882466517718,
+      "kind": "grid-97d",
+      "utc": "2056-04-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.642858410647364,
+      "kind": "grid-97d",
+      "utc": "2056-07-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.645766761411572,
+      "kind": "grid-97d",
+      "utc": "2056-10-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.650146820334044,
+      "kind": "grid-97d",
+      "utc": "2057-01-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.65312305724304,
+      "kind": "grid-97d",
+      "utc": "2057-05-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.65752445624645,
+      "kind": "grid-97d",
+      "utc": "2057-08-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.6605667980755,
+      "kind": "grid-97d",
+      "utc": "2057-11-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.665087404519465,
+      "kind": "grid-97d",
+      "utc": "2058-02-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.6683162348746,
+      "kind": "grid-97d",
+      "utc": "2058-05-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.67254026164823,
+      "kind": "grid-97d",
+      "utc": "2058-09-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.676024666690495,
+      "kind": "grid-97d",
+      "utc": "2058-12-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.680172255356975,
+      "kind": "grid-97d",
+      "utc": "2059-03-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.68400936578719,
+      "kind": "grid-97d",
+      "utc": "2059-06-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.687940495982858,
+      "kind": "grid-97d",
+      "utc": "2059-09-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.692154752789197,
+      "kind": "grid-97d",
+      "utc": "2060-01-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.69597450527005,
+      "kind": "grid-97d",
+      "utc": "2060-04-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.700423156110535,
+      "kind": "grid-97d",
+      "utc": "2060-07-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.70396549478026,
+      "kind": "grid-97d",
+      "utc": "2060-10-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.70870271621687,
+      "kind": "grid-97d",
+      "utc": "2061-01-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.71209964575783,
+      "kind": "grid-97d",
+      "utc": "2061-05-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.716806555323625,
+      "kind": "grid-97d",
+      "utc": "2061-08-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.720183669491878,
+      "kind": "grid-97d",
+      "utc": "2061-11-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.725030784497605,
+      "kind": "grid-97d",
+      "utc": "2062-02-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.728590363507397,
+      "kind": "grid-97d",
+      "utc": "2062-05-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.73321523851795,
+      "kind": "grid-97d",
+      "utc": "2062-08-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.736942747583466,
+      "kind": "grid-97d",
+      "utc": "2062-12-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.74147771131396,
+      "kind": "grid-97d",
+      "utc": "2063-03-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.745375285001874,
+      "kind": "grid-97d",
+      "utc": "2063-06-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.74948726111431,
+      "kind": "grid-97d",
+      "utc": "2063-09-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.753593550595763,
+      "kind": "grid-97d",
+      "utc": "2063-12-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.757435202409873,
+      "kind": "grid-97d",
+      "utc": "2064-04-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.761748860241426,
+      "kind": "grid-97d",
+      "utc": "2064-07-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.765307688084153,
+      "kind": "grid-97d",
+      "utc": "2064-10-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.769893137317485,
+      "kind": "grid-97d",
+      "utc": "2065-01-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.773320776193376,
+      "kind": "grid-97d",
+      "utc": "2065-04-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.777861186825483,
+      "kind": "grid-97d",
+      "utc": "2065-07-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.781090830723304,
+      "kind": "grid-97d",
+      "utc": "2065-11-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.78569726311989,
+      "kind": "grid-97d",
+      "utc": "2066-02-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.788823625105664,
+      "kind": "grid-97d",
+      "utc": "2066-05-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.793132656323827,
+      "kind": "grid-97d",
+      "utc": "2066-08-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.796278104284863,
+      "kind": "grid-97d",
+      "utc": "2066-11-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.80047840127133,
+      "kind": "grid-97d",
+      "utc": "2067-03-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.803836869034217,
+      "kind": "grid-97d",
+      "utc": "2067-06-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.80762513575411,
+      "kind": "grid-97d",
+      "utc": "2067-09-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.81122516976887,
+      "kind": "grid-97d",
+      "utc": "2067-12-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.81474875107734,
+      "kind": "grid-97d",
+      "utc": "2068-03-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.818496765355356,
+      "kind": "grid-97d",
+      "utc": "2068-07-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.82160629251665,
+      "kind": "grid-97d",
+      "utc": "2068-10-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.825534052105407,
+      "kind": "grid-97d",
+      "utc": "2069-01-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.828372850118797,
+      "kind": "grid-97d",
+      "utc": "2069-04-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.83232827228624,
+      "kind": "grid-97d",
+      "utc": "2069-07-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.834953924706767,
+      "kind": "grid-97d",
+      "utc": "2069-10-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.83910969898092,
+      "kind": "grid-97d",
+      "utc": "2070-02-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.841729477519497,
+      "kind": "grid-97d",
+      "utc": "2070-05-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.845700244972495,
+      "kind": "grid-97d",
+      "utc": "2070-08-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.848374655004356,
+      "kind": "grid-97d",
+      "utc": "2070-11-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.852291149731773,
+      "kind": "grid-97d",
+      "utc": "2071-02-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.855114662842453,
+      "kind": "grid-97d",
+      "utc": "2071-06-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.858655606519587,
+      "kind": "grid-97d",
+      "utc": "2071-09-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.861679972775825,
+      "kind": "grid-97d",
+      "utc": "2071-12-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.86504938531459,
+      "kind": "grid-97d",
+      "utc": "2072-03-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.868375134749837,
+      "kind": "grid-97d",
+      "utc": "2072-06-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.87141699554592,
+      "kind": "grid-97d",
+      "utc": "2072-10-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.87514330413722,
+      "kind": "grid-97d",
+      "utc": "2073-01-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.87802301636568,
+      "kind": "grid-97d",
+      "utc": "2073-04-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.881974395200178,
+      "kind": "grid-97d",
+      "utc": "2073-07-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.884674499833636,
+      "kind": "grid-97d",
+      "utc": "2073-10-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.888883484425428,
+      "kind": "grid-97d",
+      "utc": "2074-01-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.891569115387387,
+      "kind": "grid-97d",
+      "utc": "2074-05-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.89568811383018,
+      "kind": "grid-97d",
+      "utc": "2074-08-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.898424030889814,
+      "kind": "grid-97d",
+      "utc": "2074-11-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.902682932626913,
+      "kind": "grid-97d",
+      "utc": "2075-02-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.90566207119589,
+      "kind": "grid-97d",
+      "utc": "2075-05-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.90974777826757,
+      "kind": "grid-97d",
+      "utc": "2075-09-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.913048644316518,
+      "kind": "grid-97d",
+      "utc": "2075-12-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.91707230919913,
+      "kind": "grid-97d",
+      "utc": "2076-03-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.920740115705268,
+      "kind": "grid-97d",
+      "utc": "2076-06-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.924410707173156,
+      "kind": "grid-97d",
+      "utc": "2076-09-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.92841713749413,
+      "kind": "grid-97d",
+      "utc": "2076-12-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.931913057786083,
+      "kind": "grid-97d",
+      "utc": "2077-04-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.93616237527813,
+      "kind": "grid-97d",
+      "utc": "2077-07-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.939476408303786,
+      "kind": "grid-97d",
+      "utc": "2077-10-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.94411523351035,
+      "kind": "grid-97d",
+      "utc": "2078-01-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.947412008523877,
+      "kind": "grid-97d",
+      "utc": "2078-04-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.952151394367245,
+      "kind": "grid-97d",
+      "utc": "2078-08-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.955429520387867,
+      "kind": "grid-97d",
+      "utc": "2078-11-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.960326975625613,
+      "kind": "grid-97d",
+      "utc": "2079-02-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.96371274137041,
+      "kind": "grid-97d",
+      "utc": "2079-05-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.96831321022493,
+      "kind": "grid-97d",
+      "utc": "2079-08-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.971858022115867,
+      "kind": "grid-97d",
+      "utc": "2079-12-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.976375978113147,
+      "kind": "grid-97d",
+      "utc": "2080-03-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.980201101023987,
+      "kind": "grid-97d",
+      "utc": "2080-06-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.984447151930087,
+      "kind": "grid-97d",
+      "utc": "2080-09-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.98859460085239,
+      "kind": "grid-97d",
+      "utc": "2080-12-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.992688000265133,
+      "kind": "grid-97d",
+      "utc": "2081-04-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 24.997088503395297,
+      "kind": "grid-97d",
+      "utc": "2081-07-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.000803379567824,
+      "kind": "grid-97d",
+      "utc": "2081-10-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.005469442874432,
+      "kind": "grid-97d",
+      "utc": "2082-01-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.008928652823034,
+      "kind": "grid-97d",
+      "utc": "2082-04-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.013575257509455,
+      "kind": "grid-97d",
+      "utc": "2082-07-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.016880277403622,
+      "kind": "grid-97d",
+      "utc": "2082-11-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.021681226134117,
+      "kind": "grid-97d",
+      "utc": "2083-02-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.025024416698418,
+      "kind": "grid-97d",
+      "utc": "2083-05-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.029634011134046,
+      "kind": "grid-97d",
+      "utc": "2083-08-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.03302756573486,
+      "kind": "grid-97d",
+      "utc": "2083-11-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.037566212693264,
+      "kind": "grid-97d",
+      "utc": "2084-03-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.041072887695773,
+      "kind": "grid-97d",
+      "utc": "2084-06-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.04514860337744,
+      "kind": "grid-97d",
+      "utc": "2084-09-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.048809694613603,
+      "kind": "grid-97d",
+      "utc": "2084-12-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.052582077193993,
+      "kind": "grid-97d",
+      "utc": "2085-03-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.056433811477465,
+      "kind": "grid-97d",
+      "utc": "2085-07-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.05984367968131,
+      "kind": "grid-97d",
+      "utc": "2085-10-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.063949726432977,
+      "kind": "grid-97d",
+      "utc": "2086-01-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.06716553175363,
+      "kind": "grid-97d",
+      "utc": "2086-04-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.071305903867138,
+      "kind": "grid-97d",
+      "utc": "2086-07-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.074252579880103,
+      "kind": "grid-97d",
+      "utc": "2086-10-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.078529477805915,
+      "kind": "grid-97d",
+      "utc": "2087-02-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.081303062815522,
+      "kind": "grid-97d",
+      "utc": "2087-05-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.085357912375986,
+      "kind": "grid-97d",
+      "utc": "2087-08-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.088078782470376,
+      "kind": "grid-97d",
+      "utc": "2087-11-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.092095632252715,
+      "kind": "grid-97d",
+      "utc": "2088-02-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.09498457300608,
+      "kind": "grid-97d",
+      "utc": "2088-06-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.098647342235953,
+      "kind": "grid-97d",
+      "utc": "2088-09-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.101760237405774,
+      "kind": "grid-97d",
+      "utc": "2088-12-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.105243688261087,
+      "kind": "grid-97d",
+      "utc": "2089-03-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.108584805966853,
+      "kind": "grid-97d",
+      "utc": "2089-06-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.111679250466914,
+      "kind": "grid-97d",
+      "utc": "2089-09-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.115271260721105,
+      "kind": "grid-97d",
+      "utc": "2090-01-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.11811676237712,
+      "kind": "grid-97d",
+      "utc": "2090-04-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.121848688875666,
+      "kind": "grid-97d",
+      "utc": "2090-07-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.12445969834938,
+      "kind": "grid-97d",
+      "utc": "2090-10-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.128473972159668,
+      "kind": "grid-97d",
+      "utc": "2091-01-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.13108459903022,
+      "kind": "grid-97d",
+      "utc": "2091-05-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.135058467057018,
+      "kind": "grid-97d",
+      "utc": "2091-08-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.1377433027381,
+      "kind": "grid-97d",
+      "utc": "2091-11-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.141811017276396,
+      "kind": "grid-97d",
+      "utc": "2092-02-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.14466810695611,
+      "kind": "grid-97d",
+      "utc": "2092-05-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.148471996401682,
+      "kind": "grid-97d",
+      "utc": "2092-09-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.151512765434948,
+      "kind": "grid-97d",
+      "utc": "2092-12-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.15523825516091,
+      "kind": "grid-97d",
+      "utc": "2093-03-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.15860823861321,
+      "kind": "grid-97d",
+      "utc": "2093-06-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.162037373417114,
+      "kind": "grid-97d",
+      "utc": "2093-09-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.165837673246546,
+      "kind": "grid-97d",
+      "utc": "2093-12-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.169154280998004,
+      "kind": "grid-97d",
+      "utc": "2094-04-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.17327790673418,
+      "kind": "grid-97d",
+      "utc": "2094-07-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.176413189659943,
+      "kind": "grid-97d",
+      "utc": "2094-10-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.180854362021027,
+      "kind": "grid-97d",
+      "utc": "2095-01-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.183938611437934,
+      "kind": "grid-97d",
+      "utc": "2095-04-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.18837030091022,
+      "kind": "grid-97d",
+      "utc": "2095-08-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.19142624164818,
+      "kind": "grid-97d",
+      "utc": "2095-11-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.19604817438974,
+      "kind": "grid-97d",
+      "utc": "2096-02-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.199280428943283,
+      "kind": "grid-97d",
+      "utc": "2096-05-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.20376543455583,
+      "kind": "grid-97d",
+      "utc": "2096-08-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.20727500820956,
+      "kind": "grid-97d",
+      "utc": "2096-12-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.211740237222426,
+      "kind": "grid-97d",
+      "utc": "2097-03-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.215585212044115,
+      "kind": "grid-97d",
+      "utc": "2097-06-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.21968514146601,
+      "kind": "grid-97d",
+      "utc": "2097-09-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.223794063807475,
+      "kind": "grid-97d",
+      "utc": "2097-12-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.22769665419022,
+      "kind": "grid-97d",
+      "utc": "2098-03-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.232030746791956,
+      "kind": "grid-97d",
+      "utc": "2098-07-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.235654264232362,
+      "kind": "grid-97d",
+      "utc": "2098-10-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.240361120124533,
+      "kind": "grid-97d",
+      "utc": "2099-01-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.2438647345106,
+      "kind": "grid-97d",
+      "utc": "2099-04-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.248705533213172,
+      "kind": "grid-97d",
+      "utc": "2099-07-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.252090053542688,
+      "kind": "grid-97d",
+      "utc": "2099-11-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.25709384372124,
+      "kind": "grid-97d",
+      "utc": "2100-02-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.2604828146674,
+      "kind": "grid-97d",
+      "utc": "2100-05-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.26519598882348,
+      "kind": "grid-97d",
+      "utc": "2100-08-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.268626457305412,
+      "kind": "grid-97d",
+      "utc": "2100-11-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.273248782429345,
+      "kind": "grid-97d",
+      "utc": "2101-03-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.276862380774922,
+      "kind": "grid-97d",
+      "utc": "2101-06-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.281154878736665,
+      "kind": "grid-97d",
+      "utc": "2101-09-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.285022462385356,
+      "kind": "grid-97d",
+      "utc": "2101-12-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.28912476161902,
+      "kind": "grid-97d",
+      "utc": "2102-03-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.293245044710233,
+      "kind": "grid-97d",
+      "utc": "2102-07-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.29689964578208,
+      "kind": "grid-97d",
+      "utc": "2102-10-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.301248736469173,
+      "kind": "grid-97d",
+      "utc": "2103-01-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.30458000851048,
+      "kind": "grid-97d",
+      "utc": "2103-04-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.30892581816592,
+      "kind": "grid-97d",
+      "utc": "2103-07-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.31199429423771,
+      "kind": "grid-97d",
+      "utc": "2103-10-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.316510184392776,
+      "kind": "grid-97d",
+      "utc": "2104-02-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.31949693737751,
+      "kind": "grid-97d",
+      "utc": "2104-05-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.32387427537876,
+      "kind": "grid-97d",
+      "utc": "2104-08-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.326821908345877,
+      "kind": "grid-97d",
+      "utc": "2104-11-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.331175827128664,
+      "kind": "grid-97d",
+      "utc": "2105-02-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.334204095505193,
+      "kind": "grid-97d",
+      "utc": "2105-06-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.338113990945686,
+      "kind": "grid-97d",
+      "utc": "2105-09-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.341271070297772,
+      "kind": "grid-97d",
+      "utc": "2105-12-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.344907447914004,
+      "kind": "grid-97d",
+      "utc": "2106-03-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.34826986279152,
+      "kind": "grid-97d",
+      "utc": "2106-06-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.35150534409775,
+      "kind": "grid-97d",
+      "utc": "2106-09-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.355139417919062,
+      "kind": "grid-97d",
+      "utc": "2107-01-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.358173912765277,
+      "kind": "grid-97d",
+      "utc": "2107-04-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.361958086797127,
+      "kind": "grid-97d",
+      "utc": "2107-07-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.364715123882263,
+      "kind": "grid-97d",
+      "utc": "2107-10-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.368738543456306,
+      "kind": "grid-97d",
+      "utc": "2108-01-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.37132613180017,
+      "kind": "grid-97d",
+      "utc": "2108-05-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.375249544131886,
+      "kind": "grid-97d",
+      "utc": "2108-08-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.37775695225134,
+      "kind": "grid-97d",
+      "utc": "2108-11-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.381745993691343,
+      "kind": "grid-97d",
+      "utc": "2109-02-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.384406660036102,
+      "kind": "grid-97d",
+      "utc": "2109-05-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.388144142181204,
+      "kind": "grid-97d",
+      "utc": "2109-09-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.391033289419397,
+      "kind": "grid-97d",
+      "utc": "2109-12-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.394721760544748,
+      "kind": "grid-97d",
+      "utc": "2110-03-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.39791633440749,
+      "kind": "grid-97d",
+      "utc": "2110-06-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.401280785578148,
+      "kind": "grid-97d",
+      "utc": "2110-09-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.404794053273093,
+      "kind": "grid-97d",
+      "utc": "2110-12-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.40795569621341,
+      "kind": "grid-97d",
+      "utc": "2111-04-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.41171731273609,
+      "kind": "grid-97d",
+      "utc": "2111-07-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.414624164697987,
+      "kind": "grid-97d",
+      "utc": "2111-10-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.41873540941101,
+      "kind": "grid-97d",
+      "utc": "2112-01-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.421631981901378,
+      "kind": "grid-97d",
+      "utc": "2112-04-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.425825332232282,
+      "kind": "grid-97d",
+      "utc": "2112-08-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.428788990381047,
+      "kind": "grid-97d",
+      "utc": "2112-11-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.433193363484477,
+      "kind": "grid-97d",
+      "utc": "2113-02-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.43630877576654,
+      "kind": "grid-97d",
+      "utc": "2113-05-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.440544254208557,
+      "kind": "grid-97d",
+      "utc": "2113-08-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.44378379222893,
+      "kind": "grid-97d",
+      "utc": "2113-12-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.448001954827934,
+      "kind": "grid-97d",
+      "utc": "2114-03-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.451534129640123,
+      "kind": "grid-97d",
+      "utc": "2114-06-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.455458489194772,
+      "kind": "grid-97d",
+      "utc": "2114-09-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.459385603680953,
+      "kind": "grid-97d",
+      "utc": "2114-12-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.463221225928326,
+      "kind": "grid-97d",
+      "utc": "2115-03-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.467492450422483,
+      "kind": "grid-97d",
+      "utc": "2115-07-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.471108161129898,
+      "kind": "grid-97d",
+      "utc": "2115-10-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.47569699058398,
+      "kind": "grid-97d",
+      "utc": "2116-01-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.47918127607981,
+      "kind": "grid-97d",
+      "utc": "2116-04-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.48381526232928,
+      "kind": "grid-97d",
+      "utc": "2116-07-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.487147698706345,
+      "kind": "grid-97d",
+      "utc": "2116-11-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.49198450052385,
+      "kind": "grid-97d",
+      "utc": "2117-02-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.49538055339623,
+      "kind": "grid-97d",
+      "utc": "2117-05-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.500085615136886,
+      "kind": "grid-97d",
+      "utc": "2117-08-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.50366341288826,
+      "kind": "grid-97d",
+      "utc": "2117-11-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.508365136882144,
+      "kind": "grid-97d",
+      "utc": "2118-03-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.512201680395222,
+      "kind": "grid-97d",
+      "utc": "2118-06-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.516529920390326,
+      "kind": "grid-97d",
+      "utc": "2118-09-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.520531862464413,
+      "kind": "grid-97d",
+      "utc": "2118-12-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.524642100303982,
+      "kind": "grid-97d",
+      "utc": "2119-03-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.528820009375195,
+      "kind": "grid-97d",
+      "utc": "2119-06-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.532555398450537,
+      "kind": "grid-97d",
+      "utc": "2119-10-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.53704993804056,
+      "kind": "grid-97d",
+      "utc": "2120-01-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.540579760829488,
+      "kind": "grid-97d",
+      "utc": "2120-04-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.545220866399234,
+      "kind": "grid-97d",
+      "utc": "2120-07-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.5485381825866,
+      "kind": "grid-97d",
+      "utc": "2120-10-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.553341420992588,
+      "kind": "grid-97d",
+      "utc": "2121-02-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.55655796202592,
+      "kind": "grid-97d",
+      "utc": "2121-05-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.561106705616197,
+      "kind": "grid-97d",
+      "utc": "2121-08-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.564246052185556,
+      "kind": "grid-97d",
+      "utc": "2121-11-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.568727863147906,
+      "kind": "grid-97d",
+      "utc": "2122-02-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.571954134910175,
+      "kind": "grid-97d",
+      "utc": "2122-06-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.576077671117744,
+      "kind": "grid-97d",
+      "utc": "2122-09-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.57949293959641,
+      "kind": "grid-97d",
+      "utc": "2122-12-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.583422656399208,
+      "kind": "grid-97d",
+      "utc": "2123-03-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.587089031032683,
+      "kind": "grid-97d",
+      "utc": "2123-06-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.590550022591103,
+      "kind": "grid-97d",
+      "utc": "2123-09-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.594435968188957,
+      "kind": "grid-97d",
+      "utc": "2124-01-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.597569767066528,
+      "kind": "grid-97d",
+      "utc": "2124-04-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.601504898004613,
+      "kind": "grid-97d",
+      "utc": "2124-07-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.604314082123516,
+      "kind": "grid-97d",
+      "utc": "2124-10-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.608454583206658,
+      "kind": "grid-97d",
+      "utc": "2125-01-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.611120537257417,
+      "kind": "grid-97d",
+      "utc": "2125-05-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.6152106251172,
+      "kind": "grid-97d",
+      "utc": "2125-08-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.617799925207756,
+      "kind": "grid-97d",
+      "utc": "2125-11-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.621965019654038,
+      "kind": "grid-97d",
+      "utc": "2126-02-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.62463793137816,
+      "kind": "grid-97d",
+      "utc": "2126-05-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.628453578349315,
+      "kind": "grid-97d",
+      "utc": "2126-08-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.631262505309703,
+      "kind": "grid-97d",
+      "utc": "2126-12-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.634895896020225,
+      "kind": "grid-97d",
+      "utc": "2127-03-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.637951537303202,
+      "kind": "grid-97d",
+      "utc": "2127-06-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.64120229660805,
+      "kind": "grid-97d",
+      "utc": "2127-09-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.644568860692665,
+      "kind": "grid-97d",
+      "utc": "2127-12-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.647659695225496,
+      "kind": "grid-97d",
+      "utc": "2128-04-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.65130672505564,
+      "kind": "grid-97d",
+      "utc": "2128-07-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.654150146565115,
+      "kind": "grid-97d",
+      "utc": "2128-10-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.658150800328524,
+      "kind": "grid-97d",
+      "utc": "2129-01-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.660858999443967,
+      "kind": "grid-97d",
+      "utc": "2129-04-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.664900078879274,
+      "kind": "grid-97d",
+      "utc": "2129-08-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.66751674545886,
+      "kind": "grid-97d",
+      "utc": "2129-11-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.67171550573512,
+      "kind": "grid-97d",
+      "utc": "2130-02-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.674463648040454,
+      "kind": "grid-97d",
+      "utc": "2130-05-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.678514082490704,
+      "kind": "grid-97d",
+      "utc": "2130-08-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.681472994295063,
+      "kind": "grid-97d",
+      "utc": "2130-11-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.685598044316105,
+      "kind": "grid-97d",
+      "utc": "2131-03-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.688888744868006,
+      "kind": "grid-97d",
+      "utc": "2131-06-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.69274600765882,
+      "kind": "grid-97d",
+      "utc": "2131-09-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.696375265247987,
+      "kind": "grid-97d",
+      "utc": "2131-12-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.700055693722497,
+      "kind": "grid-97d",
+      "utc": "2132-03-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.703993074757076,
+      "kind": "grid-97d",
+      "utc": "2132-07-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.707367392737407,
+      "kind": "grid-97d",
+      "utc": "2132-10-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.711671563063682,
+      "kind": "grid-97d",
+      "utc": "2133-01-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.714983665561228,
+      "kind": "grid-97d",
+      "utc": "2133-04-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.719447561433544,
+      "kind": "grid-97d",
+      "utc": "2133-07-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.72275115219778,
+      "kind": "grid-97d",
+      "utc": "2133-11-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.727496128616274,
+      "kind": "grid-97d",
+      "utc": "2134-02-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.73087378345255,
+      "kind": "grid-97d",
+      "utc": "2134-05-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.73551043520508,
+      "kind": "grid-97d",
+      "utc": "2134-08-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.73891532564946,
+      "kind": "grid-97d",
+      "utc": "2134-11-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.74355278598273,
+      "kind": "grid-97d",
+      "utc": "2135-03-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.74716569513484,
+      "kind": "grid-97d",
+      "utc": "2135-06-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.751482466906744,
+      "kind": "grid-97d",
+      "utc": "2135-09-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.755399363950414,
+      "kind": "grid-97d",
+      "utc": "2135-12-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.759630093225425,
+      "kind": "grid-97d",
+      "utc": "2136-03-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.76385645783119,
+      "kind": "grid-97d",
+      "utc": "2136-06-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.767803937701544,
+      "kind": "grid-97d",
+      "utc": "2136-10-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.77231726832138,
+      "kind": "grid-97d",
+      "utc": "2137-01-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.776036624406416,
+      "kind": "grid-97d",
+      "utc": "2137-04-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.780633811788373,
+      "kind": "grid-97d",
+      "utc": "2137-07-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.78406449967761,
+      "kind": "grid-97d",
+      "utc": "2137-10-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.788861285498974,
+      "kind": "grid-97d",
+      "utc": "2138-01-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.792222006111658,
+      "kind": "grid-97d",
+      "utc": "2138-05-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.796894022866315,
+      "kind": "grid-97d",
+      "utc": "2138-08-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.800311173656027,
+      "kind": "grid-97d",
+      "utc": "2138-11-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.80500309330151,
+      "kind": "grid-97d",
+      "utc": "2139-02-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.808576286005955,
+      "kind": "grid-97d",
+      "utc": "2139-05-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.812906057547778,
+      "kind": "grid-97d",
+      "utc": "2139-09-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.816557709326197,
+      "kind": "grid-97d",
+      "utc": "2139-12-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.8206669625221,
+      "kind": "grid-97d",
+      "utc": "2140-03-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.824446787036404,
+      "kind": "grid-97d",
+      "utc": "2140-06-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.82810941468965,
+      "kind": "grid-97d",
+      "utc": "2140-09-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.832146802771216,
+      "kind": "grid-97d",
+      "utc": "2141-01-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.835554136374338,
+      "kind": "grid-97d",
+      "utc": "2141-04-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.839754306676685,
+      "kind": "grid-97d",
+      "utc": "2141-07-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.842881425379005,
+      "kind": "grid-97d",
+      "utc": "2141-10-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.847266107478706,
+      "kind": "grid-97d",
+      "utc": "2142-01-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.85021550270088,
+      "kind": "grid-97d",
+      "utc": "2142-05-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.854436210501902,
+      "kind": "grid-97d",
+      "utc": "2142-08-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.857218567450932,
+      "kind": "grid-97d",
+      "utc": "2142-11-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.86144496085752,
+      "kind": "grid-97d",
+      "utc": "2143-02-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.864246920978395,
+      "kind": "grid-97d",
+      "utc": "2143-05-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.868149838103715,
+      "kind": "grid-97d",
+      "utc": "2143-08-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.8710943709541,
+      "kind": "grid-97d",
+      "utc": "2143-12-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.87485693196293,
+      "kind": "grid-97d",
+      "utc": "2144-03-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.878073090698955,
+      "kind": "grid-97d",
+      "utc": "2144-06-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.881409585643755,
+      "kind": "grid-97d",
+      "utc": "2144-09-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.884881147842464,
+      "kind": "grid-97d",
+      "utc": "2144-12-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.887950565407788,
+      "kind": "grid-97d",
+      "utc": "2145-04-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.89157372879861,
+      "kind": "grid-97d",
+      "utc": "2145-07-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.894311998681875,
+      "kind": "grid-97d",
+      "utc": "2145-10-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.8981939988787,
+      "kind": "grid-97d",
+      "utc": "2146-01-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.900784136325317,
+      "kind": "grid-97d",
+      "utc": "2146-04-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.904736416585518,
+      "kind": "grid-97d",
+      "utc": "2146-08-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.907250071626045,
+      "kind": "grid-97d",
+      "utc": "2146-11-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.911407162238756,
+      "kind": "grid-97d",
+      "utc": "2147-02-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.91403042493802,
+      "kind": "grid-97d",
+      "utc": "2147-05-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.91797581396776,
+      "kind": "grid-97d",
+      "utc": "2147-08-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.920748165526746,
+      "kind": "grid-97d",
+      "utc": "2147-11-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.92462985516717,
+      "kind": "grid-97d",
+      "utc": "2148-03-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.927671098672196,
+      "kind": "grid-97d",
+      "utc": "2148-06-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.931219284927224,
+      "kind": "grid-97d",
+      "utc": "2148-09-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.934587617285437,
+      "kind": "grid-97d",
+      "utc": "2148-12-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.93802984641171,
+      "kind": "grid-97d",
+      "utc": "2149-03-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.9417766985572,
+      "kind": "grid-97d",
+      "utc": "2149-07-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.94498017411029,
+      "kind": "grid-97d",
+      "utc": "2149-10-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.94916277573111,
+      "kind": "grid-97d",
+      "utc": "2150-01-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.952246555245676,
+      "kind": "grid-97d",
+      "utc": "2150-04-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.956576688911873,
+      "kind": "grid-97d",
+      "utc": "2150-07-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.959532963326666,
+      "kind": "grid-97d",
+      "utc": "2150-10-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.964069607373713,
+      "kind": "grid-97d",
+      "utc": "2151-02-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.967095583279068,
+      "kind": "grid-97d",
+      "utc": "2151-05-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.971546996362914,
+      "kind": "grid-97d",
+      "utc": "2151-08-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.97471229374269,
+      "kind": "grid-97d",
+      "utc": "2151-11-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.979314273587022,
+      "kind": "grid-97d",
+      "utc": "2152-02-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.982773217945667,
+      "kind": "grid-97d",
+      "utc": "2152-06-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.987126434605617,
+      "kind": "grid-97d",
+      "utc": "2152-09-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.990889333662004,
+      "kind": "grid-97d",
+      "utc": "2152-12-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.995061992337934,
+      "kind": "grid-97d",
+      "utc": "2153-03-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 25.999125567459963,
+      "kind": "grid-97d",
+      "utc": "2153-06-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.00291984715102,
+      "kind": "grid-97d",
+      "utc": "2153-10-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.007312843139477,
+      "kind": "grid-97d",
+      "utc": "2154-01-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.010961889431005,
+      "kind": "grid-97d",
+      "utc": "2154-04-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.015552657354004,
+      "kind": "grid-97d",
+      "utc": "2154-07-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.019068906023065,
+      "kind": "grid-97d",
+      "utc": "2154-10-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.023971310337156,
+      "kind": "grid-97d",
+      "utc": "2155-01-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.02744430297835,
+      "kind": "grid-97d",
+      "utc": "2155-05-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.032276237767565,
+      "kind": "grid-97d",
+      "utc": "2155-08-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.03567269182102,
+      "kind": "grid-97d",
+      "utc": "2155-11-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.040501177564305,
+      "kind": "grid-97d",
+      "utc": "2156-02-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.0439990608839,
+      "kind": "grid-97d",
+      "utc": "2156-05-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.04847657606414,
+      "kind": "grid-97d",
+      "utc": "2156-09-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.05216419782136,
+      "kind": "grid-97d",
+      "utc": "2156-12-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.056547594255047,
+      "kind": "grid-97d",
+      "utc": "2157-03-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.060485566502813,
+      "kind": "grid-97d",
+      "utc": "2157-06-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.06452589078412,
+      "kind": "grid-97d",
+      "utc": "2157-09-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.068714309590586,
+      "kind": "grid-97d",
+      "utc": "2158-01-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.07245187719639,
+      "kind": "grid-97d",
+      "utc": "2158-04-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.076757896909346,
+      "kind": "grid-97d",
+      "utc": "2158-07-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.08008932193197,
+      "kind": "grid-97d",
+      "utc": "2158-10-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.084591245106548,
+      "kind": "grid-97d",
+      "utc": "2159-01-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.087734268086578,
+      "kind": "grid-97d",
+      "utc": "2159-05-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.092147594848203,
+      "kind": "grid-97d",
+      "utc": "2159-08-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.095219308834327,
+      "kind": "grid-97d",
+      "utc": "2159-11-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.099700770066914,
+      "kind": "grid-97d",
+      "utc": "2160-02-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.102832648519687,
+      "kind": "grid-97d",
+      "utc": "2160-05-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.106999990358144,
+      "kind": "grid-97d",
+      "utc": "2160-08-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.11015418565463,
+      "kind": "grid-97d",
+      "utc": "2160-12-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.114140883930734,
+      "kind": "grid-97d",
+      "utc": "2161-03-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.117413893546722,
+      "kind": "grid-97d",
+      "utc": "2161-06-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.1209323112169,
+      "kind": "grid-97d",
+      "utc": "2161-09-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.12442923575699,
+      "kind": "grid-97d",
+      "utc": "2161-12-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.127694225591824,
+      "kind": "grid-97d",
+      "utc": "2162-04-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.131400381314336,
+      "kind": "grid-97d",
+      "utc": "2162-07-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.134359620666196,
+      "kind": "grid-97d",
+      "utc": "2162-10-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.13831106543366,
+      "kind": "grid-97d",
+      "utc": "2163-01-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.1410823601637,
+      "kind": "grid-97d",
+      "utc": "2163-04-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.145013132535126,
+      "kind": "grid-97d",
+      "utc": "2163-07-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.147583215915535,
+      "kind": "grid-97d",
+      "utc": "2163-11-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.151635108348223,
+      "kind": "grid-97d",
+      "utc": "2164-02-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.154194135427538,
+      "kind": "grid-97d",
+      "utc": "2164-05-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.158022432722195,
+      "kind": "grid-97d",
+      "utc": "2164-08-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.160698893359445,
+      "kind": "grid-97d",
+      "utc": "2164-11-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.16449593531406,
+      "kind": "grid-97d",
+      "utc": "2165-03-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.167476790247115,
+      "kind": "grid-97d",
+      "utc": "2165-06-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.170936454917705,
+      "kind": "grid-97d",
+      "utc": "2165-09-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.174229808034486,
+      "kind": "grid-97d",
+      "utc": "2165-12-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.177523873097243,
+      "kind": "grid-97d",
+      "utc": "2166-03-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.181075072841494,
+      "kind": "grid-97d",
+      "utc": "2166-07-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.184060124942878,
+      "kind": "grid-97d",
+      "utc": "2166-10-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.187919790608667,
+      "kind": "grid-97d",
+      "utc": "2167-01-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.190766275184693,
+      "kind": "grid-97d",
+      "utc": "2167-04-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.194806777790237,
+      "kind": "grid-97d",
+      "utc": "2167-07-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.19757089766726,
+      "kind": "grid-97d",
+      "utc": "2167-10-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.201924319170594,
+      "kind": "grid-97d",
+      "utc": "2168-02-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.204807313825448,
+      "kind": "grid-97d",
+      "utc": "2168-05-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.209071686267254,
+      "kind": "grid-97d",
+      "utc": "2168-08-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.212082014135067,
+      "kind": "grid-97d",
+      "utc": "2168-11-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.216382704240026,
+      "kind": "grid-97d",
+      "utc": "2169-02-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.219619637991677,
+      "kind": "grid-97d",
+      "utc": "2169-06-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.22363146352279,
+      "kind": "grid-97d",
+      "utc": "2169-09-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.22715162197723,
+      "kind": "grid-97d",
+      "utc": "2169-12-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.231087100926615,
+      "kind": "grid-97d",
+      "utc": "2170-03-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.23501297843189,
+      "kind": "grid-97d",
+      "utc": "2170-06-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.238679040535015,
+      "kind": "grid-97d",
+      "utc": "2170-10-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.24305121184364,
+      "kind": "grid-97d",
+      "utc": "2171-01-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.246576781893932,
+      "kind": "grid-97d",
+      "utc": "2171-04-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.251151265573103,
+      "kind": "grid-97d",
+      "utc": "2171-07-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.25448022433706,
+      "kind": "grid-97d",
+      "utc": "2171-10-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.25926347049482,
+      "kind": "grid-97d",
+      "utc": "2172-01-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.262558292196793,
+      "kind": "grid-97d",
+      "utc": "2172-05-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.2672821828506,
+      "kind": "grid-97d",
+      "utc": "2172-08-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.270603074782304,
+      "kind": "grid-97d",
+      "utc": "2172-11-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.275497340213242,
+      "kind": "grid-97d",
+      "utc": "2173-02-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.27903011631972,
+      "kind": "grid-97d",
+      "utc": "2173-05-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.28367341391451,
+      "kind": "grid-97d",
+      "utc": "2173-09-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.287435430291467,
+      "kind": "grid-97d",
+      "utc": "2173-12-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.29189104312023,
+      "kind": "grid-97d",
+      "utc": "2174-03-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.295891727073982,
+      "kind": "grid-97d",
+      "utc": "2174-06-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.299907014462494,
+      "kind": "grid-97d",
+      "utc": "2174-09-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.304160884486794,
+      "kind": "grid-97d",
+      "utc": "2174-12-31T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.30795421625413,
+      "kind": "grid-97d",
+      "utc": "2175-04-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.31241619873544,
+      "kind": "grid-97d",
+      "utc": "2175-07-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.315943521197866,
+      "kind": "grid-97d",
+      "utc": "2175-10-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.320718990359957,
+      "kind": "grid-97d",
+      "utc": "2176-01-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.32408929028884,
+      "kind": "grid-97d",
+      "utc": "2176-04-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.328824899345683,
+      "kind": "grid-97d",
+      "utc": "2176-08-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.33202375881102,
+      "kind": "grid-97d",
+      "utc": "2176-11-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.33676412030362,
+      "kind": "grid-97d",
+      "utc": "2177-02-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.33996218988698,
+      "kind": "grid-97d",
+      "utc": "2177-05-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.34434465943201,
+      "kind": "grid-97d",
+      "utc": "2177-08-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.34762122059661,
+      "kind": "grid-97d",
+      "utc": "2177-12-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.351912644683534,
+      "kind": "grid-97d",
+      "utc": "2178-03-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.355386381420924,
+      "kind": "grid-97d",
+      "utc": "2178-06-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.359300383281035,
+      "kind": "grid-97d",
+      "utc": "2178-09-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.36300055126344,
+      "kind": "grid-97d",
+      "utc": "2178-12-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.366597686676407,
+      "kind": "grid-97d",
+      "utc": "2179-04-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.3704578102124,
+      "kind": "grid-97d",
+      "utc": "2179-07-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.373587582080937,
+      "kind": "grid-97d",
+      "utc": "2179-10-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.377656412796096,
+      "kind": "grid-97d",
+      "utc": "2180-01-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.380532293878286,
+      "kind": "grid-97d",
+      "utc": "2180-04-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.38458953644102,
+      "kind": "grid-97d",
+      "utc": "2180-07-29T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.3873033338601,
+      "kind": "grid-97d",
+      "utc": "2180-11-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.39151151797823,
+      "kind": "grid-97d",
+      "utc": "2181-02-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.394226889196947,
+      "kind": "grid-97d",
+      "utc": "2181-05-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.398221906737156,
+      "kind": "grid-97d",
+      "utc": "2181-08-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.40095269721687,
+      "kind": "grid-97d",
+      "utc": "2181-11-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.404865023107316,
+      "kind": "grid-97d",
+      "utc": "2182-03-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.40774575089583,
+      "kind": "grid-97d",
+      "utc": "2182-06-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.411235896912398,
+      "kind": "grid-97d",
+      "utc": "2182-09-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.414345296080985,
+      "kind": "grid-97d",
+      "utc": "2182-12-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.417632265456515,
+      "kind": "grid-97d",
+      "utc": "2183-03-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.42102167119331,
+      "kind": "grid-97d",
+      "utc": "2183-07-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.424022527339403,
+      "kind": "grid-97d",
+      "utc": "2183-10-06T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.42773915366425,
+      "kind": "grid-97d",
+      "utc": "2184-01-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.430602341667207,
+      "kind": "grid-97d",
+      "utc": "2184-04-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.434459060666526,
+      "kind": "grid-97d",
+      "utc": "2184-07-23T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.43712763634608,
+      "kind": "grid-97d",
+      "utc": "2184-10-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.44122736064036,
+      "kind": "grid-97d",
+      "utc": "2185-02-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.443864150121378,
+      "kind": "grid-97d",
+      "utc": "2185-05-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.447863363514845,
+      "kind": "grid-97d",
+      "utc": "2185-08-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.450586477991592,
+      "kind": "grid-97d",
+      "utc": "2185-11-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.45467247741143,
+      "kind": "grid-97d",
+      "utc": "2186-02-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.457704535009526,
+      "kind": "grid-97d",
+      "utc": "2186-06-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.461552941904802,
+      "kind": "grid-97d",
+      "utc": "2186-09-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.464909699286427,
+      "kind": "grid-97d",
+      "utc": "2186-12-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.468692227749813,
+      "kind": "grid-97d",
+      "utc": "2187-03-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.472364099745562,
+      "kind": "grid-97d",
+      "utc": "2187-06-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.475841274131543,
+      "kind": "grid-97d",
+      "utc": "2187-09-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.479833938504154,
+      "kind": "grid-97d",
+      "utc": "2188-01-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.48315478361051,
+      "kind": "grid-97d",
+      "utc": "2188-04-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.487394248953567,
+      "kind": "grid-97d",
+      "utc": "2188-07-17T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.490583519098774,
+      "kind": "grid-97d",
+      "utc": "2188-10-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.49517658598029,
+      "kind": "grid-97d",
+      "utc": "2189-01-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.49844866944684,
+      "kind": "grid-97d",
+      "utc": "2189-05-04T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.503034146219207,
+      "kind": "grid-97d",
+      "utc": "2189-08-09T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.506357382100393,
+      "kind": "grid-97d",
+      "utc": "2189-11-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.511044158276608,
+      "kind": "grid-97d",
+      "utc": "2190-02-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.514489150367833,
+      "kind": "grid-97d",
+      "utc": "2190-05-27T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.51891194876373,
+      "kind": "grid-97d",
+      "utc": "2190-09-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.52253830912494,
+      "kind": "grid-97d",
+      "utc": "2190-12-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.5268885149677,
+      "kind": "grid-97d",
+      "utc": "2191-03-14T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.53087340125956,
+      "kind": "grid-97d",
+      "utc": "2191-06-19T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.534905559190342,
+      "kind": "grid-97d",
+      "utc": "2191-09-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.539281857239377,
+      "kind": "grid-97d",
+      "utc": "2191-12-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.543141604553078,
+      "kind": "grid-97d",
+      "utc": "2192-04-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.547726539767623,
+      "kind": "grid-97d",
+      "utc": "2192-07-11T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.55130149944648,
+      "kind": "grid-97d",
+      "utc": "2192-10-16T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.556078517484107,
+      "kind": "grid-97d",
+      "utc": "2193-01-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.55949793983407,
+      "kind": "grid-97d",
+      "utc": "2193-04-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.564227562417866,
+      "kind": "grid-97d",
+      "utc": "2193-08-03T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.567544531924288,
+      "kind": "grid-97d",
+      "utc": "2193-11-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.57243698313579,
+      "kind": "grid-97d",
+      "utc": "2194-02-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.57586338635139,
+      "kind": "grid-97d",
+      "utc": "2194-05-21T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.58050214903626,
+      "kind": "grid-97d",
+      "utc": "2194-08-26T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.584065694916287,
+      "kind": "grid-97d",
+      "utc": "2194-12-01T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.588535141664277,
+      "kind": "grid-97d",
+      "utc": "2195-03-08T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.592250645013667,
+      "kind": "grid-97d",
+      "utc": "2195-06-13T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.596253326708393,
+      "kind": "grid-97d",
+      "utc": "2195-09-18T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.600133474102414,
+      "kind": "grid-97d",
+      "utc": "2195-12-24T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.603872013871356,
+      "kind": "grid-97d",
+      "utc": "2196-03-30T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.6079561201066,
+      "kind": "grid-97d",
+      "utc": "2196-07-05T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.611327154642776,
+      "kind": "grid-97d",
+      "utc": "2196-10-10T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.615713797476793,
+      "kind": "grid-97d",
+      "utc": "2197-01-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.6188521560027,
+      "kind": "grid-97d",
+      "utc": "2197-04-22T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.6232490192435,
+      "kind": "grid-97d",
+      "utc": "2197-07-28T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.62614938188395,
+      "kind": "grid-97d",
+      "utc": "2197-11-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.63059429815634,
+      "kind": "grid-97d",
+      "utc": "2198-02-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.633419450783215,
+      "kind": "grid-97d",
+      "utc": "2198-05-15T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.637556505981035,
+      "kind": "grid-97d",
+      "utc": "2198-08-20T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.640381812507407,
+      "kind": "grid-97d",
+      "utc": "2198-11-25T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.644462577065866,
+      "kind": "grid-97d",
+      "utc": "2199-03-02T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.64745916505418,
+      "kind": "grid-97d",
+      "utc": "2199-06-07T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.65118150923184,
+      "kind": "grid-97d",
+      "utc": "2199-09-12T00:00:00 UTC"
+    },
+    {
+      "ayanamsaDeg": 26.655049448851575,
+      "kind": "edge",
+      "utc": "2199-12-31T00:00:00 UTC"
+    },
+    {
+      "error": "InvalidInput",
+      "kind": "outside",
+      "message": "Lahiri is supported from 1800-01-01 through 2200-01-01 TT",
+      "utc": "2200-01-01T00:00:00 UTC"
+    }
+  ],
+  "definition": {
+    "function": "astrology_engine::lahiri_ayanamsa (degrees)",
+    "input": "UTC strings as accepted by Epoch::from_gregorian_str",
+    "mean": "IAE 2027 p. 382, transcribed literally (including the printed T^4 coefficient)",
+    "nutation": "IAU 2000B, complete 77-term series (table from NOVAS C 3.1)"
+  },
+  "format": "lahiri-regression/1",
+  "generator": {
+    "command": "cargo run --locked --example lahiri_regression_fixture -- --validated-by <report> --output tests/fixtures/lahiri-regression.json",
+    "sourceRevision": "afaa8c307db17b495c961cc449cb129fd51b24cf"
+  },
+  "policy": "Regression fixture generated from this library's own lahiri_ayanamsa output. It detects unintended changes; it does not establish accuracy, which rests on the external benchmark recorded under `validation`. Do not regenerate it to make a failing test pass: a mismatch means the output changed, and the change must be explained and re-validated against the benchmark first.",
+  "toleranceArcsec": 1e-6,
+  "validation": {
+    "benchmark": {
+      "definition": "IAE 2027 p. 382 (mean formula) and p. 423 (true = mean + nutation in longitude)",
+      "libnovasSha256": "bb17134910e53f7b8f22eb145c48ffd460d3ffef15f96b08919df4d99976835b",
+      "novasSdistSha256": "196191ec67d088357342c88824286273fb1a5dfc96210a4f5e587aabc23d50a5",
+      "nutation": "NOVAS C 3.1 iau2000b (primary) and iau2000a (informational)"
+    },
+    "holdoutSeed": "0xf1a120261112b0b5",
+    "iaeTable": "158/161",
+    "maxAbsArcsec": 2.1827872842550278e-10,
+    "report": "lahiri-report-final.json",
+    "reportSha256": "85ce058dc5ad951fccaf6829d27b872f2b213b307e239bc9ec3865e9c4f43398",
+    "samples": 16503,
+    "status": "pass",
+    "validatedRevision": "afaa8c307db17b495c961cc449cb129fd51b24cf"
+  }
+}

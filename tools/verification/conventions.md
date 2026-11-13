@@ -50,3 +50,34 @@ All other rows, including Whole Sign HTTP cusp omission and precise Sun-search
 results, still compare exactly. Run `python3 tools/verification/test_chart_migration.py`
 for negative controls covering unexpected errors, missing/extra rows, and changed
 migration counts.
+
+## Lahiri regression fixture
+
+`tests/fixtures/lahiri-regression.json` pins the public `lahiri_ayanamsa` output at 1,593 UTC
+inputs across 1800–2200 (a 97-day grid, a dense 2026 run for short-period nutation, fixed
+reference instants, and both range edges, including one must-error input beyond each end).
+`tests/lahiri_regression.rs` compares within 1 µas and also validates the fixture itself:
+format, policy text, a minimum case count, unique inputs, finite values and the must-error cases.
+
+Like the fixtures above, it detects regressions and does not establish accuracy. Its values come
+from the library; accuracy rests on the external benchmark recorded under `validation` (the IAE
+2027 mean formula plus NOVAS C 3.1 IAU 2000B nutation; see
+`docs/plans/2026-11-12-lahiri-full-nutation.md`). Do not regenerate it merely to make a test pass.
+If Lahiri output changes intentionally, explain the change, re-run the benchmark with `--final`,
+then regenerate:
+
+```sh
+cargo run --locked --example lahiri_regression_fixture -- \
+    --validated-by /path/to/lahiri-report-final.json \
+    --output tests/fixtures/lahiri-regression.json
+```
+
+The generator refuses unless the report is a passing `--final` run whose validated `src/` tree is
+identical to the current one, and it asserts that the out-of-range inputs still error. Regeneration
+from unchanged code is byte-identical.
+
+The imported fixture references the returned environment's Git revision and
+external report. Those artifacts are not present in this repository, so its
+regeneration requires recovering that history/report or performing a new,
+explicitly documented benchmark validation. Keep the imported fixture unchanged
+until then. Byte identity also requires the same recorded source revision.

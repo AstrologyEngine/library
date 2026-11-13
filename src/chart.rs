@@ -34,8 +34,14 @@ pub struct ChartEntry {
 pub struct ChartValues {
     pub configuration: ZodiacConfiguration,
     pub convention_revision: &'static str,
+    /// Offset of the selected reference from the true equinox of date, in degrees.
+    /// For Tropical, True Sky and Fagan–Bradley, sidereal longitudes are exactly
+    /// `tropical − reference_offset_degrees`. For Lahiri this is the published true
+    /// ayanamsa ([`crate::lahiri_ayanamsa`]), while longitudes are projected with an
+    /// offset using the engine's five-term nutation, so that nutation cancels. For
+    /// Lahiri, `tropical − sidereal` therefore differs from this value by up to 0.27″.
     pub reference_offset_degrees: f64,
-    /// True Sky retains tropical speeds; Fagan–Bradley corrects them.
+    /// True Sky retains tropical speeds; Fagan–Bradley and Lahiri correct them.
     /// Angle speeds remain zero (not calculated) for every reference.
     pub speed_reference: SpeedReference,
     pub bodies: Vec<ChartEntry>,
@@ -54,14 +60,32 @@ pub fn calculate_chart(
     input: ChartInput,
 ) -> Result<ChartValues, CalculationError> {
     let configuration = effective_configuration(input.zodiac)?;
-    let (offset, rate, speed_reference) = match configuration.reference {
-        ZodiacReference::Tropical => (0.0, 0.0, SpeedReference::Tropical),
-        ZodiacReference::TrueSky => (true_sky_offset(input.epoch)?, 0.0, SpeedReference::Tropical),
-        ZodiacReference::FaganBradley => (
-            fagan_bradley_ayanamsa(input.epoch)?,
-            crate::sidereal::ayanamsa_daily_rate(input.epoch),
-            SpeedReference::SelectedReference,
-        ),
+    // `offset` projects tropical longitudes; `reported_offset` is returned to the
+    // caller. They differ only for Lahiri (see `crate::sidereal`).
+    let (offset, reported_offset, rate, speed_reference) = match configuration.reference {
+        ZodiacReference::Tropical => (0.0, 0.0, 0.0, SpeedReference::Tropical),
+        ZodiacReference::TrueSky => {
+            let offset = true_sky_offset(input.epoch)?;
+            (offset, offset, 0.0, SpeedReference::Tropical)
+        }
+        ZodiacReference::Lahiri => {
+            let offsets = crate::sidereal::lahiri_offsets(input.epoch)?;
+            (
+                offsets.projection,
+                offsets.reported,
+                offsets.rate,
+                SpeedReference::SelectedReference,
+            )
+        }
+        ZodiacReference::FaganBradley => {
+            let offset = fagan_bradley_ayanamsa(input.epoch)?;
+            (
+                offset,
+                offset,
+                crate::sidereal::ayanamsa_daily_rate(input.epoch),
+                SpeedReference::SelectedReference,
+            )
+        }
     };
     // Keep inherited tropical values, including angles that round to 360°.
     let project_longitude = |longitude: f64| {
@@ -106,8 +130,10 @@ pub fn calculate_chart(
         .enumerate()
         .map(|(index, body)| ChartBody {
             longitude: project_longitude(body.longitude),
-            speed: if configuration.reference == ZodiacReference::FaganBradley
-                && index < physical_body_count
+            speed: if matches!(
+                configuration.reference,
+                ZodiacReference::FaganBradley | ZodiacReference::Lahiri
+            ) && index < physical_body_count
             {
                 body.speed - rate
             } else {
@@ -153,7 +179,7 @@ pub fn calculate_chart(
     Ok(ChartValues {
         configuration,
         convention_revision: CONVENTION_REVISION,
-        reference_offset_degrees: offset,
+        reference_offset_degrees: reported_offset,
         speed_reference,
         bodies: bodies
             .into_iter()

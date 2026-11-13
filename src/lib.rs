@@ -19,7 +19,7 @@ pub use conventions::{
 };
 pub mod search;
 pub mod sidereal;
-pub use sidereal::fagan_bradley_ayanamsa;
+pub use sidereal::{fagan_bradley_ayanamsa, lahiri_ayanamsa};
 
 pub use astro::find_moment::Direction;
 pub use astro::houses::HouseSystem;
@@ -74,7 +74,7 @@ fn check_coverage(ephemeris: &Ephemeris, et: f64, lookback_s: f64) -> Result<(),
 
 #[cfg(feature = "generation")]
 pub mod tooling {
-    pub use crate::astro::{frames, time, vec};
+    pub use crate::astro::{frames, nutation, time, vec};
     pub use crate::cheb::fit::clenshaw;
     pub use crate::cheb::format;
     pub use crate::coverage_window::intersect_windows;

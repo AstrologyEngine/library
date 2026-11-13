@@ -12,6 +12,7 @@ pub const CONVENTION_REVISION: &str = "astrology-engine-conventions-v1";
 pub enum ZodiacReference {
     Tropical,
     FaganBradley,
+    Lahiri,
     TrueSky,
 }
 
